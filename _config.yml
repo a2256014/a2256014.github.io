@@ -3,7 +3,7 @@ title: 김도균
 bio: 책임감 있는 개발자가 되려 노력하는 주니어 개발자
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: 개발 공부
 
 # if it's an external image, update below for true
 # better with square images
@@ -29,10 +29,10 @@ permalink: /:title/
 # To enable google analytics, supply your token below
 # analytics-google: 'UA-MYANALYTICS'
 
-# if you don't want comments in your posts, leave categories empty
+# 댓글기능
 disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname: github
+  categories: [blog, project]
 
 # if you don't have any of social below, comment the line
 instagram: /kim_dogyun_97
@@ -41,18 +41,18 @@ github: /a2256014
 email: a2256014@gmail.com
 
 authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+  김도균:
+    name: 김도균
+    bio: 책임감 있는 개발자가 되려 노력하는 주니어 개발자
     external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+    picture: assets/images/profile.jpeg
+  # 추천 블로그 같은 것
+#  jamesfoster:
+#    name: James Foster
+#    bio: A Man who develops software with coffee
+#    external-image: false
+#    picture: assets/images/james.jpg
+#    twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -60,6 +60,7 @@ authors:
 width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
+# 작성환 post를 하나의 page에 몇개를 보여줄 것인지
 pagination:
   enabled: false
   sort_reverse: true # display recent posts first
