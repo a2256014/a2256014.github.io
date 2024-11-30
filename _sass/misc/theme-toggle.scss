@@ -27,8 +27,10 @@
   }
 
   .toggle_img{
-    background: url(/assets/images/toggle/white2.png);
-    width: 40px;
+    background: url("/assets/images/toggle/white2.png");
+    background-image: url("/assets/images/toggle/white2.png");
+    width: 100%;
+    height: 100%;
   }
 
   .names {
