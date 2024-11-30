@@ -73,6 +73,12 @@
 
   @include media-query(1024px) {
     // margin-right: 35px;
+    width: 25px;
+    margin-left: 10px;
+
+    .names {
+      font-size: .85em;
+    }
   }
 
   @include media-query($on-palm) {
