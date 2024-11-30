@@ -183,7 +183,7 @@ html {
     }
 
     input:checked ~ .theme-toggle {
-      align-items: start;
+      height: $header-height;
     }
 
     .page-link {
