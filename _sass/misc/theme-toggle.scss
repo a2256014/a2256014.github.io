@@ -1,5 +1,5 @@
 .theme-toggle {
-  position: absolute;
+  position: relative;
   // width: $base-font-size * 7.65;
   margin-left: auto;
   // transition: .3s cubic-bezier(.4,.03,0,1);
@@ -9,13 +9,13 @@
   }
 
   label {
-    display: block;
+    // display: block;
     background-color: rgba(120,120,120,.15);
     cursor: pointer;
   }
 
   .toggle {
-    position: absolute;
+    // position: absolute;
     width: 100%;
     height: 100%;
     background-color: #fff;
