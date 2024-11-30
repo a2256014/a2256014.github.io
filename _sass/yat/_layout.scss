@@ -115,7 +115,7 @@ html {
 }
 
 .site-nav {
-  display: inline;
+  display: flex;
   @include relative-font-size(1.125);
   line-height: $header-height;
   position: absolute;
