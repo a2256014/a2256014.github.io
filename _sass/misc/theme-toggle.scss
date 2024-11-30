@@ -3,6 +3,8 @@
   // width: $base-font-size * 7.65;
   margin-left: auto;
   // transition: .3s cubic-bezier(.4,.03,0,1);
+  display: flex;
+  align-items: center;
 
   label, .toggle {
     border-radius: 100px;
