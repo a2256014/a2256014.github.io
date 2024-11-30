@@ -182,6 +182,7 @@ html {
       display: block;
       background: $header-background-color;
       margin-top: $header-height;
+      margin-right: 0px;
     }
 
     input:checked ~ .theme-toggle {
