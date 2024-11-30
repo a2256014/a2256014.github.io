@@ -3,9 +3,13 @@
 
   <div class="wrapper">
     <div class="site-footer-inner">
-      <div>
-        <a href="{{ site.git_url }}" class="linkedin"><img class="linkedin_img"></a>
-        <a href="{{ site.linkedin_url }}" class="github"><img class="github_img"></a>
+      <div class="social">
+        <a class="linkedin" href="{{ site.git_url }}">
+          <img class="linkedin_img" src="/assets/images/footer/Linkedin.png">
+        </a>
+        <a class="github" href="{{ site.linkedin_url }}">
+          <img class="github_img" src="/assets/images/footer/github.png">
+        </a>
       </div>
         {%- assign currentYear = 'now' | date: "%Y" -%}
         {%- assign copyright = site.copyright
