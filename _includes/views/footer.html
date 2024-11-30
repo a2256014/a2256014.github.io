@@ -3,6 +3,10 @@
 
   <div class="wrapper">
     <div class="site-footer-inner">
+      <div>
+        <a href="{{ site.git_url }}" class="linkedin"><img class="linkedin_img"></a>
+        <a href="{{ site.linkedin_url }}" class="github"><img class="github_img"></a>
+      </div>
         {%- assign currentYear = 'now' | date: "%Y" -%}
         {%- assign copyright = site.copyright
             | replace: '{currentYear}', currentYear
