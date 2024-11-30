@@ -25,6 +25,10 @@
     transition: transform .2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 
+  .toggle_img{
+    background-image: url("/assets/images/toggle/white2.png");
+  }
+
   .names {
     font-size: 1em;
     font-weight: bolder;
