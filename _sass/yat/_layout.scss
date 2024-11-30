@@ -44,6 +44,10 @@ html {
         border-top: solid 1px #eee;
       }
     }
+    img.social_img {
+        width: 10%;
+        height: 10%;
+    }
   }
 
   &[data-scroll-status='down'] {
