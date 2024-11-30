@@ -1,4 +1,5 @@
-<span class="theme-toggle site-brand">
+<span class="site-brand">
+<div class="theme-toggle">
   <input type="checkbox" id="theme-switch">
   <label for="theme-switch">
     <div class="toggle"></div>
@@ -6,8 +7,8 @@
       <img class="toggle_img"></img>
     </div>
   </label>
+</div>
 </span>
-
 {%- assign name = 'night_mode' -%}
 {%- include functions.html func='get_value' default='auto' -%}
 {%- assign night_mode = return -%}
