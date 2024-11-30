@@ -182,6 +182,10 @@ html {
       background: $header-background-color;
     }
 
+    input:checked ~ .theme-toggle {
+      align-items: start;
+    }
+
     .page-link {
       display: block;
       padding: 5px 10px;
