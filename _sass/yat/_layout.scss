@@ -178,8 +178,9 @@ html {
     }
 
     input:checked ~ .trigger {
-      display: grid;
+      display: block;
       background: $header-background-color;
+      margin-top: $header-height;
     }
 
     input:checked ~ .theme-toggle {
