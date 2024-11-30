@@ -178,7 +178,7 @@ html {
     }
 
     input:checked ~ .trigger {
-      position: relative;
+      position: absolute;
       display: block;
       background: $header-background-color;
       margin-top: $header-height;
