@@ -27,8 +27,8 @@
   }
 
   .toggle_img{
-    background: url("/assets/images/toggle/white2.png");
-    background-image: url("/assets/images/toggle/white2.png");
+    background: url("/assets/images/toggle/white2.png") 50% 50% / 30px auto no-repeat;
+    // background-image: url("/assets/images/toggle/white2.png");
     width: 100%;
     height: 100%;
   }
