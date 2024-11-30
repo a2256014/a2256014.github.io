@@ -56,8 +56,8 @@
 
   /* Toggle */
   [type="checkbox"]:checked ~ label .toggle {
-    // transform: translateX(100%);
-    background-color: #34323D;
+    transform: translateX(100%);
+    background-color: $theme-color;
   }
 
   [type="checkbox"]:checked ~ label .dark{
