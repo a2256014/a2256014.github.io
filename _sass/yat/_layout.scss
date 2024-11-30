@@ -44,10 +44,6 @@ html {
         border-top: solid 1px #eee;
       }
     }
-    img.social_img {
-        width: 10%;
-        height: 10%;
-    }
   }
 
   &[data-scroll-status='down'] {
@@ -217,6 +213,10 @@ html {
     &:hover {
       color: lighten($a-color, 10%);
     }
+  }
+  img {
+    width: 30px;
+    height: 30px;
   }
 }
 
