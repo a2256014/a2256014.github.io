@@ -72,12 +72,12 @@
   }
 
   @include media-query(1024px) {
-    margin-right: 35px;
+    // margin-right: 35px;
   }
 
   @include media-query($on-palm) {
     width: $base-font-size * 6.65;
-    margin-right: 20px;
+    // margin-right: 20px;
 
     .names {
       font-size: .85em;
