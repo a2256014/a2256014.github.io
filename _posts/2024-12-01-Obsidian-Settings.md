@@ -25,7 +25,7 @@ sidebar:
 이미지를 복사 붙여넣기 했을 때, 자동으로 Local 환경에 이미지를 다운로드 받아주는 기능입니다.   
 설정을 통해 Github Blog에 사용되는 이미지 경로(/assets/image/)를 지정하면 이미지도 함께 적용되는 것을 볼 수 있습니다.
    
-`assets/images/posts/${notename}` 으로 설정 시 각 페이지에 사용된 이미지를 손쉽게 정리할 수 있습니다.
+`/assets/images/posts/${notename}` 으로 설정 시 각 페이지에 사용된 이미지를 손쉽게 정리 및 배포할 수 있습니다.
 ![](/assets/images/posts/2024-12-01-Obsidian-Settings/d06678e7ab0e8bf69e04fd38a4987a42_MD5.jpeg)
    
 추가적으로 로컬 파일로 저장되면서 `![[img]]` 형식으로 변환되는데 이 때, GitHub Blog에서는 해당 이미지를 가져오지 못하므로 아래 사진과 같이 설정 값을 OFF 해주시면 됩니다.
