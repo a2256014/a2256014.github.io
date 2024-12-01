@@ -10,7 +10,7 @@ banner:
 	background: "#000"
 	heading_style: "font-size: 4.25em; font-weight: bold;"
 	subheading_style: "color: gold"
-tags: Obsidian Jekyll Github Blog
+tags: [Obsidian, Jekyll, Github, Github_Blog]
 sidebar:
 ---
 ## Intro
