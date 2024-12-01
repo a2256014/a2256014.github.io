@@ -51,7 +51,7 @@ $ bundle exec jekyll serve
 Repo 이름의 경우 자신의 Github Name에 맞도록 생성하는 것이 중요합니다. 
 Repo name exam : [GithubName].github.io
 \* *아닐경우 URL이 난잡해 질 수 있습니다.*
-![[Resource/IMG/Git Blog/25e4eeed7b16ee991ef6454f299421db_MD5.jpeg]]
+
 
 ### Git 연동
 
@@ -93,22 +93,22 @@ git push -u origin main
 ## Obsidian-Git Plugin 설치
 Obsidian을 켠 후 설정(톱니바퀴) 버튼을 누른다.  
 그후 Community Plugins에 들어가고, 만약 거기서 Community Plugin이 꺼져있다고 나오면 켠다.  
-![[Resource/IMG/2024-12-01-Github-Blog/9f6b5392b6f6aaa5ebfcc5bd8908d43a_MD5.png]]
+
 
 Community plugins 에 Browse를 누른 다음, `Obsidian git`를 검색해 플러그인을 설치한다. (설치 후에 Enable를 눌러줘야 한다.)  
-![[Resource/IMG/2024-12-01-Github-Blog/2177de8ba6e4516e398f1a860de0e6d3_MD5.png]]
+
 
 Enable과 동시에 github에 동기화된다.
 ### 설정
-![[Resource/IMG/2024-12-01-Github-Blog/9b3114a2e1452b1c37e9391bf64dee7e_MD5.png]]
-[[Resource/IMG/2024-12-01-Github-Blog/7fe5d94cdc6fe6b6b52c8f43510a0828_MD5.jpeg|Open: Pasted image 20241201153716.png]]
-![[Resource/IMG/2024-12-01-Github-Blog/7fe5d94cdc6fe6b6b52c8f43510a0828_MD5.jpeg]]
+
+
+
 
 ## Git Blog 배포
 1. [Settings > Pages] 에서 GitHub Action으로 변경
-[[Resource/IMG/Git Blog/7b2313c29ad94dd88c5b603e2cd859a0_MD5.jpeg|Open: Pasted image 20241130151418.png]]
-![[Resource/IMG/Git Blog/7b2313c29ad94dd88c5b603e2cd859a0_MD5.jpeg]]
+
+
 2. Jekyll Configure 선택 및 변경사항 없이 Configure 생성
-[[Resource/IMG/Git Blog/7d48765e53c9e321df358ce1fed58861_MD5.jpeg|Open: Pasted image 20241130151438.png]]
-![[Resource/IMG/Git Blog/7d48765e53c9e321df358ce1fed58861_MD5.jpeg]]
+
+
 3. 그 후 기다리면 깃 블로그가 생성 됨. https://MyGitName.github.io 접속
