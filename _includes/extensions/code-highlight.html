@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function(event) {
     if (lang.startsWith('language-')) {
       lang = lang.substr(9);
     }
-    block.setAttribute('class', 'hljs ' + lang);
+    block.setAttribute('class', 'hljs ' + lang + ' highlight');
     block.parentNode.setAttribute('data-lang', lang);
   }
 
