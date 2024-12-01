@@ -1,7 +1,7 @@
 ---
 layout: post
-title: new Post Title
-subtitle: new Post Subtitle
+title: Github Blog를 위한 Obsidian Settings
+subtitle: Github Blog를 위한
 author: g3rm
 categories: Dev
 banner:
