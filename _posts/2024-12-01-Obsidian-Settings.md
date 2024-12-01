@@ -47,3 +47,7 @@ sidebar:
    ![](assets/images/posts/2024-12-01-Obsidian-Settings/0594d6f949665c19836479879a9a06fe_MD5.jpeg)
 ### Editing Toolbar & Emoji Toolbar
 블로그 작성을 위해 마크다운을 작성할 때, 유용한 플러그인들 입니다.
+1. Editing Toolbar
+   ![](assets/images/posts/2024-12-01-Obsidian-Settings/d272ff594d7e0ce79460e60056cd731e_MD5.jpeg)
+2. Emoji Toolbar
+   
