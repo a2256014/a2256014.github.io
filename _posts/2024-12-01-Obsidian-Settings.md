@@ -19,4 +19,4 @@ sidebar:
 
 
 ## Intro
-
+[Gitgub_Blog 구축 및 배포](./)
