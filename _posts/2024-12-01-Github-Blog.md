@@ -105,7 +105,7 @@ Enable과 동시에 github에 동기화된다.
 ![[assets/images/posts/2024-12-01-Github-Blog/994befaa30a53f96389ab7879c0cf259_MD5.jpg]]
 ## Git Blog 배포
 1. [Settings > Pages] 에서 GitHub Action으로 변경
-![[assets/images/posts/2024-12-01-Github-Blog/70d77aa4c114e23f57fec4b410556ffc_MD5.jpg]]
+![](assets/images/posts/2024-12-01-Github-Blog/70d77aa4c114e23f57fec4b410556ffc_MD5.jpg)
 2. Jekyll Configure 선택 및 변경사항 없이 Configure 생성
 ![[assets/images/posts/2024-12-01-Github-Blog/83f9a5d86ba413b5f60f499d0cf861ea_MD5.jpg]]
 3. 그 후 기다리면 깃 블로그가 생성 됨. https://MyGitName.github.io 접속
