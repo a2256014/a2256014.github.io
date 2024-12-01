@@ -45,6 +45,7 @@ sidebar:
 4. Templater 플러그인 설정에서 만든 Template를 설정해 줍니다.
    ![](/assets/images/posts/2024-12-01-Obsidian-Settings/b70380427bbffe7ed513ef2f53289632_MD5.jpeg)
    ![](/assets/images/posts/2024-12-01-Obsidian-Settings/0594d6f949665c19836479879a9a06fe_MD5.jpeg)
+
 ### Editing Toolbar & Emoji Toolbar
 블로그 작성을 위해 마크다운을 작성할 때, 유용한 플러그인들 입니다.
 1. Editing Toolbar
