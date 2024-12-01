@@ -209,11 +209,10 @@ yat:
 #   follow_site_theme: true
 theme: jekyll-theme-yat
 # Build settings
-# highlighter: none
+highlighter: rouge
 markdown: kramdown
 kmarkdown:
   input: GFM
-  syntax_highlighter: rouge
 
 plugins:
   - jekyll-feed
