@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', function(event) {
     color: #bbb;
     /* background-color: {{badge_background_color}}; */
     padding: 0 .5em;
-    font-family: Helvetica, Arial, Oswald, sans-serif;
     border-radius: 0 2px;
     text-transform: {{badge_text_transform}};
     text-align: center;
@@ -88,6 +87,11 @@ document.addEventListener('DOMContentLoaded', function(event) {
     display: inline-block;
     position: absolute;
     right: 0;
+  }
+
+  ::before {
+    font-family: Helvetica, Arial, Oswald, sans-serif;
+    font-size: 13px;
   }
 
   /* fix wrong badge display for firefox browser */
