@@ -209,8 +209,8 @@ yat:
 #   follow_site_theme: true
 theme: jekyll-theme-yat
 # Build settings
-highlighter: rouge
 markdown: kramdown
+highlighter: rouge
 kmarkdown:
   input: GFM
 
