@@ -39,8 +39,10 @@ sidebar:
 2. 그 후 Obsidian 기본 템플릿 설정에서 해당 폴더를 지정합니다.
    ![](assets/images/posts/2024-12-01-Obsidian-Settings/26a6c98aed66e0533a98663fbf5587ed_MD5.jpeg)
 3. 위에서 만든 폴더에 사용할 Template를 만들어 줍니다.
-   ```
+```markdown
+
 ```
+
 4. Templater 플러그인 설정에서 만든 Template를 설정해 줍니다.
    ![](assets/images/posts/2024-12-01-Obsidian-Settings/b70380427bbffe7ed513ef2f53289632_MD5.jpeg)
    ![](assets/images/posts/2024-12-01-Obsidian-Settings/0594d6f949665c19836479879a9a06fe_MD5.jpeg)
