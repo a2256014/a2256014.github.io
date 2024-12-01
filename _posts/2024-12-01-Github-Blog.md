@@ -42,11 +42,11 @@ sidebar:
 gem "jekyll-theme-yat"
 ```
 3. 그 후 번들 및 실행
-```Shell
+~~~Shell
 $ cd ~/Obsidian_Vault/Git_Blog_Vault
 $ bundle
 $ bundle exec jekyll serve
-```
+~~~
 1. http://127,0.0.1:4000 접속해보기
 
 ## Obsidian Git 연동하기
@@ -111,3 +111,6 @@ Enable과 동시에 github에 동기화된다.
 2. Jekyll Configure 선택 및 변경사항 없이 Configure 생성
 ![](/assets/images/posts/2024-12-01-Github-Blog/83f9a5d86ba413b5f60f499d0cf861ea_MD5.jpg)
 3. 그 후 기다리면 깃 블로그가 생성 됨. https://MyGitName.github.io 접속
+
+~~~javascript 
+function syntaxHighlight(code) { var foo = 'Hello World'; var bar = 100; } ~~~
