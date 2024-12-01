@@ -1,3 +1,6 @@
+.badge .highlight {
+  border-radius: 20px;
+}
 .highlight table td { padding: 5px !important; }
 .highlight table pre { margin: 0 !important; }
 .highlight, .highlight .w {
