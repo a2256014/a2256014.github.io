@@ -33,4 +33,7 @@ sidebar:
 추가적으로 로컬 파일로 저장되면서 `![[img]]` 형식으로 변환되는데 이 때, GitHub Blog에서는 해당 이미지를 가져오지 못하므로 아래 사진과 같이 설정 값을 OFF 해주시면 됩니다.
 ![](assets/images/posts/2024-12-01-Obsidian-Settings/70576ddf103b0bdf2ae875ea49e262d0_MD5.jpeg)
 ### Templater
-각 Jekyll Theme에 맞는 마크다운 형식이 있을 
+각 Jekyll Theme에 맞는 마크다운 형식이 있을텐데, 템플릿을 생성하여 형식 그대로 가져올 수 있도록 하는 플러그인입니다.   
+
+1. Template들을 저장할 폴더를 생성해 줍니다.
+2. 
