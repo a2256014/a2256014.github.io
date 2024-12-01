@@ -50,4 +50,5 @@ sidebar:
 1. Editing Toolbar
    ![](assets/images/posts/2024-12-01-Obsidian-Settings/d272ff594d7e0ce79460e60056cd731e_MD5.jpeg)
 2. Emoji Toolbar
-   
+   설정에서 😀👍😁🎃 
+   ![](assets/images/posts/2024-12-01-Obsidian-Settings/18bd1e70ae7a7563937c4a73751f20d0_MD5.jpeg)
