@@ -101,6 +101,7 @@ Community plugins 에 Browse를 누른 다음, `Obsidian git`를 검색해 플�
 Enable과 동시에 github에 동기화된다.
 ### 설정
 ![[assets/images/posts/2024-12-01-Github-Blog/b77f4c219e37f3a570dc605a5564d00a_MD5.jpeg]]
+
 ![[assets/images/posts/2024-12-01-Github-Blog/994befaa30a53f96389ab7879c0cf259_MD5.jpg]]
 ## Git Blog 배포
 1. [Settings > Pages] 에서 GitHub Action으로 변경
