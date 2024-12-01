@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Github Blog를 위한 Obsidian Settings
-subtitle: Github Blog를 위한
+subtitle: Github Blog를 편하게 작성하기 위한 사용한 Obsidian Setting 정리
 author: g3rm
 categories: Dev
 banner:
@@ -19,4 +19,4 @@ sidebar:
 
 
 ## Intro
-Git
+
