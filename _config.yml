@@ -201,6 +201,15 @@ yat:
 # See https://utteranc.es/
 # set follow_site_theme true to make utterances' theme follow the site's
 
+ # Web Analytics Settings
+ analytics:
+ goatcounter:
+     id: 0409753
+
+ # Pageviews settings
+ pageviews:
+ provider: goatcounter # now only supports 'goatcounter'
+
 utterances:
   repo: "a2256014/a2256014.github.io"
   issue_term: "title"
