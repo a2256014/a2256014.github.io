@@ -20,4 +20,7 @@ sidebar:
 
 ## Intro
 [Gitgub_Blog 구축 및 배포](./2024-12-01-Github-Blog.md)에서 Obsidian과 GitBlog를 연동하여 Obsidian에서 글을 쓰는 것만으로 블로그에 적용되도록 했습니다.   
-더 나아가서 편하게 작성하기 위해 
+더 나아가서 편하게 작성하기 위해 Obsidian 내장 설정과 다양한 Obsidian Plugin 들을 소개하려합니다.
+
+## Plugins
+### L
