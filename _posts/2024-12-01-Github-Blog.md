@@ -112,4 +112,3 @@ Enable과 동시에 github에 동기화된다.
 ![](/assets/images/posts/2024-12-01-Github-Blog/83f9a5d86ba413b5f60f499d0cf861ea_MD5.jpg)
 3. 그 후 기다리면 깃 블로그가 생성 됨. https://MyGitName.github.io 접속
 
-![[/assets/images/posts/2024-12-01-Github-Blog/83f9a5d86ba413b5f60f499d0cf861ea_MD5.jpg]]
