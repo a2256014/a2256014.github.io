@@ -51,7 +51,8 @@ $ bundle exec jekyll serve
 Repo 이름의 경우 자신의 Github Name에 맞도록 생성하는 것이 중요합니다. 
 Repo name exam : [GithubName].github.io
 \* *아닐경우 URL이 난잡해 질 수 있습니다.*
-
+[[assets/images/posts/2024-12-01-Github-Blog/7b5b1619653f9bba27a180dc66c1a7e8_MD5.jpg|Open: Pasted image 20241201155330.jpg]]
+![[assets/images/posts/2024-12-01-Github-Blog/7b5b1619653f9bba27a180dc66c1a7e8_MD5.jpg]]
 
 ### Git 연동
 
