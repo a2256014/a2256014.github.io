@@ -29,7 +29,8 @@ sidebar:
    
 `assets/images/posts/${notename}` 으로 설정 시 각 페이지에 사용된 이미지를 손쉽게 정리할 수 있습니다.
 ![](assets/images/posts/2024-12-01-Obsidian-Settings/d06678e7ab0e8bf69e04fd38a4987a42_MD5.jpeg)
-
-추가적으로 로컬 파일로 저장되면서 `![[img]]` 형식으로 변환되는데 이 때, GitHub Blog에서는 해당 이미지를 가져오지 못하므로 아래 사진과 가
-![](Pasted%20image%2020241201190935.png)
-### 
+   
+추가적으로 로컬 파일로 저장되면서 `![[img]]` 형식으로 변환되는데 이 때, GitHub Blog에서는 해당 이미지를 가져오지 못하므로 아래 사진과 같이 설정 값을 OFF 해주시면 됩니다.
+![](assets/images/posts/2024-12-01-Obsidian-Settings/70576ddf103b0bdf2ae875ea49e262d0_MD5.jpeg)
+### Templater
+각 Jekyll Theme에 맞는 마크다운 형식이 있을 
