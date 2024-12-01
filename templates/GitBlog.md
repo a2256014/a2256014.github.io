@@ -13,7 +13,7 @@ banner:
 tags: 
 sidebar: []
 ---
-<% await tp.file.move("/GitBlog/" + tp.date.now() + "-" + "NewPost") %>
+<% await tp.file.move("/_post/" + tp.date.now() + "-" + "NewPost") %>
 ## Intro
 
 ## Detect & Exploit 
