@@ -5,12 +5,12 @@ subtitle: Jekyll, Obsidian를 활용한 GitBlog 구축 및 자동화
 author: g3rm
 categories: Dev
 banner: 
-image: /assets/images/banners/home.gif
-opacity: 0.618
-background: "#000"
-heading_style: "font-size: 4.25em; font-weight: bold;"
-subheading_style: "color: gold"
-tags: 
+	image: /assets/images/banners/home.gif
+	opacity: 0.618
+	background: "#000"
+	heading_style: "font-size: 4.25em; font-weight: bold;"
+	subheading_style: "color: gold"
+tags: Obsidian Jekyll Github Blog
 sidebar:
 ---
 ## Intro
@@ -51,7 +51,7 @@ $ bundle exec jekyll serve
 Repo 이름의 경우 자신의 Github Name에 맞도록 생성하는 것이 중요합니다. 
 Repo name exam : [GithubName].github.io
 \* *아닐경우 URL이 난잡해 질 수 있습니다.*
-![[assets/images/posts/2024-12-01-Github-Blog/7b5b1619653f9bba27a180dc66c1a7e8_MD5.jpg]]
+![](assets/images/posts/2024-12-01-Github-Blog/7b5b1619653f9bba27a180dc66c1a7e8_MD5.jpg)
 
 ### Git 연동
 
@@ -93,7 +93,7 @@ git push -u origin main
 ## Obsidian-Git Plugin 설치
 Obsidian을 켠 후 설정(톱니바퀴) 버튼을 누른다.  
 그후 Community Plugins에 들어가고, 만약 거기서 Community Plugin이 꺼져있다고 나오면 켠다.  
-![[assets/images/posts/2024-12-01-Github-Blog/2d80ac10ca27ebfc1a39e28c685f99cf_MD5.jpeg]]
+![](assets/images/posts/2024-12-01-Github-Blog/2d80ac10ca27ebfc1a39e28c685f99cf_MD5.jpeg)
 
 Community plugins 에 Browse를 누른 다음, `Obsidian git`를 검색해 플러그인을 설치한다. (설치 후에 Enable를 눌러줘야 한다.)  
 ![](assets/images/posts/2024-12-01-Github-Blog/8638c85f5c3584e3b2d94efa959afb5e_MD5.jpeg)
