@@ -21,7 +21,6 @@ sidebar:
 ### Ruby 설치
 우선 전 Jekyll Theme을 사용을 할 것이기 때문에 Ruby를 설치해 줍니다.
 [Ruby 설치](https://rubyinstaller.org/downloads/) 에 들어가서 Installer를 설치해 줍니다.
-[사진]
 
 ### Jekyll Theme Download & Obsidian Vault 생성
 1. 무료 Jekyll Theme 보는 곳에서 마음에 드는 Jekyll Theme을 골라줍니다. 
