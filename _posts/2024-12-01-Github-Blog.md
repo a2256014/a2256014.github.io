@@ -52,8 +52,9 @@ $ bundle exec jekyll serve
 ## Obsidian Git 연동하기
 ### Repo 생성
 Repo 이름의 경우 자신의 Github Name에 맞도록 생성하는 것이 중요합니다. 
+
 Repo name exam : [GithubName].github.io
-\* *아닐경우 URL이 난잡해 질 수 있습니다.*
+*아닐경우 URL이 난잡해 질 수 있습니다.*
 ![](/assets/images/posts/2024-12-01-Github-Blog/7b5b1619653f9bba27a180dc66c1a7e8_MD5.jpg)
 
 ### Git 연동
@@ -71,7 +72,7 @@ git config --local user.email "깃허브 이메일 이름"
 필요한 .gitignore 설정  
 Vault 폴더 안에 `.gitignore` 파일을 만들어 다음과 같이 작성한다  
 
-```null
+```.gitignore
 .obsidian/
 
 .obsidian/workspace-mobile.json
