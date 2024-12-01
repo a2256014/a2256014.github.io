@@ -23,4 +23,5 @@ sidebar:
 더 나아가서 편하게 작성하기 위해 Obsidian 내장 설정과 다양한 Obsidian Plugin 들을 소개하려합니다.
 
 ## Plugins
-### L
+### Local Images Plus
+이미지를 복사 붙여넣기 
