@@ -3,7 +3,7 @@ layout: post
 title: new Post Title
 subtitle: new Post Subtitle
 author: g3rm
-categories: 
+categories: Dev
 banner:
   image: /assets/images/banners/home.gif
   opacity: 0.618
@@ -13,9 +13,10 @@ banner:
 tags:
   - Obsidian
   - Settings
+  - Github_Blog
 sidebar:
 ---
 
 
 ## Intro
-
+Git
