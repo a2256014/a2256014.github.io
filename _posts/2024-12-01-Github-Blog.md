@@ -5,11 +5,11 @@ subtitle: Jekyll, Obsidian를 활용한 GitBlog 구축 및 자동화
 author: g3rm
 categories: Dev
 banner: 
-	image: /assets/images/banners/home.gif
-	opacity: 0.618
-	background: "#000"
-	heading_style: "font-size: 4.25em; font-weight: bold;"
-	subheading_style: "color: gold"
+- image: /assets/images/banners/home.gif
+- opacity: 0.618
+- background: "#000"
+- heading_style: "font-size: 4.25em; font-weight: bold;"
+- subheading_style: "color: gold"
 tags: [Obsidian, Jekyll, Github, Github_Blog]
 sidebar:
 ---
