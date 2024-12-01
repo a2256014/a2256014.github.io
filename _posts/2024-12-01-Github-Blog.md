@@ -23,7 +23,7 @@ sidebar:
 저의 경우 Yet Another Theme (YAT) Theme 사용하여 해당 Theme에 맞는 설치 법을 공유하지만, 대부분의 Theme 설치 방법이 비슷하기에 따라하는데 무리가 없을 것 같습니다.
 ## Install
 ### Ruby 설치
-우선 전 Jekyll Theme을 사용을 할 것이기 때문에 Ruby를 설치해 줍니다.
+우선 전 Jekyll Theme을 사용을 할 것이기 때문에 Ruby를 설치해 줍니다.   
 [Ruby 설치](https://rubyinstaller.org/downloads/) 에 들어가서 Installer를 설치해 줍니다.
 
 ### Jekyll Theme Download & Obsidian Vault 생성
@@ -36,7 +36,7 @@ sidebar:
 
 ### Jekyll Theme 모듈 설치
 1. IDE에서 Jekyll Theme이 들어있는 Obsidian 폴더로 가기
-2. Gemfile에 해당 Theme에 맞는 설정들 삽입
+2. Gemfile에 해당 Theme에 맞는 설정들 삽입   
    \* *설정들은 설치하고자 하는 Theme Git에 들어가면 적혀있습니다.*
 ```Gemfile
 gem "jekyll-theme-yat"
@@ -51,9 +51,8 @@ $ bundle exec jekyll serve
 
 ## Obsidian Git 연동하기
 ### Repo 생성
-Repo 이름의 경우 자신의 Github Name에 맞도록 생성하는 것이 중요합니다. 
-
-Repo name exam : [GithubName].github.io
+Repo 이름의 경우 자신의 Github Name에 맞도록 생성하는 것이 중요합니다.    
+Repo name exam : [GithubName].github.io   
 *아닐경우 URL이 난잡해 질 수 있습니다.*
 ![](/assets/images/posts/2024-12-01-Github-Blog/7b5b1619653f9bba27a180dc66c1a7e8_MD5.jpg)
 
