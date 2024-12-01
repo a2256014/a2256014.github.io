@@ -202,9 +202,9 @@ yat:
 # set follow_site_theme true to make utterances' theme follow the site's
 
  # Web Analytics Settings
- analytics:
- goatcounter:
-     id: 0409753
+#  analytics:
+#  goatcounter:
+#      id: 0409753
 
  # Pageviews settings
  pageviews:
@@ -213,7 +213,7 @@ yat:
 utterances:
   repo: "a2256014/a2256014.github.io"
   issue_term: "title"
-  label: "💬Comment"
+  label: "Comment"
   theme: "github-dark"
   follow_site_theme: true
 
