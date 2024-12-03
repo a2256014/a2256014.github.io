@@ -1,7 +1,7 @@
 ---
 layout: post
 title: S3 Bucket Takeover
-subtitle: Subdomain Takeover 취약점의 사례
+subtitle: Subdomain Takeover 취약점 사례
 author: g3rm
 categories: 
 banner:
