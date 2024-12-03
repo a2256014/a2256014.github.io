@@ -32,18 +32,18 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 ### Detect
 탐지 방법은 아주 간단합니다. S3와 매핑된 특정 Subdomain 혹은 서비스 내 사용 중인 S3 Bucket 주소에 접근해서 응답값을 확인하면 됩니다.
 
-![](assets/images/posts/2024-12-03-S3-Bucket-Takeover/22008c437f300c90f30c783bebcccb46_MD5.jpeg)
+![](/assets/images/posts/2024-12-03-S3-Bucket-Takeover/22008c437f300c90f30c783bebcccb46_MD5.jpeg)
 **⚠️ 기본적으로 Bucket이 없다면 위와 같은 모습이지만, 취약점인 이유는 서비스에서 사용 중이기 때문입니다.**   
 
 위와 같이 `The specified bucket does not exist` 이라면 해당 Bucket을 제어할 수 있게됩니다.
 ### Exploit
 1. 취약한 S3 Bucket 명으로 S3 Bucket Public 생성 - ex) g3rm-bucket
 2. Takeover 증적을 위한 html 파일 업로드
-		![](assets/images/posts/2024-12-03-S3-Bucket-Takeover/01be6ed49b61da66fa3a56d1545894d9_MD5.jpeg)
+		![](/assets/images/posts/2024-12-03-S3-Bucket-Takeover/01be6ed49b61da66fa3a56d1545894d9_MD5.jpeg)
 3. 해당 Bucket을 누구나 읽을 수 있도록 정책 설정
-		![](assets/images/posts/2024-12-03-S3-Bucket-Takeover/6f41f8c47959bdd5b49e8092132cacb9_MD5.jpeg)
+		![](/assets/images/posts/2024-12-03-S3-Bucket-Takeover/6f41f8c47959bdd5b49e8092132cacb9_MD5.jpeg)
 4. 접근 시 공격자가 업로드한 파일이 노출됨.
-		![](assets/images/posts/2024-12-03-S3-Bucket-Takeover/e27de20cfed50b0ff2eee576b6486227_MD5.jpeg)
+		![](/assets/images/posts/2024-12-03-S3-Bucket-Takeover/e27de20cfed50b0ff2eee576b6486227_MD5.jpeg)
    
 ☑️만약 주소가 `https://[bucket name].s3-website.[aws-region].amazonaws.com`이라면 정적 웹 사이트 호스팅 설정을 해주시면 됩니다.  
 ## Security Measures
@@ -51,4 +51,4 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 
 S3 Bucket 삭제 시 매핑된 CNAME 및 서비스 내 사용중인 해당 Bucket 주소를 삭제해주면 됩니다.
 ## References
-https://satyasai1460.medium.com/amazon-s3-bucket-takeover-648ed9561ee7
+[Amazon S3 Bucket Ta](https://satyasai1460.medium.com/amazon-s3-bucket-takeover-648ed9561ee7)
