@@ -35,7 +35,10 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 ![](/assets/images/posts/2024-12-03-S3-Bucket-Takeover/eec8c0ea90f36479c785b01d51dcd97b_MD5.jpeg)
 **⚠️ 기본적으로 Bucket이 없다면 위와 같은 모습이지만, 취약점인 이유는 서비스에서 사용 중이기 때문입니다.**   
 
-위와 같이 
+위와 같이 `The specified bucket does not exist` 이라면 해당 Bucket을 제어할 수 있게됩니다.
+
+### Exploit
+
 
 ## Security Measures
 
