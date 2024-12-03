@@ -38,8 +38,10 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 위와 같이 `The specified bucket does not exist` 이라면 해당 Bucket을 제어할 수 있게됩니다.
 
 ### Exploit
-1. 취약한 S3 Bucket 명으로 S3 Buckek Public 생성 - ex) g3rm-bucket
-2. Takeover 증적을 위한 파일
+1. 취약한 S3 Bucket 명으로 S3 Bucket Public 생성 - ex) g3rm-bucket
+2. Takeover 증적을 위한 html 파일 업로드
+3. 해당 Bucket을 누구나 읽을 수 있도록 정책 설정
+4. 접근 시 공격자가 업로드한 파일이 노출됨.
 
 ## Security Measures
 보통 해당 취약점은 테스트 용으로 사용했다가 S3 Bucket만 지우고 매핑된 CNAME이나 사용된 서비스에서는 삭제하지 않아서 발생합니다.   
