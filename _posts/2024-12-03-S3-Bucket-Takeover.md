@@ -36,7 +36,6 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 **⚠️ 기본적으로 Bucket이 없다면 위와 같은 모습이지만, 취약점인 이유는 서비스에서 사용 중이기 때문입니다.**   
 
 위와 같이 `The specified bucket does not exist` 이라면 해당 Bucket을 제어할 수 있게됩니다.
-
 ### Exploit
 1. 취약한 S3 Bucket 명으로 S3 Bucket Public 생성 - ex) g3rm-bucket
 2. Takeover 증적을 위한 html 파일 업로드
@@ -45,8 +44,8 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 		![](assets/images/posts/2024-12-03-S3-Bucket-Takeover/6f41f8c47959bdd5b49e8092132cacb9_MD5.jpeg)
 4. 접근 시 공격자가 업로드한 파일이 노출됨.
 		![](assets/images/posts/2024-12-03-S3-Bucket-Takeover/e27de20cfed50b0ff2eee576b6486227_MD5.jpeg)
-
-☑️만약 주소가 `https://[bucket name].s3.[aws-region].amazonaws.com`
+   
+☑️만약 주소가 `https://[bucket name].s3-website.[aws-region].amazonaws.com`이라면 정적 웹 사이트 호스팅 설정을 해주시면 됩니다.  
 ## Security Measures
 보통 해당 취약점은 테스트 용으로 사용했다가 S3 Bucket만 지우고 매핑된 CNAME이나 사용된 서비스에서는 삭제하지 않아서 발생합니다.   
 
