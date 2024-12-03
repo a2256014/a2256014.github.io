@@ -3,7 +3,7 @@ layout: post
 title: S3 Bucket Takeover
 subtitle: Subdomain Takeover 취약점 사례
 author: g3rm
-categories: 
+categories: Web
 banner:
   image: /assets/images/banners/home.gif
   opacity: 0.618
