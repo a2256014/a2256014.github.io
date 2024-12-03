@@ -20,7 +20,7 @@ sidebar:
 
 
 ## Intro
-S3 Bucket Takeover 취약점은 Subdomain Takeover 취약점과 
+S3 Bucket Takeover 취약점은 Subdomain Takeover 취약점의 일부로 서비스에서 사용된 
 
 ## Detect & Exploit 
 
