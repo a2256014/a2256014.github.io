@@ -30,7 +30,7 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 ☑️*S3의 잘못된 권한 설정으로 사용자가 버킷의 내용을 읽고, 쓰는 것에 대한 부분도 해당 취약점에 포함될 수 있으나, 여기선 제외하겠습니다.*
 ## Detect & Exploit 
 ### Detect
-탐지 방법은 아주 간단합니다. S3와 매핑된 특정 서브도메인 혹은 서비스 내 사용중인 S3 
+탐지 방법은 아주 간단합니다. S3와 매핑된 특정 Subdomain 혹은 서비스 내 사용 중인 S3 Bucket 주소에 
 
 
 ## Security Measures
