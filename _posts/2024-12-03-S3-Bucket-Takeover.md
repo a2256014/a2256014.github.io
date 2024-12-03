@@ -12,6 +12,9 @@ banner:
   subheading_style: "color: gold"
 tags:
   - WEB
+  - AWS
+  - S3
+  - CNAME
 sidebar:
 ---
 
