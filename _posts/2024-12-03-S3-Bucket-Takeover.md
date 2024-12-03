@@ -41,5 +41,8 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 
 
 ## Security Measures
+보통 해당 취약점은 테스트 용으로 사용했다가 S3 Bucket만 지우고 매핑된 CNAME이나 
+
 
 ## References
+https://satyasai1460.medium.com/amazon-s3-bucket-takeover-648ed9561ee7
