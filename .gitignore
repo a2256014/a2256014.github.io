@@ -28,4 +28,4 @@ package-lock.json
 
 .trash/
 .DS_Store
-templates
+temp
