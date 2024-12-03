@@ -69,10 +69,10 @@ yat:
 
 # Google analytics - GA4
 google_analytics: G-HRHXXZ8F59
-# enableDNT: "false"
+enableDNT: "true"
 
 # If you want to generate website sitemap, you can set true
-# sitemap: false
+sitemap: true
 
 # If you want to change site language, you can set lang option
 # lang: "en"  # default lang is en
