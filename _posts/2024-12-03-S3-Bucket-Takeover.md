@@ -51,4 +51,4 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 
 S3 Bucket 삭제 시 매핑된 CNAME 및 서비스 내 사용중인 해당 Bucket 주소를 삭제해주면 됩니다.
 ## References
-[Amazon S3 Bucket Ta](https://satyasai1460.medium.com/amazon-s3-bucket-takeover-648ed9561ee7)
+[Amazon S3 Bucket Takeover](https://satyasai1460.medium.com/amazon-s3-bucket-takeover-648ed9561ee7)
