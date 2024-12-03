@@ -28,6 +28,8 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 
 ☑️*S3뿐만 아니라 Github Page 등 호스팅을 해주는 서비스 이용 시 자주 발생합니다.*   
 ☑️*S3의 잘못된 권한 설정으로 사용자가 버킷의 내용을 읽고, 쓰는 것에 대한 부분도 해당 취약점에 포함될 수 있으나, 여기선 제외하겠습니다.*
+
+---
 ## Detect & Exploit 
 ### Detect
 탐지 방법은 아주 간단합니다. S3와 매핑된 특정 Subdomain 혹은 서비스 내 사용 중인 S3 Bucket 주소에 접근해서 응답값을 확인하면 됩니다.
@@ -46,9 +48,13 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 		![](/assets/images/posts/2024-12-03-S3-Bucket-Takeover/e27de20cfed50b0ff2eee576b6486227_MD5.jpeg)
    
 ☑️만약 주소가 `https://[bucket name].s3-website.[aws-region].amazonaws.com`이라면 정적 웹 사이트 호스팅 설정을 해주시면 됩니다.  
+
+---
 ## Security Measures
 보통 해당 취약점은 테스트 용으로 사용했다가 S3 Bucket만 지우고 매핑된 CNAME이나 사용된 서비스에서는 삭제하지 않아서 발생합니다.   
 
 S3 Bucket 삭제 시 매핑된 CNAME 및 서비스 내 사용중인 해당 Bucket 주소를 삭제해주면 됩니다.
+
+---
 ## References
 [Amazon S3 Bucket Takeover](https://satyasai1460.medium.com/amazon-s3-bucket-takeover-648ed9561ee7)
