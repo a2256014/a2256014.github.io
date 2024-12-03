@@ -21,9 +21,9 @@ sidebar:
 
 ## Intro
 S3 Bucket Takeover 취약점은 Subdomain Takeover 취약점이 Cloud 서비스가 많은 현재 상황에 맞게 적용되어 나온 취약점으로 이름만 다를 뿐 같은 취약점이라고 봐도 무방합니다.   
+
 주로 서비스의 Subdomain에 S3 Bucket 주소가 매핑되어 있거나, 서비스 내에서 S3 Bucket 주소를 사용하고 있을 때 확인해볼 만한 취약점입니다.    
 ☑️*S3뿐만 아니라 Github Page 등 호스팅을 해주는 서비스 이용 시 자주 발생합니다.*
-
 ## Detect & Exploit 
 
 
