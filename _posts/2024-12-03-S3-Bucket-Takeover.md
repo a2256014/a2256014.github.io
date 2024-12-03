@@ -20,7 +20,7 @@ sidebar:
 
 
 ## Intro
-
+S3 Bucket Takeover 취약점은 Subdo
 
 ## Detect & Exploit 
 
