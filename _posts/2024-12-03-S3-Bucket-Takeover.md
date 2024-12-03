@@ -38,11 +38,11 @@ resource.victim.com 도메인(`CNAME`)이 AWS에서 제공한 S3 엔드포인트
 위와 같이 `The specified bucket does not exist` 이라면 해당 Bucket을 제어할 수 있게됩니다.
 
 ### Exploit
-
+1. S3 
 
 ## Security Measures
 보통 해당 취약점은 테스트 용으로 사용했다가 S3 Bucket만 지우고 매핑된 CNAME이나 사용된 서비스에서는 삭제하지 않아서 발생합니다.   
 
-S3 Bucket 삭제 시 매핑된 CNAME 및 서비스 내 사용중인 해당 B
+S3 Bucket 삭제 시 매핑된 CNAME 및 서비스 내 사용중인 해당 Bucket 주소를 삭제해주면 됩니다.
 ## References
 https://satyasai1460.medium.com/amazon-s3-bucket-takeover-648ed9561ee7
