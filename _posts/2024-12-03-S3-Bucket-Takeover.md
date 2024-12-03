@@ -15,6 +15,7 @@ tags:
   - AWS
   - S3
   - CNAME
+  - Subdomain_Takeover
 sidebar:
 ---
 
