@@ -69,8 +69,10 @@ window.CONFIG = {
 <a id="CONFIG" name="location" href="https://attacker.com or javascript:alert()">2'deps</a>
 ```
 
-추가적으로 하위 경로가 파라미터로 인식되어 브라우저 내에 표기될 시(Content Spoofing / Text Injection) 특정 조건 하에  
+추가적으로 하위 경로가 파라미터로 인식되어 브라우저 내에 표기될 시(Content Spoofing / Text Injection) 특정 조건 하에 공격이 가능하다고 합니다.
+> 해당 내용은 더 공부 후 추가해보겠습니다...
 ```HTML
+victim.com/ass
 
 ```
 
