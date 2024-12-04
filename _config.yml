@@ -47,7 +47,7 @@ copyright: "2023-{currentYear} (cleft) {author}"
 #   line in _config.yml. It will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://a2256014.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 favicon: "/assets/images/icon/favicon.png" # the favicon for your site
 git_url: "https://github.com/a2256014"
@@ -75,7 +75,7 @@ enableDNT: "true"
 sitemap: true
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "ko"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
