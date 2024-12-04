@@ -28,6 +28,10 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 상대 경로란 URL에 `Host`가 포함되지 않은 경로로 `/assets/js/config.js` 혹은 `./assets/js/config.js` 등의 경로입니다.
 
 ## Detect & Exploit 
+### Detect
+
+### Exploit
+
 
 
 ## Security Measures
