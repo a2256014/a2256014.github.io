@@ -16,11 +16,12 @@ tags:
   - CSS_Injection
   - Relative_Path_Overwrite
   - DOM_Clobbering
+  - Path_Traversal
 sidebar:
 ---
 
 ## Intro
-Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라는 공격 기법
+Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라는 공격 기법? 
 
 ## Detect & Exploit 
 
