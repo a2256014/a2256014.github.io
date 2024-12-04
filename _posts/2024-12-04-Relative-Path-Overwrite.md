@@ -16,6 +16,7 @@ tags:
   - CSS_Injection
   - Relative_Path_Overwrite
   - DOM_Clobbering
+  - Text_Injection
 sidebar:
 ---
 
@@ -30,8 +31,9 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 
 ## Detect & Exploit 
 ### Detect
+어떤 
 리소스(`<script src>`, `<link href>` 등) 주소에 관여할 수 있는 지 파악하면 됩니다.
-추가적으로 서버측 라우터가 특정 경로 외 경로를 무시한다면
+
 
 ### Exploit
 
