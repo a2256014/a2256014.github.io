@@ -38,13 +38,12 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 - URL 라우터가 `victim.com/rpo.html`와  `victim.com/rpo.html/`, `victim.com/rpo.html/blah` 에 대해서 동일하게 `rpo.html` 를 내려주는 지 파악하면 됩니다.
 
 ### Exploit
-#### XSS
-단순하게 `<script>`태그의 src 속성에 관여하여 XSS가 발생할 수 있는 `.js` 를 불러와 주면 됩니다.
+
 ```HTML
 #.js를 업로드할 수 있는 상황에서
 /../../../attacker.js
 ```
-#### RPO Style Attack
+
 
 
 #### CSS Injection
