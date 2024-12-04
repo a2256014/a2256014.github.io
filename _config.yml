@@ -183,7 +183,7 @@ night_mode: "on"
 # excerpt_size: 350
 
 # Pagination setting
-# paginate: 5
+paginate: 5
 
 # Disqus comments
 # disqus:
