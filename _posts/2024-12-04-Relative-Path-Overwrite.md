@@ -69,7 +69,7 @@ window.CONFIG = {
 <a id="CONFIG" name="location" href="https://attacker.com or javascript:alert()">2'deps</a>
 ```
 
-#### 
+추가적으로 하위 경로를 파라미터로 인식하여 
 ```HTML
 
 ```
