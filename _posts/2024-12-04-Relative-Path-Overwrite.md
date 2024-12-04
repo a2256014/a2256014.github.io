@@ -28,8 +28,8 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 > Absolute URL : `https://victim.com/path`
 > Absolute Path : `/path`
 > Relative Path : `path`
-
-RPO는 해당 도메인에서 조작되는 것이기 때문에 다양한 보안 정책을 우회할 수 있습니다. SOP, CSP 등
+   
+RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 다양한 보안 정책을 우회할 수 있습니다. 
 ## Detect & Exploit 
 ### Detect
 어떤 공격을 하느냐에 따라 탐지 방법이 여러개 있을 수 있습니다.
