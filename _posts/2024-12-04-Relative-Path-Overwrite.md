@@ -26,6 +26,7 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 > 대표적으로 활용되는 취약점으로 Path Traversal, Protocol relative URL 가 있으며, 특수한 상황에서는 DOM Clobbering, [CSS Injection](./CSS-Injection.html) 등 다양한 취약점에서도 활용될 수 있습니다.
 
 상대 경로란 URL에 `Host`가 포함되지 않은 경로로 `assets/js/config.js` 혹은 `./assets/js/config.js` 등의 경로입니다.
+> /
 
 ## Detect & Exploit 
 ### Detect
