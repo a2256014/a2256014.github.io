@@ -40,11 +40,12 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 ### Exploit
 #### XSS
 단순하게 `<script>`태그의 src 속성에 관여하여 XSS가 발생할 수 있는 `.js` 를 불러와 주면 됩니다.
-```
+```HTML
 #.js를 업로드할 수 있는 상황에서
 /../../../attacker.js
 ```
 
+#### CSS Inject
 
 ## Security Measures
 
