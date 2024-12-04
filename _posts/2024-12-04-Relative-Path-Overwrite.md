@@ -76,6 +76,10 @@ victim.com/vuln.html/PAYLOAD 접근 시
 Server : victim.com/vuln.html 를 내려줌
 Browser : victim.com/vuln.html/PAYLOAD/victim.css or victim.js 를 가져옴
 
+victim.com/vuln.html/PAYLOAD/victim.css or victim.js 접근 시
+PAYLOAD가 Error Page or vuln.html에 주입됨
+
+-> 취약점 발생
 ```
 
 #### CSS Injection
