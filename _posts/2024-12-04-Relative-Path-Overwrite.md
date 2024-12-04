@@ -30,6 +30,6 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 ## Detect & Exploit 
 
 ## Security Measures
-단순하게 상대경로를 사용하지 않
+단순하게 상대경로를 사용하지 않는 것이지만, 추가적으로 `<script src>`, `<style`
 
 ## References
