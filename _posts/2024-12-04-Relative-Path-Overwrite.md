@@ -30,6 +30,7 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 
 ## Detect & Exploit 
 ### Detect
+리소스(`<script src>`, `<link href>` 등) 주소
 
 ### Exploit
 
