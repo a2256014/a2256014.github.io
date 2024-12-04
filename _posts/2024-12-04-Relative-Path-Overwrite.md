@@ -17,6 +17,7 @@ tags:
   - Relative_Path_Overwrite
   - DOM_Clobbering
   - Path_Traversal
+  - Protocol-relative
 sidebar:
 ---
 
