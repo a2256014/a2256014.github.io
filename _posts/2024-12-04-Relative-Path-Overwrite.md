@@ -47,7 +47,7 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 ```
 #### URL 라우터의 동일 Content 응답 시
 이 경우 DOM Clobbering과 연계할 수 있습니다.
-자체적으로 만든 동결(`freeze()`) 객체에 대해 아래의 방법으로 
+자체적으로 만든 동결(`freeze()`) 객체에 대해 아래의 방법으로 오류를 발생시켜 해당 객체를 불러오지 못하도록 한다면 DOM Clobbering 공격이 가능해 집니다.
 ```HTML
 #config.js
 window.CONFIG = {
