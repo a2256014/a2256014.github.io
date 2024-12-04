@@ -37,7 +37,8 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 > 2의 경우 자체로 취약하다기 보단 다른 취약점(DOM Clobbering, [CSS Injection](./CSS-Injection.html), Text Injection)에 대해 bypass 및 연계 용도로 사용될 요소입니다.
 
 ### Exploit
-
+#### XSS
+단순하게 `<script>`태그의 src 속성에 관여하여 
 
 
 ## Security Measures
