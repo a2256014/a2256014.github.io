@@ -22,7 +22,7 @@ sidebar:
 ---
 
 ## Intro
-Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라는 공격 기법? 으로 상대 경로로 된 URL을 덮어씌워 의도치 않는 경로로 요청하게 하거나(Path Traversal), Host를 바꾸는(Protocal-relative URL) 등의 여러가지 파생된 취약점들의 근간이 되는 녀석입니다.
+Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라는 공격 기법? 으로 상대 경로로 된 URL을 덮어씌워 의도치 않는 경로로 요청하게 하거나(Path Traversal, DOM Clobbering, CSS I), Host를 바꾸는(Protocal-relative URL) 등의 여러가지 파생된 취약점들의 근간이 되는 녀석입니다.
 
 상대 경로란 URL에 `Host`가 포함되지 않은 경로로 `/assets/js/config.js` 혹은 `./assets/js/config.js` 등의 경로입니다.
 
