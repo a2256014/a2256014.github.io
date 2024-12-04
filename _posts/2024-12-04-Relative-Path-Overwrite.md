@@ -72,9 +72,12 @@ window.CONFIG = {
 추가적으로 하위 경로가 파라미터로 인식되어 브라우저 내에 표기될 시(Content Spoofing / Text Injection) 특정 조건 하에 공격이 가능하다고 합니다.
 > 해당 내용은 더 공부 후 추가해보겠습니다...
 ```HTML
-victim.com/vuln.html/PAYLOAD 
+victim.com/vuln.html/PAYLOAD 접근 시
+
+
 Server : victim.com/vuln.html 를 내려줌
-Browser : 
+Browser : victim.com/vuln.html/PAYLOAD/vuln.css or vuln.js 를 가져옴
+
 ```
 
 #### CSS Injection
