@@ -36,7 +36,7 @@ CSS Injection은 사용자가 `<style>` 태그 혹은 style 속성을 임의로 
 [Clickjacking](https://attack.com"style="position:fixed;top:0;left:0;width:100vw;height:100vh;background-color:transparent;z-index:9999;)
 
 # In Custom Color Setting
-bgColor=#ffffff%3B%20position:fixed%3B...[위와 동일]
+bgColor=#ffffff;position:fixed;...[위와 동일]
 ```
 
 ```
