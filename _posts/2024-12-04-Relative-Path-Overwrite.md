@@ -33,7 +33,7 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 ### Detect
 어떤 공격을 하느냐에 따라 탐지 방법이 여러개 있을 수 있습니다.
 1. 리소스(`<script src>`, `<link href>` 등) 주소에 관여할 수 있는 지 파악하면 됩니다.
-2. URL 라우터가 `victim.com/rpo.html`, `victim.com/rpo.html/`, `victim.com/rpo.html/blah` 에 대해서 동일한 `rpo.html` 
+2. URL 라우터가 `victim.com/rpo.html`, `victim.com/rpo.html/`, `victim.com/rpo.html/blah` 에 대해서 동일하게 `rpo.html` 를 내려주는 지 파악하면 됩니다. 
 
 
 ### Exploit
@@ -45,3 +45,4 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 단순하게 상대경로를 사용하지 않는 것이지만, 추가적으로 `<script src>`, `<link href>` 등 리소스를 불러오는 태그의 주소를 사용자가 임의로 수정하지 못하도록 하는 방안도 있습니다.
 
 ## References
+[Large-Scale Analysis of Style Injection by Relative Path Overwrite](https://dl.acm.org/doi/fullHtml/10.1145/3178876.3186090)   
