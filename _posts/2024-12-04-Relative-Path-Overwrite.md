@@ -36,7 +36,6 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 어떤 공격과 연계를 하느냐에 따라 탐지 방법이 여러 개 있을 수 있습니다.
 - 리소스(`<script src>`, `<link href>` 등) 주소에 관여할 수 있는 지 파악하면 됩니다.
 - URL 라우터가 `victim.com/rpo.html`와  `victim.com/rpo.html/`, `victim.com/rpo.html/blah` 에 대해서 동일하게 `rpo.html` 를 내려주는 지 파악하면 됩니다.
-- 위의 경우에서 동일하게 내려주지 않거나, error 발생 시 
 
 ### Exploit
 
