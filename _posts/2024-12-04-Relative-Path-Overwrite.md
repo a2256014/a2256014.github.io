@@ -47,9 +47,11 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 ```
 #### URL 라우터의 동일 Content 응답 시
 이 경우 DOM Clobbering과 연계할 수 있습니다.
-```
-#victim.com/vuln.html
+```HTML
+#victim.com/vuln.html -> victim.com/config.js
+<script src="config.js"></script>
 
+#victim.com/vuln.html/ -> victim.com/vuln.html/config.js
 ```
 
 
