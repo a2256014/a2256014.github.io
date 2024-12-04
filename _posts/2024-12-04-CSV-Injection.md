@@ -26,7 +26,9 @@ Formula Injection 취약점 내 한 종류로 분류되는 CSV Injection은 일�
 
 발생 원리는 DDE(Dynamic Data Exchange)라는 Window 운영체제에서 응용 프로그램 간 데이터 전송을 위해 사용되는 기능이 악의적으로 작동됨에 기반합니다.   
 
-운영체제 명령어를 실행시킬 수 있다는 점에서 위험한 취약점이지만, 조건이 많이 따
+운영체제 명령어를 실행시킬 수 있다는 점에서 위험한 취약점이지만, 많은 조건들이 갖춰져야만 실제 공격이 가능하여 일부 버그바운티 프로그램에서는 잘 받아드려지지 않는 취약점 입니다.
+![](/assets/images/posts/2024-12-04-CSV-Injection/551c0cb564a1e3e7da206410c576583b_MD5.jpeg)
+
 ## Detect & Exploit 
 ### Detect
 사용자 입력 값이 CSV File Download 시 반영되는 지 확인하고, 악성 DDE를 동작시킬 수 있는 특수문자(`-`, `+`, `@`, `=` )가 Cell 가장 앞 부분에 위치할 수 있는 지 확인하면 됩니다.   
