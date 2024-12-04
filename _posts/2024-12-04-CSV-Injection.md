@@ -21,6 +21,8 @@ sidebar:
 >🚨
 >현재는 사용자가 DDE 작동 허용 설정을 하더라도 DDE가 포함된 CSV 파일을 열 때, Excel 경고창이 나타도록 되어있어 사회 공학적 요소도 필요한 공격 방법입니다.
 
+
+
 Formula Injection 취약점 내 한 종류로 분류되는 CSV Injection은 일반적으로 CSV Export 등과 같은 CSV File Download 기능에서 발생됩니다.   
 ☑️간혹 잘못된 로직으로 .xlsx 생성 시에 발생하기도 합니다.   
 
