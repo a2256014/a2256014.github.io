@@ -36,11 +36,11 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 어떤 공격과 연계를 하느냐에 따라 탐지 방법이 여러 개 있을 수 있습니다.
 - 리소스(`<script src>`, `<link href>` 등) 주소에 관여할 수 있는 지 파악하면 됩니다.
 - URL Rewrite가 적용되어 `victim.com/rpo.html`,  `victim.com/rpo.html/` 에 대해서 동일하게 `rpo.html` 를 내려주는 지 파악하면 됩니다.
-- 
+
 
 ### Exploit
 #### 리소스 주소 관여 가능 시
-단순하게 주소에 관여하는 것이 끝이긴 합니다... ㅎㅎ😅
+단순하게 주소에 관여하는 것이 끝이긴 합니다... ㅎㅎ😅  
 ```HTML
 # Path Traversal
 /../../../../vuln.js
@@ -50,8 +50,8 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 ```
 #### URL Rewrite 적용되어 있을 시
 이 경우 DOM Clobbering과 연계할 수 있습니다.
-자체적으로 만든 동결(`freeze()`) 객체에 대해 아래의 방법으로 오류를 발생시켜 해당 객체를 불러오지 못하도록 한다면 DOM Clobbering 공격이 가능해 집니다.
->해당 내용은 추후에 DOM Clobbering 주제로 글 작성 시 이관 예정입니다.
+자체적으로 만든 동결(`freeze()`) 객체에 대해 아래의 방법으로 오류를 발생시켜 해당 객체를 불러오지 못하도록 한다면 DOM Clobbering 공격이 가능해 집니다.   
+>해당 내용은 추후에 DOM Clobbering 주제로 글 작성 시 이관 예정입니다.   
 ```HTML
 #config.js
 window.CONFIG = {
@@ -69,8 +69,7 @@ window.CONFIG = {
 <a id="CONFIG" name="location" href="https://attacker.com or javascript:alert()">2'deps</a>
 ```
 
-추가적으로 하위 경로가 파라미터로 인식되어 브라우저 내에 표기될 시(Content Spoofing / Text Injection) 특정 조건 하에 공격이 가능하다고 합니다.
-> 해당 내용은 더 공부 후 추가해보겠습니다...
+추가적으로 하위 경로가 파라미터로 인식되어 브라우저 내에 표기될 시(Content Spoofing / Text Injection) 특정 조건 하에 공격이 가능하다고 합니다.  
 ```HTML
 victim.com/vuln.html/PAYLOAD 접근 시
 Server : victim.com/vuln.html 를 내려줌
@@ -81,12 +80,11 @@ PAYLOAD가 Error Page or vuln.html에 주입됨
 
 -> 취약점 발생
 ```
-
-#### CSS Injection
+> 어떤식으로 발생된다는 건지는 이해가 안돼서 우선 적기만 하고, 해당 내용은 더 공부 후 추가해보겠습니다...  
 
 ## Security Measures
 
-단순하게 상대경로를 사용하지 않는 것이지만, 추가적으로 `<script src>`, `<link href>` 등 리소스를 불러오는 태그의 주소를 사용자가 임의로 수정하지 못하도록 하는 방안도 있습니다.
+단순하게 상대경로를 사용하지 않는 것이지만, 추가적으로 `<script src>`, `<link href>` 등 리소스를 불러오는 태그의 주소를 사용자가 임의로 수정하지 못하도록 하는 방안도 있습니다.  
 
 ## References
 [Large-Scale Analysis of Style Injection by Relative Path Overwrite](https://dl.acm.org/doi/fullHtml/10.1145/3178876.3186090)   
