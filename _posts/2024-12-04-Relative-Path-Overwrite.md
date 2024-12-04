@@ -38,7 +38,10 @@ Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라
 
 ### Exploit
 #### XSS
-단순하게 `<script>`태그의 src 속성에 관여하여 
+단순하게 `<script>`태그의 src 속성에 관여하여 XSS가 발생할 수 있는 `.js` 를 불러와 주면 됩니다.
+```
+../../../
+```
 
 
 ## Security Measures
