@@ -44,6 +44,8 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 #.js를 업로드할 수 있는 상황에서
 /../../../attacker.js
 ```
+#### RPO Style Attack
+
 
 #### CSS Injection
 
