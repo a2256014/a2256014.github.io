@@ -36,7 +36,7 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 어떤 공격과 연계를 하느냐에 따라 탐지 방법이 여러 개 있을 수 있습니다.
 - 리소스(`<script src>`, `<link href>` 등) 주소에 관여할 수 있는 지 파악하면 됩니다.
 - URL 라우터가 `victim.com/rpo.html`,  `victim.com/rpo.html/` 에 대해서 동일하게 `rpo.html` 를 내려주는 지 파악하면 됩니다.
-- 리소스 주소를 상대 경로로 사용 중인 서비스에 Content spoofing이 가능하다면, 타 취약점과 연계할 수 있습니다.
+- 
 
 ### Exploit
 #### 리소스 주소 관여 가능 시
@@ -48,7 +48,7 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 # Protocol relative URL
 //attacker.com
 ```
-#### **URL Rewrite 적용되어있는 사이트**
+#### URL 라우터의 동일 Content 응답 시
 이 경우 DOM Clobbering과 연계할 수 있습니다.
 자체적으로 만든 동결(`freeze()`) 객체에 대해 아래의 방법으로 오류를 발생시켜 해당 객체를 불러오지 못하도록 한다면 DOM Clobbering 공격이 가능해 집니다.
 >해당 내용은 추후에 DOM Clobbering 주제로 글 작성 시 이관 예정입니다.
@@ -69,8 +69,7 @@ window.CONFIG = {
 <a id="CONFIG" name="location" href="https://attacker.com or javascript:alert()">2'deps</a>
 ```
 
-#### Content Spoofing 가능 시
-이 경우 관여한 리소스가 `<script>`일 경우 XSS, `<link>`일 경우 CSS Injection을 수행할 수 있습니다.
+#### 
 ```HTML
 
 ```
