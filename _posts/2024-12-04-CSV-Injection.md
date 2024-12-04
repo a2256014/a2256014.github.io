@@ -72,4 +72,5 @@ DDE ("cmd";"/C calc";"!A0")A0
 ## References
 [Formula/CSV/Doc/LaTeX/GhostScript Injection](https://book.hacktricks.xyz/pentesting-web/formula-csv-doc-latex-ghostscript-injection)   
 [OWASP-CSV Injection](https://owasp.org/www-community/attacks/CSV_Injection)   
-[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection)
+[PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/CSV%20Injection)   
+[CSV Injection](https://www.hahwul.com/cullinan/csv-injection/)
