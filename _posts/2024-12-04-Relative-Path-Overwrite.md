@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Relative Path Overwrite
-subtitle: new Post Subtitle
+subtitle: RPO 상대 경로 사용 시 사용할 수 있는 기법
 author: g3rm
 categories: 
 banner:
@@ -11,7 +11,6 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold;"
   subheading_style: "color: gold"
 tags:
-  - example
   - markdown
 sidebar:
 ---
