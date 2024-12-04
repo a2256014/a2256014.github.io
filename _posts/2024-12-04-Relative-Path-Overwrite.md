@@ -22,16 +22,10 @@ sidebar:
 ---
 
 ## Intro
-Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라는 공격 기법? 으로 상대 경로로 된 URL을 의도치 않는 
+Relative Path Overwrite(RPO)란 해석 그대로 "상대 경로 덮어쓰기"라는 공격 기법? 으로 상대 경로로 된 URL을 덮어씌워 의도치 않는 경로로 요청하게 하거나, Host를 바꾸는 등의 여러가지 
 
 ## Detect & Exploit 
 
 ## Security Measures
-
-## References
-
-## Summary
-
-## POC
 
 ## References
