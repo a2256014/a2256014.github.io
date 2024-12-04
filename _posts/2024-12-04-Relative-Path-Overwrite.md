@@ -70,7 +70,7 @@ window.CONFIG = {
 ```
 
 #### Content Spoofing 가능 시
-이 경우 XSS
+이 경우 관여한 리소스가 `<script>`일 경우 XSS, `<link>`일 경우 CSS Injection을 수행할 수 있습니다.
 
 #### CSS Injection
 
