@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LaTeX Injection
+title: $ \LaTeX $ Injection
 subtitle: 2년동안 딱 한번 본 케이스....
 author: g3rm
 categories: Web
@@ -11,9 +11,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold;"
   subheading_style: "color: gold"
 tags:
-  - Excel
-  - CSV
-  - DDE
+  - LaTeX
   - Formula_Injection
 sidebar:
 ---
