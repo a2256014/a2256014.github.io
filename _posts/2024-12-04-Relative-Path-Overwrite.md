@@ -50,7 +50,8 @@ RPO는 해당 도메인에서 조작되는 것이기 때문에 `SOP`, `CSP` 등 
 #### URL Rewrite 적용되어 있을 시
 이 경우 DOM Clobbering과 연계할 수 있습니다.
 자체적으로 만든 동결(`freeze()`) 객체에 대해 아래의 방법으로 오류를 발생시켜 해당 객체를 불러오지 못하도록 한다면 DOM Clobbering 공격이 가능해 집니다.   
->해당 내용은 추후에 DOM Clobbering 주제로 글 작성 시 이관 예정입니다.   
+>해당 내용은 추후에 DOM Clobbering 주제로 글 작성 시 이관 예정입니다.
+  
 ```HTML
 #config.js
 window.CONFIG = {
@@ -69,6 +70,7 @@ window.CONFIG = {
 ```
 
 추가적으로 하위 경로가 파라미터로 인식되어 브라우저 내에 표기될 시(Content Spoofing / Text Injection) 특정 조건 하에 공격이 가능하다고 합니다.  
+
 ```HTML
 victim.com/vuln.html/PAYLOAD 접근 시
 Server : victim.com/vuln.html 를 내려줌
@@ -76,7 +78,6 @@ Browser : victim.com/vuln.html/PAYLOAD/victim.css or victim.js 를 가져옴
 
 victim.com/vuln.html/PAYLOAD/victim.css or victim.js 접근 시
 PAYLOAD가 Error Page or vuln.html에 주입됨
-
 -> 취약점 발생
 ```
 > 어떤식으로 발생된다는 건지는 이해가 안돼서 우선 적기만 하고, 해당 내용은 더 공부 후 추가해보겠습니다...  
