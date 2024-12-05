@@ -29,7 +29,7 @@ CSS Injection은 사용자가 `<style>` 태그 혹은 style 속성을 임의로 
 탐지 방법의 경우 XSS와 유사합니다.   
 `<style>` 태그 및 style 속성을 임의로 삽입할 수 있는 지 여부를 살피면 됩니다.
 ### Exploit
-> 🕶️ Clickjacking 목적이라면 부모 태그를 벗어나 페이지 어디에나 위치시킬 수 있는 `position` 속성이 가장 중요합니다.
+> 🕶️ Clickjacking 목적이라면 부모 태그를 벗어나 페이지 어디에나 위치시킬 수 있는 `position` 속성이 가장 중요합니다.   
 > 아래 사진은 만들어낸 사진으로 취약점이라면 해당 사진과 같이 페이지 어느 곳이든 위치할 수 있다는 점을 보여드리기 위한 사진입니다.
 
 ![](/assets/images/posts/2024-12-04-CSS-Injection/CSSInjection_Exam.png)   
