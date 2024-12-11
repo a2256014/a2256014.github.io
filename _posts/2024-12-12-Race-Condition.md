@@ -15,7 +15,7 @@ tags:
 sidebar:
 ---
 ## Intro
-Race Condition은 
+Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자원에 대한 접근 및 수정이 동시에 일어나 의도치 않은 결과
 
 ## Detect & Exploit 
 ### Detect
