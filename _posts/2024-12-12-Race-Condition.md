@@ -19,7 +19,7 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 ![](assets/images/posts/2024-12-12-Race-Condition/4a5981ed1eef80144ef6c9deabb8240b_MD5.jpeg)   
 ## Detect & Exploit 
 ### Detect
-사실 
+사실 진단자 입장에서는 눈으로 확인할 수는 없을 것 같습니다. 제 경험에 의하면 주로 이벤트 참여, 
 
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
