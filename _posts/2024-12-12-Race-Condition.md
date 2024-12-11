@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Race Condition
-subtitle: new Post Subtitle
+subtitle: 다중 쓰레드 혹은 다중 프로세스 간 공유 자원 싸움
 author: g3rm
-categories: 
+categories: Web
 banner:
   image: /assets/images/banners/home.gif
   opacity: 0.618
@@ -11,8 +11,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold;"
   subheading_style: "color: gold"
 tags:
-  - example
-  - markdown
+  - Race_Condition
 sidebar:
 ---
 
@@ -24,9 +23,4 @@ sidebar:
 ## Security Measures
 
 ## References
-
-## Summary
-
-## POC
-
-## References
+[EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)   
