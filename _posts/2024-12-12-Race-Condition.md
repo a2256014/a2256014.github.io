@@ -16,9 +16,9 @@ sidebar:
 ---
 ## Intro
 Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자원에 대한 접근 및 수정을 동시에 해서 한 쪽 결과가 무시 당하거나, 잘못된 결과가 도출되는 취약점입니다.   
-![](Pasted%20image%2020241212013704.png) 
+![](assets/images/posts/2024-12-12-Race-Condition/4a5981ed1eef80144ef6c9deabb8240b_MD5.jpeg)   
 
-
+해당 취약점으로 발생할 수 있는 문제들이 매우 다양하여 
 ## Detect & Exploit 
 ### Detect
 
