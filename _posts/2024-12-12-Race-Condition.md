@@ -24,7 +24,7 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
-
+>해당 취약점으로 발생할 수 있는 문제들이 다양하기에 
 
 ## Security Measures
 ### Thread의 동기화
