@@ -24,6 +24,7 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 >☑️이 경우 코드를 보지 않고 발견하려면 많은 경험에 의한 혹은 Race Condition이 발생한 CVE 등을 본 지식에 의한 감각적인 요소일 것 같습니다. - 아~ 이럴 때 발생할 수 있겠구나🤣    
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
+1. 구매 물품 장바구니 추가 후 패킷 
 
 
 >⚠️ 해당 취약점으로 발생할 수 있는 문제들이 다양하기에 제가 가져온 문제 외 다양한 결과를 도출할 수 있습니다. 하지만, 공격 포인트 자체는 동일합니다.(**동시에 자원에 접근하도록 하는 것**)   
