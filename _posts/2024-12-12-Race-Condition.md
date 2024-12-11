@@ -21,14 +21,14 @@ sidebar:
 ### Detect
 
 ### Exploit
-해당 문제 풀이로 Exploit을 적겠습니다[EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)  
+EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
 
 
 ## Security Measures
 ### Thread의 동기화
 
+
 ### Message 기반 
 
 ## References
 [race-condition](https://www.imperva.com/learn/application-security/race-condition/)   
-[EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)   
