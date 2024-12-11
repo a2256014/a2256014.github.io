@@ -20,7 +20,7 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 ## Detect & Exploit 
 ### Detect
 사실 진단자 입장에서는 눈으로 확인할 수는 없을 것 같습니다. 제 경험에 의하면 주로 복수 이벤트 참여, 비밀번호 오류 횟수 초과 등과 같이 횟수에 의존하는 로직들에서 주로 발생했던 것 같습니다.   
-또는, ㅁ
+또는, 제가 보여드릴 공격 예시 문제와 같이 
 
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
