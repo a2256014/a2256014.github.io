@@ -18,13 +18,15 @@ sidebar:
 Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자원에 대한 접근 및 수정을 동시에 해서 한 쪽 결과가 무시 당하거나, 잘못된 결과가 도출되는 취약점입니다.   
 ![](assets/images/posts/2024-12-12-Race-Condition/4a5981ed1eef80144ef6c9deabb8240b_MD5.jpeg)   
 
-해당 취약점으로 발생할 수 있는 문제들이 매우 다양하여 
+
 ## Detect & Exploit 
 ### Detect
 
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
->해당 취약점으로 발생할 수 있는 문제들이 다양하기에 제가 가져온 문제 외 다양한 결과를 도출할 수 있습니다. 하지만, 공격 포인트 자체는 동일합니다.(**동시에 자원에 접근하도록 하는 것**)
+
+
+>⚠️ 해당 취약점으로 발생할 수 있는 문제들이 다양하기에 제가 가져온 문제 외 다양한 결과를 도출할 수 있습니다. 하지만, 공격 포인트 자체는 동일합니다.(**동시에 자원에 접근하도록 하는 것**)   
 
 ## Security Measures
 ### Thread의 동기화
