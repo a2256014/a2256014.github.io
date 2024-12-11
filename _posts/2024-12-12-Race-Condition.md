@@ -15,7 +15,7 @@ tags:
 sidebar:
 ---
 ## Intro
-
+Race Condition은 
 
 ## Detect & Exploit 
 ### Detect
@@ -31,6 +31,6 @@ EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠�
 ### Message 기반 
 Thread들이 서로 메세지를 주고 받는 통신 구조를 통해 자원 공유를 피하는 방법이 있습니다.   
    
->😅
+>😅보안 대책이 개발쪽과 관련이 깊다 보니 자세히 적지 못한 점 이해 바랍니다.    
 ## References
 [race-condition](https://www.imperva.com/learn/application-security/race-condition/)   
