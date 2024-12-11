@@ -29,7 +29,7 @@ EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠�
 공유 자원에 대한 접근을 제어하여 하나의 Thread만 접근할 수 있도록 해야 합니다.   
 예를 들어 Java의 synchronized와 같은 동기화를 사용하여 공유 자원에 대해서 충돌이 일어나지 않도록 개발하는 것이 좋습니다.    
 ### Message 기반 
-
+Thread들이 서로 메세지를 주고 받는 통신 구조
 
 ## References
 [race-condition](https://www.imperva.com/learn/application-security/race-condition/)   
