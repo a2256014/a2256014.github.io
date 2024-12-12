@@ -25,7 +25,12 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 
 ---
 Exploit에서는 문제를 다룰 예정이라 간략하게 코드에 대한 소개를 하겠습니다.   
-1. 결제 요청 시 장바구니에 있는 물건들의 금액을 더한 값
+1. 결제 요청 시 장바구니에 있는 물건들의 금액을 더한다.   
+	```php
+	# kcp_api_pay.php 10~21 line
+	
+	```   
+
   
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
