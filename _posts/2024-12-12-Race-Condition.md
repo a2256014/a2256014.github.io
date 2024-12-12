@@ -38,7 +38,7 @@ EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠�
 	```   
 
 ---
->☑️공격 포
+>☑️KCP에 결제한 금액과 쇼핑몰 DB에 저장되는 금액의 차이를
 1. 구매 물품 장바구니 추가 후 장바구니 추가 패킷을 리피터에 저장한다.
 	![](/assets/images/posts/2024-12-12-Race-Condition/abbd4cd8a2790f05041e52d132838f75_MD5.jpeg)   
 
