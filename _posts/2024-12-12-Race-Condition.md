@@ -32,11 +32,13 @@ Exploit에서는 문제를 다룰 예정이라 간략하게 코드에 대한 소
 	```   
 2. 결제 방법에 따른 결제를 한 뒤 쇼핑몰 업체는 자신의 DB에 유저가 산 물건에 대한 정보를 장바구니에서 얻는다
 	```php
-	
-	```
+	# kcp_api_pay.php 249 line (RACE CONDITION POINT)
+	 $stmt = $conn->prepare("UPDATE payments SET pay_method = ?, tno = ?, amount = (SELECT sum(good_mny) FROM orders WHERE buyr_name = ? ) WHERE buyr_name = ? ");
+	```   
   
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
+
 1. 구매 물품 장바구니 추가 후 패킷 리피터에 저장
 	![](/assets/images/posts/2024-12-12-Race-Condition/abbd4cd8a2790f05041e52d132838f75_MD5.jpeg)   
 
