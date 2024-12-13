@@ -89,7 +89,8 @@ EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠�
 ---
 
 단순하게 결제 서비스를 통해 결제가 끝난 후 **결제를 확인하는 패킷**과 **장바구니에 물건을 담는 패킷**을 동시에 보내면 됩니다.   
->⚠️ php의 경우 session을 파일로 관리하기에 해당 파일에 대한 Race conditiophplock
+
+>⚠️ php의 경우 session을 파일로 관리하기에 해당 파일에 대한 Race condition을 막기 위해 phplock이 존재합니다. 따라서 세션을 두 개 발급 받아서 사용하셔야 됩니다.   
 
 1. 10원으로 결제가 완료된 모습
 	![](/assets/images/posts/2024-12-12-Race-Condition/866c4291afd09a5d4f81ea8ff56a35ee_MD5.jpeg)   
