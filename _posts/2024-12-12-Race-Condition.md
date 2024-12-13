@@ -18,7 +18,9 @@ sidebar:
 Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자원에 대한 접근 및 수정을 동시에 해서 한 쪽 결과가 무시 당하거나, 잘못된 결과가 도출되는 취약점입니다.   
 ![](assets/images/posts/2024-12-12-Race-Condition/4a5981ed1eef80144ef6c9deabb8240b_MD5.jpeg)   
 
-
+### 공격 원리
+#### HTTP/1 - Last-Byte Sync
+HTTP/1의 경우 
 
 ## Detect & Exploit 
 ### Detect
