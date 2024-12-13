@@ -32,7 +32,7 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 ![](/assets/images/posts/2024-12-12-Race-Condition/26b41a0d3526c8f0ed4d6f98e64db2c6_MD5.jpeg)   
 
    
->☑️Race Condition은 제가 설명한 부분 외 자원에 동시에 접근하면 발생하기에 수많은 취약점을 도출할 수 있습니다. 물론 이것을 발견하는 건 감각적인 요소일 것 같습니다. - 뭔가 동시에 접근하는 로직일 거 같은데....?🤣    
+>☑️Race Condition은 제가 설명한 부분 외 자원에 동시에 접근하면 발생하기에 수많은 취약점을 도출할 수 있습니다. 물론 이것을 실제 상황에서 발견하는 건 감각적인 요소일 것 같습니다. - 뭔가 동시에 접근하는 로직일 거 같은데....?🤣    
 
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
