@@ -20,7 +20,9 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 
 ### 공격 원리
 #### HTTP/1 - Last-Byte Sync
-HTTP/1의 경우 
+HTTP/1의 경우 HTTP
+
+![](/assets/images/posts/2024-12-12-Race-Condition/637bb68e80eecd3651050e9413eb5300_MD5.jpeg)
 
 #### HTTP/2 - Single Packet Attack
 
