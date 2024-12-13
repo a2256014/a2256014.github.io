@@ -25,7 +25,9 @@ HTTP/1의 경우 HTTP 요청이 완료 되어야 서버에서 요청을 처리�
 
 #### HTTP/2 - Single Packet Attack
 HTTP/2의 경우 하나의 패킷에 여러 개의 요청을 전송할 수 있기 때문에 아래와 같은 모습으로 한번에 요청을 보내버립니다.😄   
->HTTP/2가 HTTP/1보다 Race Condition을 더 잘 구현할 수 있게됩니다. 
+
+>☑️한번에 요청을 보내기 때문에 시간 차이가 짧아 HTTP/2가 HTTP/1보다 Race Condition을 더 잘 구현할 수 있게됩니다.    
+
 ![](/assets/images/posts/2024-12-12-Race-Condition/f4a02b5957531e299cb0525831491fc9_MD5.jpeg)
 
 ## Detect & Exploit 
@@ -34,6 +36,7 @@ HTTP/2의 경우 하나의 패킷에 여러 개의 요청을 전송할 수 있�
 로그인 실패 횟수 제한, 일회성 할인 코드, reCAPTCHA 등 횟수 제한이 있는 로직의 경우 Race Condition을 시도할 Race Window가 존재할 가능성이 있습니다. - [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988) 사용    
 
 #### Single End Point
+비밀번호 초기화, 이메일 인증 등과 같은 
 
 #### Multi End Point
 가령 쇼핑몰과 같은 서비스가 있고 해당 서비스의 구매 로직이 `지불확인` -> `장바구니 확인` 순서로 이루어져 있다면, 해당 과정 사이에 Race Window가 발생합니다.    
