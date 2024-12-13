@@ -25,10 +25,14 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 #### reCAPTCHA
 reCAPTCHA를 사용하고 있다면 Race Condition을 통해 하나의 reCAPTCHA에 여러번의 요청을 수행시킬 수 있습니다. - [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988) 사용    
 
+#### Limit overrun
+로그인 횟수
+
 #### Single End Point
 
 #### Multi End Point
-가령 쇼핑몰과 같은 서비스가 있고 해당 서비스의 구매 로직이 `지불확인` -> `장바구니 확인` 순서로 이루어져 있다면, 해당 과정 사이에 Race Window가 발생합니다.
+가령 쇼핑몰과 같은 서비스가 있고 해당 서비스의 구매 로직이 `지불확인` -> `장바구니 확인` 순서로 이루어져 있다면, 해당 과정 사이에 Race Window가 발생합니다.    
+![](/assets/images/posts/2024-12-12-Race-Condition/26b41a0d3526c8f0ed4d6f98e64db2c6_MD5.jpeg)   
 
    
 >☑️Race Condition은 제가 설명한 부분 외 자원에 동시에 접근하면 발생하기에 수많은 취약점을 도출할 수 있습니다. 물론 이것을 발견하는 건 감각적인 요소일 것 같습니다. - 뭔가 동시에 접근하는 로직일 거 같은데....?🤣    
