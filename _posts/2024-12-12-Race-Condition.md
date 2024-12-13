@@ -24,7 +24,8 @@ HTTP/1의 경우 HTTP 요청이 완료 되어야 서버에서 요청을 처리�
 ![](/assets/images/posts/2024-12-12-Race-Condition/637bb68e80eecd3651050e9413eb5300_MD5.jpeg)   
 
 #### HTTP/2 - Single Packet Attack
-
+HTTP/2의 경우 하나의 패킷에 여러 개의 요청을 전송할 수 있기 때문에 아래와 같은 모습으로 한번에 요청을 
+![](assets/images/posts/2024-12-12-Race-Condition/f4a02b5957531e299cb0525831491fc9_MD5.jpeg)
 
 ## Detect & Exploit 
 ### Detect
