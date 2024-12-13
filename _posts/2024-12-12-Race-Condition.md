@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Race Condition
-subtitle: 다중 쓰레드 혹은 다중 프로세스 간 공유 자원 싸움
+subtitle: 다중 쓰레드 혹은 프로세스 간 공유 자원 싸움
 author: g3rm
 categories: Web
 banner:
@@ -12,6 +12,8 @@ banner:
   subheading_style: "color: gold"
 tags:
   - Race_Condition
+  - Last-Byte_Sync
+  - Single_Packet_Attack
 sidebar:
 ---
 ## Intro
