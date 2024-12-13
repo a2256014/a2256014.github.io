@@ -22,11 +22,11 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 
 ## Detect & Exploit 
 ### Detect
+#### Limit overrun
+로그인 실패 횟수 제한, 일회성 할인 코드, reCAPTCHA 등 횟수 제한이 있는 로직의 경우 Race Condition 
+
 #### reCAPTCHA
 reCAPTCHA를 사용하고 있다면 Race Condition을 통해 하나의 reCAPTCHA에 여러번의 요청을 수행시킬 수 있습니다. - [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988) 사용    
-
-#### Limit overrun
-로그인 실패 횟수 제한, 일회성 할인 코드 
 
 #### Single End Point
 
