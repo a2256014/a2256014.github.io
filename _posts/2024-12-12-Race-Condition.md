@@ -83,9 +83,9 @@ EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠�
 	 $stmt = $conn->prepare("UPDATE payments SET pay_method = ?, tno = ?, amount = (SELECT sum(good_mny) FROM orders WHERE buyr_name = ? ) WHERE buyr_name = ? ");
 	```   
 
----
 >☑️결제 시 KCP와 쇼핑몰에서 각각 장바구니를 조회하여 저장하는 로직인데, 여기서 공격 포인트가 생성됩니다.    
 
+---
 
 
 
