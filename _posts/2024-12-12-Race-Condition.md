@@ -24,7 +24,7 @@ Race Condition은 다중 프로세스 혹은 쓰레드가 하나의 공유 자�
 ### Detect
 
    
->☑️코드를 보지 않고 발견하려면 많은 경험에 의한 혹은 Race Condition이 발생한 CVE 등을 본 지식에 의한 감각적인 요소일 것 같습니다. - 아~ 이럴 때 발생할 수 있겠구나🤣    
+>☑️Race Condition은 제가 설명한 부분 외 자원에 동시에 접근하면 발생하기에 수많은 취약점을 도출할 수 있습니다 감각적인 요소일 것 같습니다. - 아~ 이럴 때 발생할 수 있겠구나🤣    
 
 ### Exploit
 EQSTLab에 좋은 문제가 있어서 해당 문제 풀이로 Exploit을 적겠습니다 - [EQSTLab Race_Condition](https://github.com/EQSTLab/Race_Condition)     
