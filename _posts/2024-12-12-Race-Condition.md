@@ -39,12 +39,20 @@ HTTP/2의 경우 하나의 패킷에 여러 개의 요청을 전송할 수 있�
 비밀번호 초기화, 이메일 인증 등과 같은 기능에서 발생할 수 있고, 해당 기능이 비정상적으로 빠르다면 Race Window가 존재할 가능성이 있습니다.   
 
 그 이유는 만약에 이메일 인증의 경우 해당 이메일에 인증 코드가 담긴 메일을 보내게 되는데, 이러한 과정이 비정상적으로 빠르다면 이메일 인증 요청(패킷)을 처리하는 스레드와 메일을 보내는 스레드가 다르다는 것을 유추할 수 있기 때문입니다.   
-```HTTP
 
+예를 들어 아래
+```
+# single packet 1
 POST /email-auth HTTP/2
 Host: victim.com
 
 email=g3rm@attacker.com
+
+# single packet 2
+POST /email-auth HTTP/2
+Host: victim.com
+
+email=g3rm@victim.com
 ```   
 
 #### Multi End Point
