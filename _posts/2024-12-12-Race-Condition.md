@@ -36,7 +36,7 @@ HTTP/2의 경우 하나의 패킷에 여러 개의 요청을 전송할 수 있�
 로그인 실패 횟수 제한, 일회성 할인 코드, reCAPTCHA 등 횟수 제한이 있는 로직의 경우 Race Condition을 시도할 Race Window가 존재할 가능성이 있습니다. - [Turbo Intruder](https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988) 사용    
 
 #### Single End Point
-비밀번호 초기화, 이메일 인증 등과 같은 기능에서 
+비밀번호 초기화, 이메일 인증 등과 같은 기능에서 발생할 수 있고, 해당 기능이 비정상적으로 빠르다면 Race Condition이 발생할 수 있는 탐지
 
 #### Multi End Point
 가령 쇼핑몰과 같은 서비스가 있고 해당 서비스의 구매 로직이 `지불확인` -> `장바구니 확인` 순서로 이루어져 있다면, 해당 과정 사이에 Race Window가 발생할 수 있게 됩니다.    
