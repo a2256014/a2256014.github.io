@@ -1,6 +1,6 @@
 ---
 layout: post
-title: React Native
+title: "[Dev] React Native"
 subtitle: React Native 분석을 위한 개발
 author: g3rm
 categories: Dev
@@ -19,3 +19,4 @@ sidebar:
 
 
 ## Intro
+최근 React Native 앱을 진단하게 되었는데, Java나 Kt(코틀린)으로 개발한 앱과는 분석 방법이 다른 것 같아 스스로 개발해서 
