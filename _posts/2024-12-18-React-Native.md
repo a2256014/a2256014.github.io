@@ -38,6 +38,9 @@ npm install -g @react-native-community/cli
 ### 프로젝트 생성 및 실행
 ```cmd
 npx @react-native-community/cli init Sectest_App
+
+cd Sectest_App
+npx react-native run-android
 ```
 
 
