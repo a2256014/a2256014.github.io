@@ -1,9 +1,9 @@
 ---
 layout: post
-title: React Native 분석을 위한 개발
-subtitle: new Post Subtitle
+title: React Native
+subtitle: React Native 분석을 위한 개발
 author: g3rm
-categories: 
+categories: Dev
 banner:
   image: /assets/images/banners/home.gif
   opacity: 0.618
@@ -11,22 +11,11 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold;"
   subheading_style: "color: gold"
 tags:
-  - example
-  - markdown
+  - React-Native
+  - Hermes
+  - React-Native-CLI
 sidebar:
 ---
 
 
 ## Intro
-
-## Detect & Exploit 
-
-## Security Measures
-
-## References
-
-## Summary
-
-## POC
-
-## References
