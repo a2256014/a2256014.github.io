@@ -23,13 +23,18 @@ sidebar:
 
 ## Env
 - Node.js 설치
+- Python 설치
 - JDK 설치
 - Android Studio 설치
 
-위 3가지는 준비가 되어 있어서 생략하겠습니다 ㅎㅎ...😅   
+위 4가지는 준비가 되어 있어서 생략하겠습니다 ㅎㅎ...😅   
 
-- React Native CLI 설치
-```
-```
+- React Native CLI 설치   
+```CMD
+npm install -g react-native-cli
+```   
+
+## Start
+
 
 ## References
