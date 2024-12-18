@@ -41,9 +41,9 @@ npx @react-native-community/cli init Sectest_App
 
 cd Sectest_App
 npx react-native run-android
-```
+```   
 
 > ⚠️ Error resolving plugin [id: 'com.facebook.react.settings'] 발생 시
-> https://seung-yo.tistory.com/entry/RN-Error-resolving-plugin-id-comfacebookreactsettings-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0 참고
+> https://seung-yo.tistory.com/entry/RN-Error-resolving-plugin-id-comfacebookreactsettings-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0 참고   
 
 ## References
