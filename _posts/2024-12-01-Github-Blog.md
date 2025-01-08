@@ -45,6 +45,7 @@ gem "jekyll-theme-yat"
 ~~~Shell
 $ cd ~/Obsidian_Vault/Git_Blog_Vault
 $ bundle
+$ bundle install
 $ bundle exec jekyll serve
 ~~~
 1. http://127,0.0.1:4000 접속해보기
