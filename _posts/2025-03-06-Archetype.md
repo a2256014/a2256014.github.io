@@ -30,5 +30,5 @@ nmap -sC -sV -Pn -oN Archetype 10.129.68.227
 crackmapexec smb 10.129.68.227 -u 'guest' -p '' --shares
 crackmapexec smb 10.129.68.227 -u 'guest' -p '' --spider backups --regex .
 
-smbclient \\\\10.129.68.227\backups -u 'guest' --password=
+smbclient \\\\10.129.68.227\\backups -U 'guest' --password=''
 ```
