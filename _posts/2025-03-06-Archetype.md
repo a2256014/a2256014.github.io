@@ -31,4 +31,6 @@ crackmapexec smb 10.129.68.227 -u 'guest' -p '' --shares
 crackmapexec smb 10.129.68.227 -u 'guest' -p '' --spider backups --regex .
 
 smbclient \\\\10.129.68.227\\backups -U 'guest' --password=''
+get prod.dtsConfig
+cat prod.dtsConfig
 ```
