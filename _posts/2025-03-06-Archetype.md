@@ -26,3 +26,7 @@ nmap -sC -sV -Pn -oN Archetype 10.129.68.227
 ```
 ![](assets/images/posts/2025-03-06-Archetype/1e4da9b4abb6d6341988fa1a18d32841_MD5.jpeg)
 ### SMB Enum (Guest Auth)
+```bash
+crackmapexec smb 10.129.68.227 -u 'guest' -p '' --shares
+crackmapexec smb 10.129.68.227 -u 'guest' -p '' --shares
+```
