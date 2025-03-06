@@ -28,5 +28,7 @@ nmap -sC -sV -Pn -oN Archetype 10.129.68.227
 ### SMB Enum (Guest Auth)
 ```bash
 crackmapexec smb 10.129.68.227 -u 'guest' -p '' --shares
-crackmapexec smb 10.129.68.227 -u 'guest' -p '' --shares
+crackmapexec smb 10.129.68.227 -u 'guest' -p '' --spider backups --regex .
+
+smbclient \\\\10.129.68.227\backups -u 'guest' --password=
 ```
