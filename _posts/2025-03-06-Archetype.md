@@ -3,7 +3,7 @@ layout: post
 title: HackTheBox Archetype
 subtitle: StartingPoint Archetype Exam WriteUp
 author: g3rm
-categories: 
+categories: HTB
 banner:
   image: /assets/images/banners/home.gif
   opacity: 0.618
@@ -13,6 +13,7 @@ banner:
 tags:
   - HTB
   - WriteUp
+  - AD
 sidebar:
 ---
 
