@@ -30,7 +30,10 @@ nmap -sC -sV -Pn -oN Archetype 10.129.68.227
 crackmapexec smb 10.129.68.227 -u 'guest' -p '' --shares
 crackmapexec smb 10.129.68.227 -u 'guest' -p '' --spider backups --regex .
 
+# ARCHETYPE\sql_svc : M3g4c0rp123
 smbclient \\\\10.129.68.227\\backups -U 'guest' --password=''
 get prod.dtsConfig
 cat prod.dtsConfig
 ```
+
+![](assets/images/posts/2025-03-06-Archetype/d16001211c17989921ca9d7924123219_MD5.jpeg)![](assets/images/posts/2025-03-06-Archetype/2b3979fe8f0430bac8990e09ff6483da_MD5.jpeg)
