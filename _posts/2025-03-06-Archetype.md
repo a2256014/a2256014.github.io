@@ -15,6 +15,7 @@ tags:
   - WriteUp
   - AD
   - OSCP
+  - MSSql_RCE
 sidebar:
 ---
 ## Summary
