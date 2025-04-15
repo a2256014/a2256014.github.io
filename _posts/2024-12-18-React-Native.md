@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Dev] React Native"
+title: "[Dev] React Native - 추후 다시 진행"
 subtitle: React Native 분석을 위한 개발
 author: g3rm
 categories: Dev
