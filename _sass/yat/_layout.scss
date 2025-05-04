@@ -451,6 +451,8 @@ html {
       @include media-query($on-laptop) {
         @include relative-font-size(1.375);
       }
+
+      color: #ccc4ff;
     }
 
     h4 {
