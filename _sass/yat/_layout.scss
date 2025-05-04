@@ -459,6 +459,8 @@ html {
       @include media-query($on-laptop) {
         @include relative-font-size(1.125);
       }
+
+      color: #83aee0;
     }
 
     img, svg, iframe {
