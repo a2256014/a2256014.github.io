@@ -73,3 +73,7 @@ PCB에 사용되는 IC는 아래와 같은 것들이 있다.
 
 따라서, RAM을 집중적으로 봐야한다. 
 
+#### Processor
+> ARM 기반의 STM32F0 시리즈 프로세서는 Fault Injection 공격에 취약하며, 실제 PoC 및 환경 구축이 상세히 나와있다. ([링크](https://www.aisec.fraunhofer.de/en/FirmwareProtection.html)) 위 공격을 통해 RDP(ReaDout Protection) 값이 2로 설정되어 펌웨어 읽기가 불가능한 칩을 읽을 수 있다.
+
+Flash Memory -> RAM -> Processor 순으로 저
