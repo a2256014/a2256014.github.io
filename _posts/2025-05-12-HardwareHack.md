@@ -51,4 +51,6 @@ PCB 구조는 하나의 건물로 비유할 수 있는데, 오른쪽에서 TopLa
 > PCB 층간 통신은 작은 구멍과 큰 구멍으로 나와있는 곳을 통해 통신을 진행한다. 작은홀의 경우 **비아홀(Via Hole)** 이 사용되며, 큰 홀의 경우 **PTH(Plated-Through-Hole)** 와 **NPTH(Non-Plated-Through-Hole)** 가 있다.
 
 ### IC
-IC는 **집적 회로(Integrated Circuit)** 를 의미
+- http://www.visual6502.org/sim/varm/armgl.html - ARM
+
+IC는 **집적 회로(Integrated Circuit)** 를 의미하며, PCB에 들어가는 칩들이다.
