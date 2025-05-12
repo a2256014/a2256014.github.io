@@ -79,3 +79,4 @@ PCB에 사용되는 IC는 아래와 같은 것들이 있다.
 Flash Memory -> RAM -> Processor 순으로 이동하면서 마지막 Processor에서는 RAM에 담긴 명령어를 실행하는 역할을 한다.
 
 #### IC 패키징
+CPU
