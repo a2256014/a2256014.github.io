@@ -208,12 +208,14 @@ md 0x80600000 200000
 ### JTAG
 PCB를 제작 했을 때, 이상이 없는 지 검증하기 위해 만든 인터페이스로 사용자가 칩의 모든 핀을 조작할 수 있게 지원한다.
 
-#### 연결
+JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)** 이라고 부른다.
 - TDO (Test Data Out): 출력핀
 - TDI (Test Data In): 입력핀
 - TCLK (Test Clock): 클럭핀
 - TMS (Test Mode Select): 모드 선택 핀
-- TRST (Test Reset): 리셋핀, 이 핀은 선택적으로 포함될 수 있습니다.
+- TRST (Test Reset): 리셋핀 [선택 포함]
+#### 연결
+
 
 ## 하드웨어 해킹
 
