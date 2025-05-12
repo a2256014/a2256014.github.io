@@ -135,9 +135,8 @@ IC에 대한 모든 사양 및 기능을 세부적으로 제공한 것으로 아
 
 ### 디버깅 장비
 - Logic Analyzer - USB Logic Analyzer 24mhz / 8 channel - UART 연결, Timing Attack 실습
-  이전에 실습을 진행한 라즈베리파이와 컴퓨터의 UART 통신을 중간에서 읽어보도록 하겠습니다. 먼저 신호를 잡으려면 컴퓨터에 소프트웨어 설치를 해야 합니다. Logic Analyzer의 신호를 잡는데 사용할 수 있는 소프트웨어는 `Saleae Logic Analyzer`([링크](https://www.saleae.com/downloads/))와 `Sigrok PulseView`([링크](https://sigrok.org/wiki/Downloads))를 사용할 수 있습니다.
-  강의에서는 **Windows 10** 환경으로 `Saleae Logic Analyzer`를 사용ㅎ 각 [OS 별 드라이버 설치](https://support.saleae.com/logic-software/driver-install)와 [기기 연결 확인](https://support.saleae.com/troubleshooting/pc-detection-test)은 링크를 통해 확인
-  
+  라즈베리파이와 컴퓨터의 UART 통신을 중간에서 읽기위해서 먼저 신호를 잡으려면 컴퓨터에 소프트웨어 설치를 해야한다. Logic Analyzer의 신호를 잡는데 사용할 수 있는 소프트웨어는 `Saleae Logic Analyzer`([링크](https://www.saleae.com/downloads/))와 `Sigrok PulseView`([링크](https://sigrok.org/wiki/Downloads))를 사용할 수 있습니다.
+  **Windows 10** 환경으로 `Saleae Logic Analyzer`를 사용하며, 각 [OS 별 드라이버 설치](https://support.saleae.com/logic-software/driver-install)와 [기기 연결 확인](https://support.saleae.com/troubleshooting/pc-detection-test)은 링크를 통해 확인
 - USB to UART 케이블 - PL2303TA usb to ttl 시리얼 케이블 - UART 연결
 - 테스트 후크 클립 - Cleqee P1512D 테스트 후크 클립(해외) - UART 연결, Flash memory 읽기
 - JTAG 디버거 - J-Link V9 - JTAG 연결
