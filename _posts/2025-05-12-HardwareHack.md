@@ -191,7 +191,13 @@ IC에 대한 모든 사양 및 기능을 세부적으로 제공한 것으로 아
 3. 기기 켜기
 4. 커널이 메모리에 로드 되기 전, 테스트 후크 클립과 연결된 점퍼선을 GND에 갖다 대기
 5. CRC 검증 실패 후 `boot command line interface` 접속
-6. 
+6. 명령어를 통해 Flash Memory 데이터 덤프
+```shell
+sf probe
+sf read 0x80600000 0 0x800000
+md 0x80600000
+md 0x80600000 200000
+```
 
 ### Appendix
 
