@@ -223,6 +223,8 @@ JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)*
 
 > 실습 장비 부재로 추후에 실습하게 되면 추가 블로깅 진행.....
 
+대충은 모드
+
 ## 하드웨어 해킹
 
 ### Fault Injection [Voltage Glitching]
