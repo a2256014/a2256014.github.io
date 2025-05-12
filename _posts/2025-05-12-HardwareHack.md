@@ -18,3 +18,6 @@ sidebar:
 
 
 ## Intro
+하드웨어 해킹이란, 아래와 같이 PCB(인쇄 회로 기판)을 분석하고 
+
+![](assets/images/posts/2025-05-12-HardwareHack/d7b29c2c03f20089dbcd02a80f887446_MD5.jpeg)
