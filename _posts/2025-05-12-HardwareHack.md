@@ -39,6 +39,7 @@ sidebar:
 
 ### PCB 구조
 
-PCB 설계는 EasyEDA, KiCAD 등 여러 소프트웨어를 사용
+PCB를 제작하려면 먼저 설계 과정이 필요하며, PCB 설계는 EasyEDA, KiCAD 등 여러 소프트웨어를 사용한다.
+
 
 ### IC
