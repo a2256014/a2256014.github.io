@@ -109,8 +109,9 @@ IC에 대한 모든 사양 및 기능을 세부적으로 제공한 것으로 아
 이는 U 혹은 V자로 칩의 중앙에 파여있는 **Notch** 혹은 1번 핀에 있는 작은 구멍인 **dot**을 기준으로 번호를 매긴다.
 ![](/assets/images/posts/2025-05-12-HardwareHack/38eabedfe23613bab87eaea9187a4a8c_MD5.jpeg)
 ## 필요 장비
-### 납땜 준비물
+> ㅅ
 
+### 납땜 준비물
 - 인두기 - 하코 FX-888D - UART 연결, JTAG 연결, eMMC 읽기
 - 인두기 스탠드 - 하코 FX-888D 스탠드 - 인두기 사용 시 필요
 - 펜 플럭스 - [SME] 펜 플럭스 (유연납용) - 납땜 시 필요, 디솔더링 시 필요
@@ -124,69 +125,39 @@ IC에 대한 모든 사양 및 기능을 세부적으로 제공한 것으로 아
 - Solder Paste - XeredEx Solder Paste 50g(솔더링 페이스트와 구분 중요) - eMMC 읽기
 
 ### 보드
-
 - 아두이노 우노 - 아두이노 우노 - Voltage Glitching 실습, Timing Attack 실습
 - 라즈베리파이 4B - 라즈베리파이 4B - JTAG 연결, Flash memory 읽기, Voltage Glitching 실습
 - 라즈베리파이 3B+ - 라즈베리파이 3B+ - JTAG 연결
 
 ### 디솔더링 장비
-
 - 열풍기 - 스탠리 열풍기 STEL670 - Flash memory 읽기, eMMC 읽기, 디솔더링 시 필요
-    
 - 핀셋 - ESD 코팅 정전기 방지 핀셋 - Voltage Glitching 실습, Timing Attack 실습, Flash memory 읽기, eMMC 읽기, 디솔더링 시 필요
-    
 
 ### 디버깅 장비
-
 - Logic Analyzer - USB Logic Analyzer 24mhz / 8 channel - UART 연결, Timing Attack 실습
-    
 - USB to UART 케이블 - PL2303TA usb to ttl 시리얼 케이블 - UART 연결
-    
 - 테스트 후크 클립 - Cleqee P1512D 테스트 후크 클립(해외) - UART 연결, Flash memory 읽기
-    
 - JTAG 디버거 - J-Link V9 - JTAG 연결
-    
 - 메모리 프로그래머 - Xgecu TL866II Plus 프로그래머 - Flash memory 읽기
-    
 - TSOP 48 소켓 - TL8666II Plus TSOP 48 소켓 - Flash memory 읽기
-    
 
 ### 메모리 관련 준비물
-
 - eMMC 메모리가 붙어있는 아무 보드 - eMMC 메모리(`KLM4G1FETE-B041`) - eMMC 읽기
-    
 - eMMC 모듈 리더 보드 - 하드커널 eMMC Module Reader Board for OS upgrade - eMMC 읽기
-    
 - eMMC 모듈 - 하드커널 8GB eMMC Module C2 Linux - eMMC 읽기
-    
 - NOR Flash 메모리가 붙어있는 아무 보드 - NOR Flash 메모리 - Flash memory 읽기
-    
 - NAND Flash 메모리가 붙어있는 아무 보드 - NAND Flash 메모리 - Flash memory 읽기
-    
 
 ### 회로 준비물
-
 - 브레드보드 - 브레드보드 - Voltage Glitching 실습, Timing Attack 실습
-    
 - NPN 트랜지스터 - 2N2222A 트랜지스터 - Voltage Glitching 실습
-    
 - 점퍼선(암-암, 암-수, 수-수) - 브레드보드 점퍼선 - UART 읽기, JTAG 읽기, Voltage Glitching 실습, Timing Attack 실습
-    
 - 4.7K옴 저항기 - 4.7K옴 저항기 - Voltage Glitching 실습
-    
-
 ### 기타 준비물
-
 - 핀헤더 - 핀헤더 - UART 읽기
-    
 - 장갑 - 3M 슈퍼그립 - 납땜 및 모든 작업 시 필요
-    
 - 드라이버 - 샤오미 미지아 정밀 드라이버 세트 - 장비 분해 시 필요
-    
 - 니퍼 - 니퍼 - 장비 분해 시 필요
-    
 - 멀티미터 - 플루크 FLUKE-101 - UART 읽기, eMMC 읽기
-    
 - 내열 실리콘 작업 패드 - COMS 내열 실리콘 작업 패드 - 디솔더링 시 필요
-    
 - SD 카드 리더기 - 트랜센드 TS-RDF5 USB3.1 카드리더기 - eMMC 읽기
