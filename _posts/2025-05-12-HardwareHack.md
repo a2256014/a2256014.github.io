@@ -93,6 +93,8 @@ CPU 밑을 보면 수많은 핀(PIN)이 달려있는데, 이를 통해 외부와
 - QFN 패키징
 
 #### DataSheet
+> 칩의 어떤 핀이 어떤 역할을 하는지 알기 위해서는 해당 데이터시트를 참고해야 하지만, 너무 길다. [링크](https://pdf1.alldatasheet.co.kr/datasheet-pdf/view/1243792/WINBOND/W25Q128JV.html)에서 **Winbond W25Q128JV** 칩의 경우 47쪽에 있는 `Read Manufacturer / Device ID (90h)`, 0x90 명령어를 보내 디바이스 ID를 읽을 수 있다.
+
 IC에 대한 모든 사양 및 기능을 세부적으로 제공한 것으로 아래와 같은 정보들이 있다.
 - 플래시 메모리의 용량 및 지원하는 인터페이스
 - IC 패키지 종류와 핀 간격, 칩 크기, 각 핀의 역할
