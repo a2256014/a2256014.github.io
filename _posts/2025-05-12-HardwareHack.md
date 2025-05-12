@@ -215,7 +215,7 @@ JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)*
 - TMS (Test Mode Select): 모드 선택 핀
 - TRST (Test Reset): 리셋핀 [선택 포함]
 #### 연결
-
+`타겟 보드(JTAG 인터페이스 존재) → 연결 보드(JTAG 인터페이스 존재) → 컴퓨터` 순으로 연결을 진행한다.
 
 ## 하드웨어 해킹
 
