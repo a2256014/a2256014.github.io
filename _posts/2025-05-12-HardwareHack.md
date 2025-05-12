@@ -45,6 +45,7 @@ PCB를 제작하려면 먼저 설계 과정이 필요하며, PCB 설계는 EasyE
 ![](assets/images/posts/2025-05-12-HardwareHack/3503c5197c741fa29c82f55435ccaf2d_MD5.jpeg)
 
 2. PCB안에 설계한 회로를 넣고 배선한다.
+PCB 구조는 하나의 건물로 비유할 수 있는데, 오른쪽에서 TopLayer, BottomLayer, TopSilkLayer를 선택할 수 있는데, **TopLayer**의 경우 건물의 맨 꼭대기 층 내부에 있는 회로들입니다. 그리고 **BottomLayer**는 건물의 맨 아래층 내부에 있는 회로들입니다. **TopSilkLayer**는 건물의 외벽이다.
 ![](assets/images/posts/2025-05-12-HardwareHack/b88e7e8b199ac6af0e385423b9e8a110_MD5.jpeg)
 
 3. 
