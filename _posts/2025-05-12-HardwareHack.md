@@ -35,4 +35,4 @@ sidebar:
 
 > 저항기, 축전기, 유도자, 발진기, 트랜지스터, 다이오드 등 다양한 하드웨어 부품들에 대해서도 간략하게 인지하자.
 
-**Printed Circuit Board (PCB)**는 
+**Printed Circuit Board (PCB)** 는 회로가 인쇄되어 있는 보드로
