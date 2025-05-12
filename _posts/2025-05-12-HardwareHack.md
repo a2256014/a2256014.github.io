@@ -207,3 +207,9 @@ md 0x80600000 200000
 
 ### JTAG
 PCB를 제작 했을 때, 이상이 없는 지 검증하기 위해 만든 인터페이스
+
+## 하드웨어 해킹
+
+### Fault Injection
+
+### Side Channel Attack
