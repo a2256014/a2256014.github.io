@@ -62,3 +62,5 @@ PCB에 사용되는 IC는 아래와 같은 것들이 있다.
 ![출처 - 드림핵](/assets/images/posts/2025-05-12-HardwareHack/1477ddd7ffdab4bfcf127021fbf43e26_MD5.jpeg)
 
 #### Flash Memory
+데이터를 저장하는 비휘발성 메모리로 **펌웨어** 가 저장된다.
+
