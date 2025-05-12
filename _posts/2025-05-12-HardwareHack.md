@@ -206,10 +206,10 @@ md 0x80600000 200000
 - 전압 레벨과 풀업, 풀다운 저항
 
 ### JTAG
-PCB를 제작 했을 때, 이상이 없는 지 검증하기 위해 만든 인터페이스
+PCB를 제작 했을 때, 이상이 없는 지 검증하기 위해 만든 인터페이스 
 
 ## 하드웨어 해킹
 
-### Fault Injection
+### Fault Injection [Voltage Glitching]
 
-### Side Channel Attack
+### Side Channel Attack [Timing Attack]
