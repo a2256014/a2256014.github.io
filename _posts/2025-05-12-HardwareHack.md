@@ -41,7 +41,13 @@ sidebar:
 
 PCB를 제작하려면 먼저 설계 과정이 필요하며, PCB 설계는 EasyEDA, KiCAD 등 여러 소프트웨어를 사용한다.
 
-먼저 회로도를 설계하고
+1. 먼저 회로도를 설계하고
 ![](assets/images/posts/2025-05-12-HardwareHack/1516e5330a33e3957c007ce37f95f03c_MD5.jpeg)
+
+2. PCB안에 설계한 회로를 넣고 배선한다.
+![](assets/images/posts/2025-05-12-HardwareHack/6f52be322c162158174b581f7c086cf6_MD5.jpeg)
+
+3. 
+
 
 ### IC
