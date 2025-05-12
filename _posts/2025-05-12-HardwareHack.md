@@ -193,6 +193,9 @@ IC에 대한 모든 사양 및 기능을 세부적으로 제공한 것으로 아
 5. CRC 검증 실패 후 `boot command line interface` 접속
 6. 명령어를 통해 Flash Memory 데이터 덤프
 ```shell
+# sf - flash memory 제어 명령어
+# md - memory display
+
 sf probe
 sf read 0x80600000 0 0x800000
 md 0x80600000
