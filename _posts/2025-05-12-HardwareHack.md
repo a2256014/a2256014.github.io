@@ -168,6 +168,9 @@ IC에 대한 모든 사양 및 기능을 세부적으로 제공한 것으로 아
 > 디버그 인터페이스를 사용하여 펌웨어 추출 진행!!
 
 ### UART
+**UART (Universal Asynchronous Receiver-Transmitter)** 는 장치들간의 비동기 직렬 통신을 위한 인터페이스이다.
+
+비동기 통신이기 때문에 클럭 핀이 존재하지 않는다. 
 
 ### Appendix
 
