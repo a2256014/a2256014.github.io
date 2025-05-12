@@ -48,6 +48,7 @@ PCB를 제작하려면 먼저 설계 과정이 필요하며, PCB 설계는 EasyE
 PCB 구조는 하나의 건물로 비유할 수 있는데, 오른쪽에서 TopLayer, BottomLayer, TopSilkLayer를 선택할 수 있는데, **TopLayer**의 경우 건물의 맨 꼭대기 층 내부에 있는 회로이며 **BottomLayer**는 건물의 맨 아래층 내부에 있는 회로이고 마지막으로 **TopSilkLayer**는 건물의 외벽이라고 비유할 수 있다.
 ![](assets/images/posts/2025-05-12-HardwareHack/b88e7e8b199ac6af0e385423b9e8a110_MD5.jpeg)
 
-> PCB 층간 통신은 작은 구멍과 큰 구멍ㅇ **비아홀(Via Hole)**이 사용되는데, 이를 통해 통신한다.
+> PCB 층간 통신은 작은 구멍과 큰 구멍으로 나와있는 곳을 통해 통신을 진행한다. 작은홀의 경우 **비아홀(Via Hole)** 이 사용되며, 큰 홀의 경우 **PTH(Plated-Through-Hole)** 와 **NPTH(Non-Plated-Through-Hole)** 가 있다.
 
 ### IC
+IC는 **집적 회로(Integrated Circuit)** 를 의미
