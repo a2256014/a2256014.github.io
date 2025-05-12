@@ -54,9 +54,11 @@ PCB 구조는 하나의 건물로 비유할 수 있는데, 오른쪽에서 TopLa
 > http://www.visual6502.org/sim/varm/armgl.html - ARM1 구조와 회로 작동 모습 확인
 
 IC는 **집적 회로(Integrated Circuit)** 를 의미하며, PCB에 들어가는 칩들이다. 여러 트랜지스터를 사용하여 게이트를 만들고, 게이트를 여러 개 이어서 CPU, 메모리 등 여러 칩들을 만든다.
-![Microprocessor 회로도, picture by Angeloleithold](/assets/images/posts/2025-05-12-HardwareHack/02850eb4cc9821ca25fcac5eb7caec42_MD5.jpeg)
 
 PCB에 사용되는 IC는 아래와 같은 것들이 있다.
 - Flash Memory
 - Processor
 - RAM
+![출처 - 드림핵](/assets/images/posts/2025-05-12-HardwareHack/1477ddd7ffdab4bfcf127021fbf43e26_MD5.jpeg)
+
+#### Flash Memory
