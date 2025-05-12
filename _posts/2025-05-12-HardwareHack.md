@@ -31,3 +31,5 @@ sidebar:
 **여기서 하드웨어 해킹은** 부트롬 코드를 읽으려고 할 때, 사용되었는데, 해당 메모리가 잠겨있어 접근이 불가능한 상태를 **Fault Injection** 공격 기법 중 하나인 Voltage Glitching을 활용하는 것이였다.
 
 ## PCB
+> +극과 -극은 Power와 Ground로도 말하는데, DataSheet에서는 `-`대신 Ground/GND 라고 적혀있으니 인지하자.
+
