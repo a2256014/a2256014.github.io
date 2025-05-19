@@ -52,7 +52,10 @@ sidebar:
 - **Z**ero flag : 결과값이 0일 때 1로 설정
 - **C**arry flag : 덧셈에서 Carry 발생 시 1로 설정, 뺄셈에서 Borrow 발생 시 0으로 설정
 - o**V**erflow flag : 덧셈 / 뺄셈에서 Signed Overflow가 발생 시 1로 설정
-- 7~6번 비트 : IRQ
+- 7~6번 비트 : IRQ와 FIQ를 비활성화 하는 비트로 1로 설정 시 비활성화
+- 5번 비트 : Arm, Thumb 모드를 나타냄 0:Arm, 1:Thumb
+
+4~0 ql
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/0f1ada733c4607b94f95cd729fc62fc7_MD5.jpeg)
 
