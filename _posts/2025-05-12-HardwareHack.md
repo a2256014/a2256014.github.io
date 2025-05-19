@@ -329,4 +329,8 @@ gcc -o ./glitch ./glitch2.c -lwiringPi -O0
 
 > 해당 코드 실행 시 순간적으로 전압을 끊을 수 있다.
 
+위 명령어를 `Serial Monitor`에 `Let's Start!` 문자열이 출력된 이후, 여러번 실행 시 Debug Mode 진입 문자열을 볼 수 있다.
+
+### Appendix EMFI
+
 ### Side Channel Attack [Timing Attack]
