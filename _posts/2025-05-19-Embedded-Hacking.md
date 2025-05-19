@@ -140,9 +140,13 @@ qemu-arm-static -version
 
 # gdb 붙이기 위한 port open
 qemu-arm-static -g [port] [binary path]
-# gdb에서 붙기
+# gdb 실행
 gdb-multiarch [binary path]
+# 붙기
 target remote :[port]
+
+# 에러 발생 시
+export QEMU_LD_PREFIX=/usr/arm-linux-gnueabi
 ```
 
 
