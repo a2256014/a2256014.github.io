@@ -99,9 +99,9 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 | `BIC`                                | BIC Rd, Rn, Operand2   | Rn & ~Operand2를 Rd에 넣는다.                   |
 | `CMP`                                | CMP Rn, Operand2       | Rn - Operand2를 하여 CPSR의 flag를 설정한다.        |
 | `CMN`                                | CMN Rn, Operand2       | Rn + Operand2를 하여 CPSR의 flag를 설정한다.        |
-| `B`(Branch)                          | B <target address>     | target address로 분기한다.                      |
-| `BL`(Branch with Link)               | BL <target address>    | 다음 명령어의 주소를 LR에 저장하고 target address로 분기한다. |
-| `BX`(Branch and Exchange)            | BX <Rm>                | Rm에 저장된 주소로 분기한다.                          |
+| `B`(Branch)                          | B \<target address\>   | target address로 분기한다.                      |
+| `BL`(Branch with Link)               | BL \<target address\>  | 다음 명령어의 주소를 LR에 저장하고 target address로 분기한다. |
+| `BX`(Branch and Exchange)            | BX \<Rm>               | Rm에 저장된 주소로 분기한다.                          |
 | `BLX`(Branch with Link and Exchange) | BLX <Rm>               | 다음 명령어의 주소를 LR에 저장하고 Rm에 저장된 주소로 분기한다.     |
 
 
