@@ -237,6 +237,33 @@ JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)*
 #### Voltage Glitching
 > 모든 트랜지스터가 동시에 신호를 주고받지 않는다. 각 트랜지스터의 위치에 따라 전류가 도달하는데 시간차가 있는데, 이를 **전파 지연 시간(Propagation Delay)** 라고 한다.
 
-전압이 떨어지면 **전파 지연 시간**이 늘어나게 되는데 이때 
+전압이 떨어지면 **전파 지연 시간**이 늘어나게 되는데 이때 클럭이 설정하는 한 사이클의 시간보다 더 느리게 처리되면서 명령어를 건너뛰게 되는 원리이다.
+
+- **준비물**: 아두이노 우노, 라즈베리파이, 브레드보드, NPN 트랜지스터(2N2222), 수-수 점퍼선, 암-수 점퍼선, 4.7k옴 저항기
+
+
+```c
+void setup() {
+  Serial.begin(9600);
+  Serial.write("Hi! This is Hardware Hacking Program!");
+}
+
+void loop() {
+  unsigned long volatile DEBUG = 0;
+  Serial.write("Let's Start!\n");
+  for(unsigned long i = 0; i<=9999999;i++){
+    DEBUG++;
+  }
+  Serial.write("DEBUG Value : ");
+  Serial.println(DEBUG);
+  if(DEBUG != 10000000){
+    Serial.write("You Entered Debug Mode.");
+    delay(10000);
+  }
+  else{
+    Serial.write("Welcome to Voltage Glitching Exercise.\n");
+  }
+}
+```
 
 ### Side Channel Attack [Timing Attack]
