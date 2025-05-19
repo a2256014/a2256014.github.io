@@ -22,8 +22,6 @@ sidebar:
 임베디드는 일반적으로 SoC/MCU, RAM, Flash memory가 결합된 보드로 구성된다.
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/7ed3273bb8981e3e3ede0a4a17b602b2_MD5.jpeg)
 
-
-
 ## Arm
 
 ## 펌웨어
