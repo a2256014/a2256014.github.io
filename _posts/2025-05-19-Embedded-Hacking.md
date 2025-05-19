@@ -16,17 +16,15 @@ tags:
 sidebar:
 ---
 
+## Embedded란
 
-## Intro
+## Arm
 
-## Detect & Exploit 
+## 펌웨어
+### 펌웨어 분석
 
-## Security Measures
+### 펌웨어 에뮬레이션
 
-## References
+### 펌웨어 디버깅 환경 구축
 
-## Summary
-
-## POC
-
-## References
+### 펌웨어 공격 ㅅ실

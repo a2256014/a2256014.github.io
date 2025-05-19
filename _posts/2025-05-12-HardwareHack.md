@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hardware Hacking
-subtitle: Embedded Hacking
+subtitle: 드림핵 Hardware Hacking 정리
 author: g3rm
 categories: 
 banner:
