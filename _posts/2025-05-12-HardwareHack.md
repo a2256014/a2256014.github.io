@@ -346,4 +346,38 @@ gcc -o ./glitch ./glitch2.c -lwiringPi -O0
 - Electromagnetic Attack: 프로세서 내 특정 연산의 전자기 파장을 측정하여 진행하는 공격
 
 #### Timing Attack
-A라는 입력이 주어졌을 때 B라는 처리가 일어나고, C라는 출력이 발생합니다. 이때 A와 C의 시간을 계산하여 B의 과정을 유추하면 Timing Attack을 수행할 수 있다.
+A라는 입력이 주어졌을 때 B라는 처리가 일어나고, C라는 출력이 발생한다. 이때 A와 C의 시간을 계산하여 B의 과정을 유추하면 Timing Attack을 수행할 수 있다.
+
+- 준비물: 아두이노 우노, 브레드보드, 수-수 점퍼선, 암-수 점퍼선, Logic Analyzer
+
+##### 아두이노 프로그래밍
+
+```c
+void setup() {
+  Serial.begin(9600);
+  pinMode(2, OUTPUT);
+  digitalWrite(2, LOW);
+}
+
+char password[] = "0132";
+char user_text[4];
+int len = 0;
+
+void loop() {
+  if(Serial.available()){
+    user_text[len] = Serial.read();
+    len++;
+    if(len == 4){
+      len = 0;
+      digitalWrizte(2, HIGH);
+      if(!strcmp(password, user_text)){
+        Serial.write("Success!\n");
+      }
+      else{
+        Serial.write("Failed!\n");
+      }
+      digitalWrite(2, LOW);
+    }
+  }
+}
+```
