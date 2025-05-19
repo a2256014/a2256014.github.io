@@ -381,3 +381,16 @@ void loop() {
   }
 }
 ```
+
+##### 회로 설계
+- 1 - Reset
+- 2 - RX
+- 3 - TX
+- 4 - Digital Pin 2
+- 7 - VCC
+- 8 - GND
+- 9 - XTAL1
+- 10 - XTAL2
+
+![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/5fdcbcad06931fa489964e679e710b8a_MD5.jpeg)
+![들](Pasted%20image%2020250519203803.png)
