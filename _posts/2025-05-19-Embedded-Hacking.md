@@ -130,7 +130,13 @@ pop {fp, pc}        - FP PC 순으로 레지스터 값 pop
 
 ### 환경 구축
 #### QEMU 설치
-> x86-64환경에서 
+> Linux x86-64환경에서 Arm 바이너리를 실행시키기 위한 에뮬레이터 -> 즉, 맥북만 있으면 만사 OK.....
+
+```shell
+sudo apt-get update
+sudo apt-get install qemu-user-static libc6-armel-cross gdb-multiarch -y
+```
+
 
 #### Ghidra 설치
 > 이건 너무 많이 해서 넘김 - 나중에 노션에 정리한거 가져오기
