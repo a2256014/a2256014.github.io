@@ -101,8 +101,13 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 | `CMN`                                | CMN Rn, Operand2       | Rn + Operand2를 하여 CPSR의 flag를 설정한다.        |
 | `B`(Branch)                          | B \<target address\>   | target address로 분기한다.                      |
 | `BL`(Branch with Link)               | BL \<target address\>  | 다음 명령어의 주소를 LR에 저장하고 target address로 분기한다. |
-| `BX`(Branch and Exchange)            | BX \<Rm>               | Rm에 저장된 주소로 분기한다.                          |
-| `BLX`(Branch with Link and Exchange) | BLX <Rm>               | 다음 명령어의 주소를 LR에 저장하고 Rm에 저장된 주소로 분기한다.     |
+| `BX`(Branch and Exchange)            | BX \<Rm\>              | Rm에 저장된 주소로 분기한다.                          |
+| `BLX`(Branch with Link and Exchange) | BLX \<Rm\>             | 다음 명령어의 주소를 LR에 저장하고 Rm에 저장된 주소로 분기한다.     |
+| `PUSH`                               | PUSH \<registers\>     | 주어진 레지스터들을 스택에 push 합니다.                   |
+| `POP`                                | POP \<registers\>      | 주어진 레지스터들을 스택에서 pop 합니다.                   |
+| `SVC`                                | SVC \<immediate\>      | immediate 값에 해당하는 소프트웨어 인터럽트를 발생시킵니다.      |
+
+
 
 
 ## 펌웨어
