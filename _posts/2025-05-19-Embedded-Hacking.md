@@ -107,22 +107,26 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 | `SVC`                                | SVC \<immediate\>      | immediate 값에 해당하는 소프트웨어 인터럽트를 발생시킵니다.      |
 
 #### 프롤로그
+> x86-64는 
 
-```
+
+```assembly
 # Prologue
 push {fp, lr}
 add fp, sp, #4
 sub sp, sp, #12
 
 ...
+```
+
+#### 에필로그
+```assembly
+...
 
 # Epilogue
 sub sp, fp, #4
 pop {fp, pc}
 ```
-
-#### 에필로그
-
 
 ## 펌웨어
 비휘발성 메모리에 저장된 데이터를 가르키는 것이므로 **플래시 메모리의 데이터를 읽으면 펌웨어를 얻을 수 있다.**
