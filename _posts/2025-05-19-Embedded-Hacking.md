@@ -112,8 +112,8 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 
 ```assembly
 # Prologue
-push {fp, lr}
-add fp, sp, #4
+push {fp, lr}       - LR FP 순으로 Stack에 저장
+add fp, sp, #4      - FP를 SP + 4 로 이동
 sub sp, sp, #12
 
 ...
