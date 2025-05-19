@@ -149,12 +149,8 @@ target remote :[port]
 export QEMU_LD_PREFIX=/usr/arm-linux-gnueabi
 ```
 
-
-
 #### Ghidra 설치
 > 이건 너무 많이 해서 넘김 - 나중에 노션에 정리한거 가져오기
-
-
 
 
 ## 펌웨어
