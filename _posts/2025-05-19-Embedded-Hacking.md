@@ -84,25 +84,25 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 명령어
 > 각 명령어는 공부하면서 차근차근 익히자
 
-| **명령어**                              | **형식**                 | **설명**                                      |
-| ------------------------------------ | ---------------------- | ------------------------------------------- |
-| `MOV`                                | MOV Rd, Rn, {Operand2} | Rn을 Rd에 넣는다.                                |
-| `MVN`                                | MVN Rd, Rn, {Operand2} | Rn의 NOT을 Rd에 넣는다.                           |
-| `LDR`                                | LDR Rd, {Operand2}     | Operand2에 있는 값을 Rd에 넣는다.                    |
-| `STR`                                | STR Rd, {Operand2}     | Rd에 있는 값을 Operand2에 넣습니다.                   |
-| `ADD`                                | ADD Rd, Rn, Operand2   | Rn + Operand2를 Rd에 넣습니다.                    |
-| `SUB`                                | SUB Rd, Rn, Operand2   | Rn - Operand2를 Rd에 넣습니다.                    |
-| `MUL`                                | MUL Rd, Rn, Operand2   | Rn * Operand2를 Rd에 넣습니다.                    |
-| `AND`                                | AND Rd, Rn, Operand2   | Rn & Operand2를 Rd에 넣습니다.                    |
-| `ORR`                                | ORR Rd, Rn, Operand2   | Rn \| Operand2를 Rd에 넣습니다.                   |
-| `EOR`                                | EOR Rd, Rn, Operand2   | Rn ^ Operand2를 Rd에 넣습니다.                    |
-| `BIC`                                | BIC Rd, Rn, Operand2   | Rn & ~Operand2를 Rd에 넣습니다.                   |
-| `CMP`                                | CMP Rn, Operand2       | Rn - Operand2를 하여 CPSR의 flag를 설정합니다.        |
-| `CMN`                                | CMN Rn, Operand2       | Rn + Operand2를 하여 CPSR의 flag를 설정합니다.        |
-| `B`(Branch)                          | B <target address>     | target address로 분기합니다.                      |
-| `BL`(Branch with Link)               | BL <target address>    | 다음 명령어의 주소를 LR에 저장하고 target address로 분기합니다. |
-| `BX`(Branch and Exchange)            | BX <Rm>                | Rm에 저장된 주소로 분기합니다.                          |
-| `BLX`(Branch with Link and Exchange) | BLX <Rm>               | 다음 명령어의 주소를 LR에 저장하고 Rm에 저장된 주소로 분기합니다.     |
+| **명령어**                              | **형식**                 | **설명**                                     |
+| ------------------------------------ | ---------------------- | ------------------------------------------ |
+| `MOV`                                | MOV Rd, Rn, {Operand2} | Rn을 Rd에 넣는다.                               |
+| `MVN`                                | MVN Rd, Rn, {Operand2} | Rn의 NOT을 Rd에 넣는다.                          |
+| `LDR`                                | LDR Rd, {Operand2}     | Operand2에 있는 값을 Rd에 넣는다.                   |
+| `STR`                                | STR Rd, {Operand2}     | Rd에 있는 값을 Operand2에 넣는다.                   |
+| `ADD`                                | ADD Rd, Rn, Operand2   | Rn + Operand2를 Rd에 넣는다.                    |
+| `SUB`                                | SUB Rd, Rn, Operand2   | Rn - Operand2를 Rd에 넣는다.                    |
+| `MUL`                                | MUL Rd, Rn, Operand2   | Rn * Operand2를 Rd에 넣는다.                    |
+| `AND`                                | AND Rd, Rn, Operand2   | Rn & Operand2를 Rd에 넣는다.                    |
+| `ORR`                                | ORR Rd, Rn, Operand2   | Rn \| Operand2를 Rd에 넣는다.                   |
+| `EOR`                                | EOR Rd, Rn, Operand2   | Rn ^ Operand2를 Rd에 넣는다.                    |
+| `BIC`                                | BIC Rd, Rn, Operand2   | Rn & ~Operand2를 Rd에 넣는다.                   |
+| `CMP`                                | CMP Rn, Operand2       | Rn - Operand2를 하여 CPSR의 flag를 설정한다.        |
+| `CMN`                                | CMN Rn, Operand2       | Rn + Operand2를 하여 CPSR의 flag를 설정한다.        |
+| `B`(Branch)                          | B <target address>     | target address로 분기한다.                      |
+| `BL`(Branch with Link)               | BL <target address>    | 다음 명령어의 주소를 LR에 저장하고 target address로 분기한다. |
+| `BX`(Branch and Exchange)            | BX <Rm>                | Rm에 저장된 주소로 분기한다.                          |
+| `BLX`(Branch with Link and Exchange) | BLX <Rm>               | 다음 명령어의 주소를 LR에 저장하고 Rm에 저장된 주소로 분기한다.     |
 
 
 ## 펌웨어
