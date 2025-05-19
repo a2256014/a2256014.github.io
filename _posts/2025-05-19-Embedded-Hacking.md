@@ -125,8 +125,12 @@ sub sp, sp, #12     - SP를 SP - 12 로 이동
 
 # Epilogue
 sub sp, fp, #4      - SP를 FP - 4 로 이동
-pop {fp, pc}        - 
+pop {fp, pc}        - FP PC 순으로 레지스터 값 pop
 ```
+
+### Arm Exploit
+
+
 
 ## 펌웨어
 비휘발성 메모리에 저장된 데이터를 가르키는 것이므로 **플래시 메모리의 데이터를 읽으면 펌웨어를 얻을 수 있다.**
