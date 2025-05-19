@@ -283,8 +283,8 @@ void loop() {
 ##### 라즈베리파이
 GPIO 켜기
 ```shell
-$ gpio mode 0 OUTPUT
-$ gpio write 0 1
+gpio mode 0 OUTPUT
+gpio write 0 1
 ```
 
 GPIO 제어
@@ -320,5 +320,13 @@ int main(){
     return 0;
 }
 ```
+
+실행
+```shell
+gcc -o ./glitch ./glitch2.c -lwiringPi -O0
+./glitch
+```
+
+> 해당 코드 실행 시 순간적으로 전압을 끊을 수 있다.
 
 ### Side Channel Attack [Timing Attack]
