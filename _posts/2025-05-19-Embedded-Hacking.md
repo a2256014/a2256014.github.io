@@ -107,7 +107,7 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 | `SVC`                                | SVC \<immediate\>      | immediate 값에 해당하는 소프트웨어 인터럽트를 발생시킵니다.      |
 
 #### 프롤로그
-> x86-64는 
+> x86-64는 `call`이지만, arm은 `bl blx` 명령어 실행 시 LR에 반환 주소가 저장된다.
 
 
 ```assembly
