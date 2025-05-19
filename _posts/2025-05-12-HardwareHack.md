@@ -275,6 +275,9 @@ void loop() {
 ![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/b90684156540f66b15e68ef79ff9344f_MD5.jpeg)
 
 - 저항 구성
-![](assets/images/posts/2025-05-12-HardwareHack/51d68c05e88fb6c5626e071d167c9719_MD5.jpeg)
+![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/51d68c05e88fb6c5626e071d167c9719_MD5.jpeg)
+
+- 최종 연결
+![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/b43e1aad4aa94732c176fb7849662c4e_MD5.jpeg)
 
 ### Side Channel Attack [Timing Attack]
