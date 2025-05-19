@@ -393,4 +393,12 @@ void loop() {
 - 10 - XTAL2
 
 ![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/5fdcbcad06931fa489964e679e710b8a_MD5.jpeg)
-![들](Pasted%20image%2020250519203803.png)
+![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/3fe678cba6f0dfe8a65d2383b63a8a83_MD5.jpeg)
+
+##### 분석
+비밀번호를 모르고 있는 상태에서 500 나노초가 줄어들고 늘어나는 걸 확인가능
+
+모두 틀렸을 때
+![](Pasted%20image%2020250519203910.png)
+
+하나만 마
