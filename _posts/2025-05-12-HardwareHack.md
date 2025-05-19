@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hardware Hacking
-subtitle: 차량 보안을 위한 기초 지식 정리 1
+subtitle: Embedded Hacking
 author: g3rm
 categories: 
 banner:
