@@ -267,10 +267,14 @@ void loop() {
 ```
 
 ##### 회로 구성
-
 - 1 - Reset
 - 3 - TX
 - 9 - XTAL1
 - 10 - XTAL2
 - 아두이노 핀에 있는 5V - Atmega328p의 7번
+![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/b90684156540f66b15e68ef79ff9344f_MD5.jpeg)
+
+- 저항 구성
+![](assets/images/posts/2025-05-12-HardwareHack/51d68c05e88fb6c5626e071d167c9719_MD5.jpeg)
+
 ### Side Channel Attack [Timing Attack]
