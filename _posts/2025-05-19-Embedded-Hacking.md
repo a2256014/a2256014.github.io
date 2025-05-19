@@ -76,13 +76,12 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 ![드림핵 출처](/assets/images/posts/2025-05-19-Embedded-Hacking/548c86d6914a1d15a8a9a31bceee3573_MD5.jpeg)
 
 ### ARM 어셈블리
-기본 구조
+#### 기본 구조 및 명령어
+> 각 명령어는 공부하면서 차근차근 익히자
+
 ```assembly
 명령어{s}{condition} Rd, Rn, {Operand2}
 ```
-
-명령어
-> 각 명령어는 공부하면서 차근차근 익히자
 
 | **명령어**                              | **형식**                 | **설명**                                     |
 | ------------------------------------ | ---------------------- | ------------------------------------------ |
@@ -107,7 +106,22 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 | `POP`                                | POP \<registers\>      | 주어진 레지스터들을 스택에서 pop 합니다.                   |
 | `SVC`                                | SVC \<immediate\>      | immediate 값에 해당하는 소프트웨어 인터럽트를 발생시킵니다.      |
 
+#### 프롤로그
 
+```
+# Prologue
+push {fp, lr}
+add fp, sp, #4
+sub sp, sp, #12
+
+...
+
+# Epilogue
+sub sp, fp, #4
+pop {fp, pc}
+```
+
+#### 에필로그
 
 
 ## 펌웨어
