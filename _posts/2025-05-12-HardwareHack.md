@@ -241,7 +241,7 @@ JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)*
 
 - **준비물**: 아두이노 우노, 라즈베리파이, 브레드보드, NPN 트랜지스터(2N2222), 수-수 점퍼선, 암-수 점퍼선, 4.7k옴 저항기
 
-
+아두이노 프로그래밍 [(프로그래밍 방법)[https://scipia.co.kr/blog/144]]
 ```c
 void setup() {
   Serial.begin(9600);
