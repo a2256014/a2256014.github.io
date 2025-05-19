@@ -235,6 +235,6 @@ JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)*
 - Write-back 실패: 명령이 실행 후 레지스터 혹은 메모리에 값이 적히지 않을 수 있습니다.
 
 #### Voltage Glitching
-
+> 모든 트랜지스터가 동시에 신호를 주고받지 않는다. 각 트랜지스터의 위치에 따라 전류가 도달하는데 시간차가 있는데, 이를 
 
 ### Side Channel Attack [Timing Attack]
