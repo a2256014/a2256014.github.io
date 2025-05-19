@@ -54,13 +54,24 @@ sidebar:
 - o**V**erflow flag : 덧셈 / 뺄셈에서 Signed Overflow가 발생 시 1로 설정
 - 7~6번 비트 : IRQ와 FIQ를 비활성화 하는 비트로 1로 설정 시 비활성화
 - 5번 비트 : Arm, Thumb 모드를 나타냄 0:Arm, 1:Thumb
+- 4~0번 비트 : 프로세서 모드를 나타냄
 
-4~0 ql
+|**M[4:0]**|**Mode**|**역할**|
+|---|---|---|
+|0b10000|User|애플리케이션이 동작하는 모드, CPSR에서 flag field만 수정 가능|
+|0b10001|Fast Interrupt Request (FIQ)|높은(fast) 우선순위 인터럽트 발생 시 진입|
+|0b10010|Interrupt Request (IRQ)|낮은 우선순위 인터럽트 발생 시 진입|
+|0b10011|Supervisor (SVC)|시스템 콜(SVC) 발생 시 진입|
+|0b10111|Abort|메모리 접근 실패 시 진입|
+|0b11011|Undefined|정의 되지 않은 명령어 확인 시 진입|
+|0b11111|System|User 모드의 Privileged 버전, CPSR의 모든 비트 수정 가능<br><br>(User 모드와 레지스터 공유)|
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/0f1ada733c4607b94f95cd729fc62fc7_MD5.jpeg)
 
 
-#### s
+#### Banked 레지스터
+
+
 
 
 ## 펌웨어
