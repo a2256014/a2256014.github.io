@@ -75,6 +75,12 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 
 ![드림핵 출처](/assets/images/posts/2025-05-19-Embedded-Hacking/548c86d6914a1d15a8a9a31bceee3573_MD5.jpeg)
 
+### ARM 어셈블리
+기본 구조
+```assembly
+명령어{s}{condition} Rd, Rn, {Operand2}
+```
+
 
 ## 펌웨어
 비휘발성 메모리에 저장된 데이터를 가르키는 것이므로 **플래시 메모리의 데이터를 읽으면 펌웨어를 얻을 수 있다.**
