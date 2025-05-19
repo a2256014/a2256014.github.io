@@ -281,6 +281,44 @@ void loop() {
 ![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/b43e1aad4aa94732c176fb7849662c4e_MD5.jpeg)
 
 ##### 라즈베리파이
+GPIO 켜기
+```shell
+$ gpio mode 0 OUTPUT
+$ gpio write 0 1
+```
 
+GPIO 제어
+```c
+#include <stdio.h>
+#include <wiringPi.h>
+
+#define POWER 0
+#define GLITCH_SEC_DEFAULT 300
+
+int init(){
+    pinMode(POWER, OUTPUT);
+    digitalWrite(POWER, HIGH);
+}
+
+void goGlitch(int tick){
+    digitalWrite(POWER, LOW);
+    for(int i = 0; i<tick;i++){
+        __asm__ __volatile__ ("nop");
+    }
+    digitalWrite(POWER, HIGH);
+}
+
+int main(){
+    unsigned int volatile glitchsec = GLITCH_SEC_DEFAULT;
+    if(wiringPiSetup() == -1){
+        return -1;
+    }
+
+    init();
+    goGlitch(glitchsec);
+
+    return 0;
+}
+```
 
 ### Side Channel Attack [Timing Attack]
