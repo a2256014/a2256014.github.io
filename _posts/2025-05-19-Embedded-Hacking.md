@@ -23,6 +23,8 @@ sidebar:
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/7ed3273bb8981e3e3ede0a4a17b602b2_MD5.jpeg)
 
 ## Arm
+> Arm/Thumb mode가 존재하여 32비트(Arm), 16비트(Thumb) 모드를 번갈아 사용할 수 있으며 그로 인해 코드 실행 효율과 메모리 사용량을 최적홯
+
 임베디드에서 주로 사용되는 아키텍처이므로 알아보자.
 
 ## 펌웨어
