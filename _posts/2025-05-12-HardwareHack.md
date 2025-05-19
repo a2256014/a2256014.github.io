@@ -280,4 +280,7 @@ void loop() {
 - 최종 연결
 ![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/b43e1aad4aa94732c176fb7849662c4e_MD5.jpeg)
 
+##### 라즈베리파이
+
+
 ### Side Channel Attack [Timing Attack]
