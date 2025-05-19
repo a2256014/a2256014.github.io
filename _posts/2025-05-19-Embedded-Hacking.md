@@ -48,7 +48,13 @@ sidebar:
 
 #### CPSR 레지스터
 
-![](assets/images/posts/2025-05-19-Embedded-Hacking/0f1ada733c4607b94f95cd729fc62fc7_MD5.jpeg)
+- **N**egative flag : 결과값이 음수일 때 1로 설정
+- **Z**ero flag : 결과값이 0일 때 1로 설정
+- **C**arry flag : 덧셈에서 Carry 발생 시 1로 설정, 뺄셈에서 Borrow 발생 시 0으로 설정
+- o**V**erflow flag : 덧셈 / 뺄셈에서 Signed Overflow가 발생 시 1로 설정
+- 7~6번 비트 : IRQ
+
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/0f1ada733c4607b94f95cd729fc62fc7_MD5.jpeg)
 
 
 #### s
