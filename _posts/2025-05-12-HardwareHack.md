@@ -338,9 +338,12 @@ gcc -o ./glitch ./glitch2.c -lwiringPi -O0
 [PicoEMP 확인]([https://github.com/newaetech/chipshouter-picoemp](https://github.com/newaetech/chipshouter-picoemp))
 
 ### Side Channel Attack [Timing Attack]
-
+>Side Channel Security 채널은 시리즈 형태로 여러가지 부채널 공격에 대한 내용을 영상으로 업로드 한다. 만약 부채널 공격에 대해 더욱 알고싶다면 [링크](https://www.youtube.com/@SideChannelSecurity)를 통해 해당 유튜브 채널을 확인
 
 종류
 - Timing Attack: 프로세서 내 특정 연산의 처리 시간을 측정하여 진행하는 공격
 - Power Analysis Attack: 프로세서 내 특정 연산의 전원 사용량을 측정하여 진행하는 공격
 - Electromagnetic Attack: 프로세서 내 특정 연산의 전자기 파장을 측정하여 진행하는 공격
+
+#### Timing Attack
+A라는 입력이 주어졌을 때 B라는 처리가 일어나고, C라는 출력이 발생합니다. 이때 A와 C의 시간을 계산하여 B의 과정을 유추하면 Timing Attack을 수행할 수 있다.
