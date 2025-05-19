@@ -399,6 +399,8 @@ void loop() {
 비밀번호를 모르고 있는 상태에서 500 나노초가 줄어들고 늘어나는 걸 확인가능
 
 모두 틀렸을 때
-![](Pasted%20image%2020250519203910.png)
+![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/b796bade5894d85ed99044356c98cdc2_MD5.jpeg)
 
-하나만 마
+하나만 맞았을 때
+![드림핵 출처](/assets/images/posts/2025-05-12-HardwareHack/86e195d84487452f6da7ae33e122f1eb_MD5.jpeg)
+
