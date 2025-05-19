@@ -222,6 +222,12 @@ JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)*
 ## 하드웨어 해킹
 
 ### Fault Injection [Voltage Glitching]
-미세한 정전기에도 모니터가 꺼지는 등 기기는 전기적인 방해에 매우 
+미세한 정전기에도 모니터가 꺼지는 등 기기는 전기적인 방해에 매우 취약하다. 이러한 결함을 아주 정확한 타이밍에 주입하여 우리가 원하는 동작을 수행하게 하는 것이 Fault Injection 이다.
+
+종류
+- Voltage Glitching: 매우 짧은 시간 동안 프로세서의 전압을 떨어뜨리는 공격
+- Clock Glitching: 프로세서 기존의 클럭을 지연시키거나 기존의 클럭에 추가적인 클럭을 주입하는 공격
+- EMFI (Electromagnetic Fault Injection): 프로세서에 국소적으로 강한 전자기장을 펼치는 공격
+- Optical Fault Injection: 프로세서에 적외선을 쏘는 공격
 
 ### Side Channel Attack [Timing Attack]
