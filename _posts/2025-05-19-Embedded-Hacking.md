@@ -70,9 +70,11 @@ sidebar:
 
 
 #### Banked 레지스터
-
+banked register는 각 모드 별로 물리적으로 존재하는 레지스터이며 banked register가 아닌 레지스터들은 `User & System` 모드의 레지스터를 공유한다.
+공유하는 레지스터는 모드 변경 시 기존 모드의 레지스터 값을 스택에 넣어 현재 컨텍스트를 저장한다.
 
 ![드림핵 출처](/assets/images/posts/2025-05-19-Embedded-Hacking/548c86d6914a1d15a8a9a31bceee3573_MD5.jpeg)
+
 
 ## 펌웨어
 비휘발성 메모리에 저장된 데이터를 가르키는 것이므로 **플래시 메모리의 데이터를 읽으면 펌웨어를 얻을 수 있다.**
