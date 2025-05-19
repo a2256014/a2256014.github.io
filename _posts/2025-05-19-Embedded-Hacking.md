@@ -135,8 +135,17 @@ pop {fp, pc}        - FP PC 순으로 레지스터 값 pop
 ```shell
 sudo apt-get update
 sudo apt-get install qemu-user-static libc6-armel-cross gdb-multiarch -y
+
 qemu-arm-static -version
+
+# gdb 붙이기 위한 port open
+qemu-arm-static -g [port] [binary path]
+# gdb에서 붙기
+gdb-multiarch [binary path]
+target remote :[port]
 ```
+
+
 
 #### Ghidra 설치
 > 이건 너무 많이 해서 넘김 - 나중에 노션에 정리한거 가져오기
