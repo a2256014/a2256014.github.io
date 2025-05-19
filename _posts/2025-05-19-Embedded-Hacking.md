@@ -28,16 +28,16 @@ sidebar:
 임베디드에서 주로 사용되는 아키텍처이므로 알아보자.
 
 ### 레지스터
-범용 레지스터
+#### 범용 레지스터
 
-|**이름**|**역할**|
-|---|---|
-|r0 ~ r3|함수의 매개변수와 반환 값을 담는 레지스터, scratch 레지스터|
-|r4 ~ r10|변수 레지스터|
-|r11|Frame Pointer, x86-64에서의 rbp|
-|r12|Intra Procedural Call|
+| **이름**   | **역할**                                |
+| -------- | ------------------------------------- |
+| r0 ~ r3  | 함수의 매개변수와 반환 값을 담는 레지스터, scratch 레지스터 |
+| r4 ~ r10 | 변수 레지스터                               |
+| r11      | Frame Pointer, x86-64에서의 rbp          |
+| r12      | Intra Procedural Call                 |
 
-특수 레지스터
+#### 특수 레지스터
 
 |**이름**|**역할**|
 |---|---|
@@ -45,6 +45,14 @@ sidebar:
 |r14(LR)|Link Register, return 주소 저장|
 |r15(PC)|Program Counter, x86-64에서의 rip|
 |CPSR|Current Program Status Register, 상태 레지스터|
+
+#### CPSR 레지스터
+
+![](assets/images/posts/2025-05-19-Embedded-Hacking/0f1ada733c4607b94f95cd729fc62fc7_MD5.jpeg)
+
+
+#### s
+
 
 ## 펌웨어
 비휘발성 메모리에 저장된 데이터를 가르키는 것이므로 **플래시 메모리의 데이터를 읽으면 펌웨어를 얻을 수 있다.**
