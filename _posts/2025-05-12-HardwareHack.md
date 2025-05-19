@@ -229,5 +229,12 @@ JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)*
 - Clock Glitching: 프로세서 기존의 클럭을 지연시키거나 기존의 클럭에 추가적인 클럭을 주입하는 공격
 - EMFI (Electromagnetic Fault Injection): 프로세서에 국소적으로 강한 전자기장을 펼치는 공격
 - Optical Fault Injection: 프로세서에 적외선을 쏘는 공격
+결과
+- 명령어 건너뛰기: 실행할 머신 코드를 건너뛸 수 있습니다.
+- 데이터 fetch 변조: 프로세서가 fetch하는 데이터를 변조시킬 수 있습니다. ex. 비트 플립
+- Write-back 실패: 명령이 실행 후 레지스터 혹은 메모리에 값이 적히지 않을 수 있습니다.
+
+#### Voltage Glitching
+
 
 ### Side Channel Attack [Timing Attack]
