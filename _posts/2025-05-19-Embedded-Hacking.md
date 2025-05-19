@@ -114,7 +114,7 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 # Prologue
 push {fp, lr}       - LR FP 순으로 Stack에 저장
 add fp, sp, #4      - FP를 SP + 4 로 이동
-sub sp, sp, #12
+sub sp, sp, #12     - SP를 SP - 12 로 이동
 
 ...
 ```
@@ -124,8 +124,8 @@ sub sp, sp, #12
 ...
 
 # Epilogue
-sub sp, fp, #4
-pop {fp, pc}
+sub sp, fp, #4      - SP를 FP - 4 로 이동
+pop {fp, pc}        - 
 ```
 
 ## 펌웨어
