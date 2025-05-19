@@ -335,5 +335,6 @@ gcc -o ./glitch ./glitch2.c -lwiringPi -O0
 **Electromagnetic Fault Injection (EMFI)** 는 전자기 파장을 이용하는 공격이다.
 
 상용 EMFI 툴에는 [**ChipSHOUTER**](https://www.newae.com/products/NAE-CW520)가 있다
+[PicoEMP 확인]([https://github.com/newaetech/chipshouter-picoemp](https://github.com/newaetech/chipshouter-picoemp))
 
 ### Side Channel Attack [Timing Attack]
