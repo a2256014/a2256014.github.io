@@ -332,5 +332,8 @@ gcc -o ./glitch ./glitch2.c -lwiringPi -O0
 위 명령어를 `Serial Monitor`에 `Let's Start!` 문자열이 출력된 이후, 여러번 실행 시 Debug Mode 진입 문자열을 볼 수 있다.
 
 ### Appendix EMFI
+**Electromagnetic Fault Injection (EMFI)** 는 전자기 파장을 이용하는 공격이다.
+
+상용 EMFI 툴에는 [**ChipSHOUTER**](https://www.newae.com/products/NAE-CW520)가 있다
 
 ### Side Channel Attack [Timing Attack]
