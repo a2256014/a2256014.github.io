@@ -338,3 +338,9 @@ gcc -o ./glitch ./glitch2.c -lwiringPi -O0
 [PicoEMP 확인]([https://github.com/newaetech/chipshouter-picoemp](https://github.com/newaetech/chipshouter-picoemp))
 
 ### Side Channel Attack [Timing Attack]
+
+
+종류
+- Timing Attack: 프로세서 내 특정 연산의 처리 시간을 측정하여 진행하는 공격
+- Power Analysis Attack: 프로세서 내 특정 연산의 전원 사용량을 측정하여 진행하는 공격
+- Electromagnetic Attack: 프로세서 내 특정 연산의 전자기 파장을 측정하여 진행하는 공격
