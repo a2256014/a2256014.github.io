@@ -222,5 +222,6 @@ JTAG의 핀은 아래와 같고, 아래를 통틀어서 **TAP(Test Access Port)*
 ## 하드웨어 해킹
 
 ### Fault Injection [Voltage Glitching]
+미세한 정전기에도 모니터가 꺼지는 등 기기는 전기적인 방해에 매우 
 
 ### Side Channel Attack [Timing Attack]
