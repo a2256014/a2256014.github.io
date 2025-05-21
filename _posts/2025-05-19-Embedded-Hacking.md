@@ -39,12 +39,12 @@ sidebar:
 
 #### 특수 레지스터
 
-|**이름**|**역할**|
-|---|---|
-|r13(SP)|Stack Pointer, x86-64에서의 rsp|
-|r14(LR)|Link Register, return 주소 저장|
-|r15(PC)|Program Counter, x86-64에서의 rip|
-|CPSR|Current Program Status Register, 상태 레지스터|
+| **이름**  | **역할**                                   |
+| ------- | ---------------------------------------- |
+| r13(SP) | Stack Pointer, x86-64에서의 rsp             |
+| r14(LR) | Link Register, return 주소 저장              |
+| r15(PC) | Program Counter, x86-64에서의 rip           |
+| CPSR    | Current Program Status Register, 상태 레지스터 |
 
 #### CPSR 레지스터
 
