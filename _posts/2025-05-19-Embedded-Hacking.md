@@ -464,7 +464,8 @@ arm-linux-gnueabi-readelf -h ./app
 [Toolchain]
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/49874bd71b6a78395173a717d8f64b91_MD5.jpeg)
 
-[Target Packages]
+[Target Packages - Debugging, profiling and benchmark]
+![](Pasted%20image%2020250524210925.png)
 
 
 
