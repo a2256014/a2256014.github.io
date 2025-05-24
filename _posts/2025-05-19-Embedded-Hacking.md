@@ -454,5 +454,6 @@ arm-linux-gnueabi-readelf -h ./app
 - ARM instruction set : ARM / Thumb 모드 선택
 - Target Binary Format : 빌드 타겟 바이너리 포맷 선택
    
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/59c059cbc81fda3eb6d5aeb287b88697_MD5.jpeg)
 
 ### 펌웨어 공격 실습
