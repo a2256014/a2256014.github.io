@@ -340,6 +340,8 @@ qemu-system-arm -device help
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/efe32fb58f6499cfb47cbf3f63748195_MD5.jpeg)
 
 #### 사용법
+>**System Emulation**을 사용하여 펌웨어를 작동 시키려면 `Linux 커널 이미지`, `파일시스템` 필요
+
 ```shell
 # 설치
 sudo apt install qemu-system-arm -y
