@@ -306,8 +306,10 @@ make
 	- process : 실행할 프로그램
    ![](/assets/images/posts/2025-05-19-Embedded-Hacking/72724a4217f012e6cb4cdc503b80931c_MD5.jpeg)
 3. rcS 스크립트는 부팅 시에 실행되는 쉘 스크립트이다.
+   >rcS 파일은 개발자 나름이라 펌웨어마다 해당 파일에 모든 코드가 있을 수도 있고 여러개로 나뉠 수도 있다.
+   
    ![](/assets/images/posts/2025-05-19-Embedded-Hacking/6a20b473c5df2785d035ee855dd2a50d_MD5.jpeg)
-4. ``
+4. `/etc/init.d` 폴더에서 서비스 바이너리 찾기
 
 
 ### 펌웨어 에뮬레이션
