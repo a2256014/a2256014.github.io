@@ -257,7 +257,7 @@ Squash 파일 시스템의 구성도 / [squashfs 공식](https://dr-emann.github
 
 ```shell
 # https://github.com/sbourdelin/squashfs-info
-
+make
 
 ./squashfs-info ./350000.squashfs
 ```
