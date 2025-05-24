@@ -374,7 +374,15 @@ qemu-system-arm -initrd [file_path]
 # qemu-img로 raw 이미지를 생성
 qemu-img create disk.img 512M
 
+# ext2 파일 시스템 생성
+mkfs.ext2 ./disk.img
 
+# disk.img 마운트 및 펌웨어 파일 시스템 복사
+sudo mount ./disk.img ./test/
+cp -R ./_Target_Firmware.bin.extracted/squashfs-root/* ./test/
+
+# 마운트 해제
+sudo umount ./test
 ```
 
 #### 구축(System Emulation)
