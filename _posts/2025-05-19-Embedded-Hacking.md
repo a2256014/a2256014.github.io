@@ -385,7 +385,7 @@ qemu-system-arm \
 -device virtio-net-device,netdev=eth0
 ```
 
-![](assets/images/posts/2025-05-19-Embedded-Hacking/df65b5b9475dcf5f1b13db62be694d15_MD5.jpeg)
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/d527a6dfb1092d4c5ba630c159cef83a_MD5.jpeg)
 
 ### 펌웨어 디버깅 환경 구축
 
