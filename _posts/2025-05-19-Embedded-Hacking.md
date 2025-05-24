@@ -238,7 +238,7 @@ strings ./uboot.bin
 3. Application을 실행 시키는 단계까지 위와 같은 과정을 거친다.
 4. 이후 기기가 작동하면, RoT를 기점으로 다음 Stage를 복호화 하면서 코드를 실행한다
 
-#### Squash 파일 시스템
+#### Squash 파일 시스템 분석
 > UBIFS, Cramfs 등 파일 시스템 종류는 다양하다.
 
 Squash 파일 시스템의 구성도 / [squashfs 공식](https://dr-emann.github.io/squashfs/)
@@ -262,8 +262,6 @@ make
 ./squashfs-info ./350000.squashfs
 ```
 
-![](assets/images/posts/2025-05-19-Embedded-Hacking/226646ecfcf1bf6e0895a628fc885843_MD5.jpeg)
-
 | **이름**                | **설명**                                              |
 | --------------------- | --------------------------------------------------- |
 | s_magic               | 문자열로 "hsqs"(little)의 magic 값                        |
@@ -285,6 +283,9 @@ make
 | directory_table_start | directory table 시작 바이트 오프셋                          |
 | fragment_table_start  | fragment table 시작 바이트 오프셋                           |
 | lookup_table_start    | export table 시작 바이트 오프셋                             |
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/226646ecfcf1bf6e0895a628fc885843_MD5.jpeg)
+
+
 
 
 ### 펌웨어 에뮬레이션
