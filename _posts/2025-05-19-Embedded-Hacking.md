@@ -524,7 +524,7 @@ pwndbg> target remote [ip]:[port]
 gdbserver :[port] --attach [pid]
 echo 'V' > /dev/watchodg
 
-# in 에뮬레이션 (5초안에 명령어 치거나 source 명령어를 통해 바로 ㅇ)
+# in 에뮬레이션 (5초안에 명령어 치거나 source 명령어를 통해 바로 입력)
 # [watchdog_fd] 값은 lsof 명령어를 통해 볼 수 있다.
 gdb-multiarch
 pwndbg> target remote [ip]:[port]
@@ -532,5 +532,13 @@ pwndbg> p (int)close([watchdog_fd])
 ```
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/22aad75a0d25e15b0da7fcba59ec8440_MD5.jpeg)
+
+#### LD_PRELOAD
+**LD_PRELOAD**는 linux의 환경 변수로, 프로그램을 실행시켰을 때 기존에 사용하는 라이브러리보다 먼저 로드 되는 공유 라이브러리를 설정한다.
+- 일반적인 동적 링크 : `system()` → `ld` → `libc`
+- LD_PRELOAD 적용 : `system()` → `ld` → `LD_PRELOAD Library` → (LD_PRELOAD Library에 없을 경우)`libc`
+
+
+
 
 ### 펌웨어 공격 실습
