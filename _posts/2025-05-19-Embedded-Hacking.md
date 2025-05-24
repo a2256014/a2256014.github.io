@@ -517,11 +517,16 @@ pwndbg> target remote [ip]:[port]
 #### Watchdog Timer
 **Watchdog**라 불리는 이 기능은 시스템의 비정상적인 동작을 탐지하고 재시작 또는 복구 과정을 진행하기 때문에 `gdbserver`를 실행하더라도 바로 시스템이 재시작된다.
 
-https://github.com/torvalds/linux/blob/master/drivers/watchdog/wdt.c 에서 코드를 볼 수 있는데, `wdt_write`, `wdt_release` 함수를 보면 문자열 "V" 가 입력되면 타이머가 종료된다.
+[Watchdog code](https://github.com/torvalds/linux/blob/master/drivers/watchdog/wdt.c) 에서 코드를 볼 수 있는데, `wdt_write`, `wdt_release` 함수를 보면 문자열 "V" 가 입력되면 타이머가 종료된다.
 
 ```shell
 # Watchdog 종료
+gdbserver :[port] --attach [pid]
 echo 'V' > /dev/watchodg
+
+# in 에뮬레이션
+gdb-multiarch
+
 ```
 
 ### 펌웨어 공격 실습
