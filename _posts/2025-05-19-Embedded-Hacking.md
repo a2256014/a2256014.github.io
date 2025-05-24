@@ -427,6 +427,9 @@ Buildroot [공식 사이트](https://buildroot.org/download.html)에서 다운�
 # 툴체인 설치
 # arch-vendor-os-abi-program_name 툴체인 이름 형식
 sudo apt-get install gcc-arm-linux-gnueabi -y
+
+# buildroot 설치
+cd buildroot-2025.02.3
 ```
    
 
