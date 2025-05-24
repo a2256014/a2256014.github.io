@@ -525,7 +525,10 @@ gdbserver :[port] --attach [pid]
 echo 'V' > /dev/watchodg
 
 # in 에뮬레이션
+# 
 gdb-multiarch
+pwndbg> target remote [ip]:[port]
+pwndbg> p (int)close([watchdog_fd])
 
 ```
 
