@@ -432,6 +432,8 @@ sudo apt-get install gcc-arm-linux-gnueabi -y
 git clone https://gitlab.com/buildroot.org/buildroot.git
 cd buildroot
 make menuconfig
+
+# 펌웨어 아키텍처 확인 (펌웨어 내 ㄱ서비ㅅ)
 ```
    
 
