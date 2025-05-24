@@ -479,7 +479,10 @@ make
 3. 파일 시스템 재생성
 
 ```shell
-# v파일 시스템 ㅈ
+cp ./gdbserver ./_Target_Firmware.bin.extracted/squashfs-root/
+cp /usr/lib/* ./_Target_Firmware.bin.extracted/squashfs-root/lib/
+
+# 파일 시스템 재생성
 mksqushfs sources ... dest -b <block_size> -comp <compression_type> 
 
 ```
