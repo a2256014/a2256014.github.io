@@ -351,13 +351,17 @@ sudo apt install qemu-system-arm -y
 # 보드 리스트 확인
 qemu-system-arm -M help
 
+# 보드 선택
 qemu-system-arm -M [board name]
 
+# Block device 연결
 qemu-system-arm -drive file=[file_path],format=[type]
 
+# RAM Disk 연결
 qemu-system-arm -initrd [file_path]
 ```
 
+>그 외에도 Network File System(NFS), ssh disk image, NVMe disk image 등 많은 프로토콜과 이미지를 지원 [QEMU Docs](https://qemu-project.gitlab.io/qemu/system/images.html) 참조
 
 ### 펌웨어 디버깅 환경 구축
 
