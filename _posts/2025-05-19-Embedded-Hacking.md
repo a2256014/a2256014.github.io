@@ -431,6 +431,7 @@ sudo apt-get install gcc-arm-linux-gnueabi -y
 # buildroot 설치
 git clone https://gitlab.com/buildroot.org/buildroot.git
 cd buildroot
+make menuconfig
 ```
    
 
