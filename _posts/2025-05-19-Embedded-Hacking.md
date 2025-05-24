@@ -202,7 +202,7 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 3473408       0x350000        Squashfs filesystem, little endian, version 4.0, compression:xz, size: 7993268 bytes, 1442 inodes, blocksize: 131072 bytes, created: 2023-04-19 05:17:14
 
 # 데이터 추출
-binwalk -e ./Target_Firmware.bin
+binwalk -e ./Target_Firmware.bin --run-as=root
 
 # 에러 발생 시
 pip uninstall capstone
