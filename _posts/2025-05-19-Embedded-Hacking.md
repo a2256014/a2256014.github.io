@@ -238,7 +238,7 @@ strings ./uboot.bin
 3. Application을 실행 시키는 단계까지 위와 같은 과정을 거친다.
 4. 이후 기기가 작동하면, RoT를 기점으로 다음 Stage를 복호화 하면서 코드를 실행한다
 
-#### Squash 파일 시스템 분석
+#### Squash 파일 시스템
 > UBIFS, Cramfs 등 파일 시스템 종류는 다양하다.
 
 Squash 파일 시스템의 구성도 / [squashfs 공식](https://dr-emann.github.io/squashfs/)
@@ -309,7 +309,9 @@ make
    >rcS 파일은 개발자 나름이라 펌웨어마다 해당 파일에 모든 코드가 있을 수도 있고 여러개로 나뉠 수도 있다.
    
    ![](/assets/images/posts/2025-05-19-Embedded-Hacking/6a20b473c5df2785d035ee855dd2a50d_MD5.jpeg)
-4. `/etc/init.d` 폴더에서 서비스 바이너리 찾기
+4. `/etc/init.d` 폴더에서 서비스 바이너리 찾기 (서비스 바이너리 위치 : `/app/app`)
+   ![](/assets/images/posts/2025-05-19-Embedded-Hacking/ae91e8d88b2f3bfee419cca904621adc_MD5.jpeg)
+
 
 
 ### 펌웨어 에뮬레이션
