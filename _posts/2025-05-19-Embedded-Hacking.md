@@ -305,7 +305,7 @@ make
 	    - shutdown : 기기가 종료될 때 실행
 	- process : 실행할 프로그램
    ![](/assets/images/posts/2025-05-19-Embedded-Hacking/72724a4217f012e6cb4cdc503b80931c_MD5.jpeg)
-3. 
+3. rcS 스크립트는 부팅 시에 실행되는 쉘 스크립트이
 
 
 ### 펌웨어 에뮬레이션
