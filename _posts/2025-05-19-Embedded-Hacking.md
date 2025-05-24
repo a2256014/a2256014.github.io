@@ -457,8 +457,10 @@ arm-linux-gnueabi-readelf -h ./app
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/59c059cbc81fda3eb6d5aeb287b88697_MD5.jpeg)
 
 ##### 과정 사진
+[Target options]
 ![](assets/images/posts/2025-05-19-Embedded-Hacking/84fc942ab0a613c0cc7916067990affd_MD5.jpeg)
 ![](assets/images/posts/2025-05-19-Embedded-Hacking/118dbbb8407b9fb164252ed654060007_MD5.jpeg)
 
+[Toolchain]
 
 ### 펌웨어 공격 실습
