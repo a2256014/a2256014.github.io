@@ -421,7 +421,7 @@ qemu-system-arm \
 2. `gdbserver` 사용하여 프로세스 디버깅
 
 #### 크로스 컴파일 - Buildroot
-Buildroot [공식 사이트](https://buildroot.org/download.html)에서 다운로드
+Buildroot [공식 사이트](https://buildroot.org/download.html)에서 다운로드 혹은 git clone
 
 ```shell
 # 툴체인 설치
@@ -429,7 +429,8 @@ Buildroot [공식 사이트](https://buildroot.org/download.html)에서 다운�
 sudo apt-get install gcc-arm-linux-gnueabi -y
 
 # buildroot 설치
-cd buildroot-2025.02.3
+git clone https://gitlab.com/buildroot.org/buildroot.git
+cd buildroot
 ```
    
 
