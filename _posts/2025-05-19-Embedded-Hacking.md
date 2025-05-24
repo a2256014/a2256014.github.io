@@ -212,7 +212,7 @@ fdtdump ./aa.bin
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/bd8bd24d233064b86b4ee9df69469521_MD5.jpeg)
 
 #### 부트로더 확인
->`uboot` 부트로더가 작동할 때 필요한 데이터 및 문자열이 들어있다.
+>`uboot.bin`파일은 부트로더가 작동할 때 필요한 데이터 및 문자열이 들어있다.
 
 ```shell
 strings ./uboot.bin
@@ -225,6 +225,9 @@ strings ./uboot.bin
 | bootdelay      | bootcmd를 실행하기 전의 딜레이 시간(초), 이 시간 동안 사용자 입력 가능<br>- 0 : delay 없음, 하지만 사용자 입력으로 멈출 수 있다.<br>- -1 : autoboot 비활성화<br>- -2 : delay 없음, 사용자 입력으로 멈출 수 없다. |
 | baudrate       | UART의 baudrate를 설정                                                                                                                                   |
 ![](assets/images/posts/2025-05-19-Embedded-Hacking/8eddc143ebf0a9bba9d89c316737e05c_MD5.jpeg)
+
+#### Appendix - 펌웨어 보호
+
 
 ### 펌웨어 에뮬레이션
 
