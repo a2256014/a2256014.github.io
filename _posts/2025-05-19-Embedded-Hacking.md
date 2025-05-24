@@ -373,21 +373,22 @@ qemu-system-arm -initrd [file_path]
 #### 구축(System Emulation)
 
 ```shell
-# virt 가상 보드 사용
-# -nographic : CLI 환경에서는 해당 옵션 필요
-
-# hostfwd=[tcp|udp]:[hostaddr]:hostport-[guestaddr]:guestport 포트포워딩
-# `hostaddr`과 `guestaddr`은 생략
-
-# -m 256m -> RAM 256MB로 설정
 qemu-system-arm \
 -kernel ./zImage \
 -initrd ./_Target_Firmware.bin.extracted/350000.squashfs \
--m 256M \
+# -m 256m -> RAM 256MB로 설정
+-m 256M \ 
+# virt 가상 보드 사용
 -M virt \
+# -nographic : CLI 환경에서는 해당 옵션 필요
 -nographic \
 -append "root=/dev/ram0" \
+# User-mode network 설정
+# hostfwd=[tcp|udp]:[hostaddr]:hostport-[guestaddr]:guestport 포트포워딩
+# `hostaddr`과 `guestaddr`은 생략
 -netdev user,id=eth0,hostfwd=tcp::1413-:1413,hostfwd=tcp::8899-:8899 \
+# TAP 네트워크 설정
+-netdev tap,id=eth0,ifname=tap0 \
 -device virtio-net-device,netdev=eth0
 ```
 
