@@ -378,9 +378,12 @@ qemu-system-arm -initrd [file_path]
 
 # hostfwd=[tcp|udp]:[hostaddr]:hostport-[guestaddr]:guestport 포트포워딩
 # `hostaddr`과 `guestaddr`은 생략
+
+# -m 256m -> RAM 256MB로 설정
 qemu-system-arm \
 -kernel ./zImage \
 -initrd ./_Target_Firmware.bin.extracted/350000.squashfs \
+-m 256M \
 -M virt \
 -nographic \
 -append "root=/dev/ram0" \
