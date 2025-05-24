@@ -241,6 +241,20 @@ strings ./uboot.bin
 #### Squash 파일 시스템
 > UBIFS, Cramfs 등 파일 시스템 종류는 다양하다.
 
+Squash 파일 시스템의 구성도
+
+| **이름**                          | **역할**                                                 |
+| ------------------------------- | ------------------------------------------------------ |
+| Superblock                      | 다른 섹션의 위치를 포함한 아카이브의 중요한 정보가 저장된다.                     |
+| Compression Options             | `COMPRESSOR_OPTIONS` flag가 세팅되면 압축 옵션들이 해당 섹션에 저장된다.   |
+| Datablocks & Fragments          | 아카이브 내에 저장된 파일의 데이터가 블록 단위로 해당 섹션에 저장된다.               |
+| Inode Table                     | 아카이브 내에 저장된 파일의 메타데이터(소유권, 권한 등)가 저장된다.                |
+| Directory Table                 | 파일 이름과 inode에 대한 참조를 포함한 디렉토리 목록이 저장된다.                |
+| Fragment Table                  | `Datablocks & Fragments` 섹션 내에 위치한 Fragment의 설명이 저장된다. |
+| Export Table                    | NFS export에 필요한 inode 번호에서 디스크 위치로의 매핑이 저장된다.          |
+| UID/GID Lookup Table            | UID와 GID의 리스트가 저장된다. ID들은 이 테이블을 통해 인덱스로 참조된다.         |
+| Xattr(Extended attribute) Table | 아카이브 내 항목들의 확장 속성이 저장된다.                               |
+
 
 
 ### 펌웨어 에뮬레이션
