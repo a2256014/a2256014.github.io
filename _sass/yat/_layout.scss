@@ -465,6 +465,16 @@ html {
       color: #83aee0;
     }
 
+    h5 {
+      @include relative-font-size(1.12);
+
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.062);
+      }
+
+      color: #83e08e;
+    }
+
     img, svg, iframe {
       margin-left: auto;
       margin-right: auto;
