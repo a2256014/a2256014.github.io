@@ -524,12 +524,13 @@ pwndbg> target remote [ip]:[port]
 gdbserver :[port] --attach [pid]
 echo 'V' > /dev/watchodg
 
-# in 에뮬레이션
+# in 에뮬레이션 (5초안에 명령어 치거나 source 명령어를 통해 바로 ㅇ)
 # [watchdog_fd] 값은 lsof 명령어를 통해 볼 수 있다.
 gdb-multiarch
 pwndbg> target remote [ip]:[port]
 pwndbg> p (int)close([watchdog_fd])
-
 ```
+
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/22aad75a0d25e15b0da7fcba59ec8440_MD5.jpeg)
 
 ### 펌웨어 공격 실습
