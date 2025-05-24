@@ -423,19 +423,6 @@ qemu-system-arm \
 #### 크로스 컴파일 - Buildroot
 Buildroot [공식 사이트](https://buildroot.org/download.html)에서 다운로드 혹은 git clone
 
-- Target Architecture : 빌드 타겟 아키텍처 선택
-- Target Architecture Variant : 빌드 타겟 아키텍처 세부 종류 선택
-- Enable VFP extension support : Vector Floating Pointer (VFP) 지원 여부 선택
-- Target ABI : 빌드 타겟 ABI 선택
-    
-    - ABI : Application Binary Interface, 프로그램을 운영체제 위에서 실행시킬 때 준수해야 하는 규칙
-        
-- Floating point strategy : 부동소수점 방식
-    
-- ARM instruction set : ARM / Thumb 모드 선택
-    
-- Target Binary Format : 빌드 타겟 바이너리 포맷 선택
-
 ```shell
 # 툴체인 설치
 # arch-vendor-os-abi-program_name 툴체인 이름 형식
@@ -450,6 +437,16 @@ make menuconfig
 arm-linux-gnueabi-readelf -A ./app
 arm-linux-gnueabi-readelf -h ./app
 ```
+
+> 펌웨어 아키텍처를 통해 buildroot 옵션
+- Target Architecture : 빌드 타겟 아키텍처 선택
+- Target Architecture Variant : 빌드 타겟 아키텍처 세부 종류 선택
+- Enable VFP extension support : Vector Floating Pointer (VFP) 지원 여부 선택
+- Target ABI : 빌드 타겟 ABI 선택
+    - ABI : Application Binary Interface, 프로그램을 운영체제 위에서 실행시킬 때 준수해야 하는 규칙
+- Floating point strategy : 부동소수점 방식
+- ARM instruction set : ARM / Thumb 모드 선택
+- Target Binary Format : 빌드 타겟 바이너리 포맷 선택
    
 
 ### 펌웨어 공격 실습
