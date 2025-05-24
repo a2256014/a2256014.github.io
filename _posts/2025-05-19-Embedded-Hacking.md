@@ -102,7 +102,7 @@ banked register는 각 모드 별로 물리적으로 존재하는 레지스터�
 | `BL`(Branch with Link)               | BL \<target address\>  | 다음 명령어의 주소를 LR에 저장하고 target address로 분기한다. |
 | `BX`(Branch and Exchange)            | BX \<Rm\>              | Rm에 저장된 주소로 분기한다.                          |
 | `BLX`(Branch with Link and Exchange) | BLX \<Rm\>             | 다음 명령어의 주소를 LR에 저장하고 Rm에 저장된 주소로 분기한다.     |
-| `PUSH`                               | PUSH \<registers\>     | 주어진 레지스터들을 스택에 push 합니다.                   |
+| `PUSH`                               | PUSH \\<registers\\>   | 주어진 레지스터들을 스택에 push 합니다.                   |
 | `POP`                                | POP \<registers\>      | 주어진 레지스터들을 스택에서 pop 합니다.                   |
 | `SVC`                                | SVC \<immediate\>      | immediate 값에 해당하는 소프트웨어 인터럽트를 발생시킵니다.      |
 
@@ -224,7 +224,8 @@ strings ./uboot.bin
 | bootcmd        | bootdelay 초 동안 사용자가 아무것도 입력하지 않았을 때 자동으로 실행되는 명령어                                                                                                    |
 | bootdelay      | bootcmd를 실행하기 전의 딜레이 시간(초), 이 시간 동안 사용자 입력 가능<br>- 0 : delay 없음, 하지만 사용자 입력으로 멈출 수 있다.<br>- -1 : autoboot 비활성화<br>- -2 : delay 없음, 사용자 입력으로 멈출 수 없다. |
 | baudrate       | UART의 baudrate를 설정                                                                                                                                   |
-![](assets/images/posts/2025-05-19-Embedded-Hacking/8eddc143ebf0a9bba9d89c316737e05c_MD5.jpeg)
+
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/8eddc143ebf0a9bba9d89c316737e05c_MD5.jpeg)
 
 #### Appendix - 펌웨어 보호
 >파일 시스템을 암호화하고 부트로더 및 커널에 복호화 코드를 넣는 방식으로 파일 시스템을 보호한다.
