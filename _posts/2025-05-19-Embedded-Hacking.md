@@ -438,7 +438,8 @@ arm-linux-gnueabi-readelf -A ./app
 arm-linux-gnueabi-readelf -h ./app
 ```
 
-> 펌웨어 아키텍처를 통해 buildroot 옵션
+> 펌웨어 아키텍처 분석을 통해 buildroot 옵션들을 설정하면 된다
+
 - Target Architecture : 빌드 타겟 아키텍처 선택
 - Target Architecture Variant : 빌드 타겟 아키텍처 세부 종류 선택
 - Enable VFP extension support : Vector Floating Pointer (VFP) 지원 여부 선택
