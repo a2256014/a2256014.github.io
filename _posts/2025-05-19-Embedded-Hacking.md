@@ -217,7 +217,7 @@ fdtdump ./aa.bin
 ```shell
 strings ./uboot.bin
 ```
-
+   
 | **U-boot Env** | **설명**                                                                                                                                               |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | bootargs       | 부팅할 때 필요한 명령어의 매개 변수                                                                                                                                 |
@@ -262,7 +262,7 @@ make
 
 ./squashfs-info ./350000.squashfs
 ```
-
+  
 | **이름**                | **설명**                                              |
 | --------------------- | --------------------------------------------------- |
 | s_magic               | 문자열로 "hsqs"(little)의 magic 값                        |
@@ -284,6 +284,8 @@ make
 | directory_table_start | directory table 시작 바이트 오프셋                          |
 | fragment_table_start  | fragment table 시작 바이트 오프셋                           |
 | lookup_table_start    | export table 시작 바이트 오프셋                             |
+
+
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/226646ecfcf1bf6e0895a628fc885843_MD5.jpeg)
 #### 파일 시스템 분석
 > 리눅스 부팅 과정 : /linuxrc -> /etc/inittab -> /etc/init.d/rcS
