@@ -479,12 +479,13 @@ make
 3. 파일 시스템 재생성
 
 ```shell
+# 파일 이동
 cp ./gdbserver ./_Target_Firmware.bin.extracted/squashfs-root/
 cp /usr/lib/* ./_Target_Firmware.bin.extracted/squashfs-root/lib/
 
 # 파일 시스템 재생성
 mksqushfs sources ... dest -b <block_size> -comp <compression_type> 
-
+mksquashfs ./* ./new_fs -b 131072 -comp xz
 ```
 
 
