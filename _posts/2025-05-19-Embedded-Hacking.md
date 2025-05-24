@@ -338,7 +338,6 @@ qemu-system-arm -device help
 ```
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/efe32fb58f6499cfb47cbf3f63748195_MD5.jpeg)
-
 #### 사용법
 >**System Emulation**을 사용하여 펌웨어를 작동 시키려면 `Linux 커널 이미지`, `파일시스템` 필요
 
@@ -369,6 +368,14 @@ qemu-system-arm -initrd [file_path]
 | User-mode network | qemu 실행 시 아래 옵션 추가<br><br>-netdev user,id=[id],[options]<br><br>-device [device_name],netdev=[id]                                                     | `-netdev` 옵션을 사용하여 host의 network를 공유하는 가상 네트워크 인터페이스를 구성<br><br>이후 `-device` 옵션으로 guest에 가상 네트워크 기기를 추가하여 host의 네트워크를 공유할 수 있다.<br><br>특정 포트와 통신을 할 예정이라면 `hostfwd=[tcp/udp]::[port]-:[port]` 옵션을 추가                                                                                                                                                                                                     |
 
 >그 외에도 Network File System(NFS), ssh disk image, NVMe disk image 등 많은 프로토콜과 이미지를 지원 [QEMU Docs](https://qemu-project.gitlab.io/qemu/system/images.html) 참조
+
+#### Block Device 생성
+```shell
+# qemu-img로 raw 이미지를 생성
+qemu-img create disk.img 512M
+
+
+```
 
 #### 구축(System Emulation)
 
