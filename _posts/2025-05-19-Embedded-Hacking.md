@@ -432,14 +432,17 @@ Buildroot [공식 사이트](https://buildroot.org/download.html)에서 다운�
 sudo apt install gcc-arm-linux-gnueabi -y
 sudo apt install libncurses5-dev -y
 
+# 펌웨어 아키텍처 확인 (펌웨어 내 서비스 바이너리 조사)
+arm-linux-gnueabi-readelf -A ./app
+arm-linux-gnueabi-readelf -h ./app
+
 # buildroot 설치
 git clone https://gitlab.com/buildroot.org/buildroot.git
 cd buildroot
 make menuconfig
 
-# 펌웨어 아키텍처 확인 (펌웨어 내 서비스 바이너리 조사)
-arm-linux-gnueabi-readelf -A ./app
-arm-linux-gnueabi-readelf -h ./app
+# 옵션들 다 선택 후
+make
 ```
 
 > 펌웨어 아키텍처 분석을 통해 buildroot 옵션들을 설정하면 된다. 
@@ -465,7 +468,9 @@ arm-linux-gnueabi-readelf -h ./app
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/49874bd71b6a78395173a717d8f64b91_MD5.jpeg)
 
 [Target Packages - Debugging, profiling and benchmark]
-![](Pasted%20image%2020250524210925.png)
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/71a0533dc9666fb6a6e145988516e20b_MD5.jpeg)
+
+
 
 
 
