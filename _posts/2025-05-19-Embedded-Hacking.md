@@ -286,6 +286,7 @@ make
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/226646ecfcf1bf6e0895a628fc885843_MD5.jpeg)
 
 > 리눅스 부팅 과정 : /linuxrc -> /etc/inittab -> /etc/init.d/rcS
+![](assets/images/posts/2025-05-19-Embedded-Hacking/cb1a025f1d5f7c5d617dcef2fc191117_MD5.jpeg)
 
 1. `squashfs-root` 디렉토리에서 서비스 바이너리 찾기
 
