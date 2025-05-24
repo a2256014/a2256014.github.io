@@ -202,14 +202,14 @@ pip install capstone==3.0.5
 # Flattened device tree 추출
 dd if=./Target_Firmware.bin skip=2983576 bs=1 count=489832 of=./aa.bin
 fdtdump ./aa.bin
-
-
 ```
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/5592782f0e696c43aca8936092628194_MD5.jpeg)
 
 부트로더인 `uboot.bin`, 커널 데이터 `54798.7z` 파일의 압축을 푼 `54798` 그리고 squash 파일 시스템인 `squashfs-root`가 들어있다.
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/2440894647f15f13f19079fdd6efbba1_MD5.jpeg)
+
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/bd8bd24d233064b86b4ee9df69469521_MD5.jpeg)
 
 #### 부트로더 확인
 ```shell
