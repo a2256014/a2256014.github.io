@@ -375,7 +375,14 @@ qemu-system-arm -initrd [file_path]
 ```shell
 # virt 가상 보드 사용
 # -nographic : CLI 환경에서는 해당 옵션 필요
-qemu-system-arm -kernel ./zImage -initrd ./_Target_Firmware.bin.extracted/350000.squashfs -M virt -nographic -append "root=/dev/ram0"
+qemu-system-arm \
+-kernel ./zImage \
+-initrd ./_Target_Firmware.bin.extracted/350000.squashfs \
+-M virt \
+-nographic \
+-append "root=/dev/ram0" \
+-netdev user,id=eth0,hostfwd=tcp::1413-:1413,hostfwd=tcp::8899-:8899 \
+-device virtio-net-device,netdev=eth0
 ```
 
 
