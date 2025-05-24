@@ -200,7 +200,10 @@ pip uninstall capstone
 pip install capstone==3.0.5
 
 # Flattened device tree 추출
-dd if=./Target_Firmware.bin skip=2983576 bs=1 count=489832 of=./aa.bin && fdtdump ./aa.bin
+dd if=./Target_Firmware.bin skip=2983576 bs=1 count=489832 of=./aa.bin
+fdtdump ./aa.bin
+
+
 ```
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/5592782f0e696c43aca8936092628194_MD5.jpeg)
@@ -212,6 +215,14 @@ dd if=./Target_Firmware.bin skip=2983576 bs=1 count=489832 of=./aa.bin && fdtdum
 ```shell
 strings ./uboot.bin
 ```
+
+| **U-boot Env** | **설명**                                                                                                                                               |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| bootargs       | 부팅할 때 필요한 명령어의 매개 변수                                                                                                                                 |
+| bootcmd        | bootdelay 초 동안 사용자가 아무것도 입력하지 않았을 때 자동으로 실행되는 명령어                                                                                                    |
+| bootdelay      | bootcmd를 실행하기 전의 딜레이 시간(초), 이 시간 동안 사용자 입력 가능<br>- 0 : delay 없음, 하지만 사용자 입력으로 멈출 수 있다.<br>- -1 : autoboot 비활성화<br>- -2 : delay 없음, 사용자 입력으로 멈출 수 없다. |
+| baudrate       | UART의 baudrate를 설정                                                                                                                                   |
+
 
 ### 펌웨어 에뮬레이션
 
