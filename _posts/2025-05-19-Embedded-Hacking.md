@@ -470,7 +470,7 @@ make
 [Target Packages - Debugging, profiling and benchmark]
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/71a0533dc9666fb6a6e145988516e20b_MD5.jpeg)
 
-
+![](assets/images/posts/2025-05-19-Embedded-Hacking/a57ea99782e1f9ba433b0f47c39e3b19_MD5.jpeg)
 
 
 
