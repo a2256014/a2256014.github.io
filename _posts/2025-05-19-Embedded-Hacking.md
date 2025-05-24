@@ -373,7 +373,8 @@ qemu-system-arm -initrd [file_path]
 #### 구축(System Emulation)
 
 ```shell
-qemu-system-arm -kernel ./zImage -initrd ./_Target_Firmware.bin.extracted/350000.squashfs
+# virt 가상 보드 사용
+qemu-system-arm -kernel ./zImage -initrd ./_Target_Firmware.bin.extracted/350000.squashfs -M virt -nographic
 ```
 
 
