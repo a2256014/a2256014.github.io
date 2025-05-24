@@ -198,6 +198,9 @@ binwalk -e ./Target_Firmware.bin --run-as=root
 # 에러 발생 시
 pip uninstall capstone
 pip install capstone==3.0.5
+
+# Flattened device tree 추출
+dd if=./Target_Firmware.bin skip=2983576 bs=1 count=489832 of=./aa.bin && fdtdump ./aa.bin
 ```
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/5592782f0e696c43aca8936092628194_MD5.jpeg)
