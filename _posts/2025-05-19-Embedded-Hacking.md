@@ -370,7 +370,12 @@ qemu-system-arm -initrd [file_path]
 
 >그 외에도 Network File System(NFS), ssh disk image, NVMe disk image 등 많은 프로토콜과 이미지를 지원 [QEMU Docs](https://qemu-project.gitlab.io/qemu/system/images.html) 참조
 
-#### 
+#### 구축(System Emulation)
+
+```shell
+qemu-system-arm -kernel ./zImage -initrd ./_Target_Firmware.bin.extracted/350000.squashfs
+```
+
 
 ### 펌웨어 디버깅 환경 구축
 
