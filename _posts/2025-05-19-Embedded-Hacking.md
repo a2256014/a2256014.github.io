@@ -345,9 +345,9 @@ qemu-system-arm -device help
 ```shell
 # 설치
 sudo apt install qemu-system-arm -y
-
-
 ```
+
+Arm 보드로는 `Arm Versatile Board`, `Arm Versatile Express Board`, `virt`가 있고 각 보드마다 지원하는 Arm CPU가 다르기 때문에 **파일 시스템에 있는 바이너리가 어느 ISA 버전으로 빌드 됐는지** 보고 보드를 선택하면 된다.
 
 ### 펌웨어 디버깅 환경 구축
 
