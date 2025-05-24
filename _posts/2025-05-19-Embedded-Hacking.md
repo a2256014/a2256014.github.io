@@ -473,6 +473,8 @@ make
 ![](assets/images/posts/2025-05-19-Embedded-Hacking/a57ea99782e1f9ba433b0f47c39e3b19_MD5.jpeg)
 
 #### 파일 시스템 재생성
+> 블록 디바이스를 사용하면 파일 시스템 빌드가 필요 없이 이미지를 디렉토리에 마운트 하여 내부에 쉽게 파일을 넣을 수 있지만, **실제 기기는 Ram Disk를 대부분 사용한다**
+
 아래 과정을 통해 `gdbserver` 삽입
 1. 펌웨어에서 파일 시스템 추출
 2. 빌드한 gdbserver와 gdbserver를 실행하는데 필요한 라이브러리를 파일 시스템 내에 이동
