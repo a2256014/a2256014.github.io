@@ -525,7 +525,7 @@ gdbserver :[port] --attach [pid]
 echo 'V' > /dev/watchodg
 
 # in 에뮬레이션
-# 
+# [watchdog_fd] 값은 lsof 명령어를 통해 볼 수 있다.
 gdb-multiarch
 pwndbg> target remote [ip]:[port]
 pwndbg> p (int)close([watchdog_fd])
