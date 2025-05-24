@@ -285,6 +285,8 @@ make
 | lookup_table_start    | export table 시작 바이트 오프셋                             |
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/226646ecfcf1bf6e0895a628fc885843_MD5.jpeg)
 
+> 리눅스 부팅 과정 : /linuxrc -> /etc/inittab -> /etc/init.d/rcS
+
 1. `squashfs-root` 디렉토리에서 서비스 바이너리 찾기
 
 
