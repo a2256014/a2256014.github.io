@@ -480,6 +480,8 @@ make
 2. 빌드한 gdbserver와 gdbserver를 실행하는데 필요한 라이브러리를 파일 시스템 내에 이동
 3. 파일 시스템 재생성
 
+> 에뮬레이션으로 진행할 땐, `-initrd`에 이번에 새로 만든 `./new_fs` 파일의 경로를 넣으면 된다.
+
 ```shell
 # 파일 이동
 cp ./gdbserver ./_Target_Firmware.bin.extracted/squashfs-root/
@@ -494,6 +496,8 @@ mksquashfs ./* ./new_fs -b 131072 -comp xz
 dd if=./Target_Firmware.bin bs=1 count=3473408 of=./New_Firmware
 cat ./new_fs >> ./New_Firmware
 ```
+
+#### gdbserver
 
 
 
