@@ -318,7 +318,9 @@ make
 계정 정보는 `/etc/passwd`, `/etc/shadow`에서 확인
 
 #### Appendix - Busybox
->Busybox는 주로 자원이 한정적인 임베디드 기기가 많이 사용하는 바이너리로, 유닉스 명령어들이 busybox 실행 파일 안에 모두 들어있어 명령어 실행 파일의 용량을 줄인다.
+>busybox로 symlink 되어 있어서 어느 명령어를 실행시키든 busybox가 실행이 되며 busybox 내에서 `argv[0]`를 참조해 어떤 명령어를 실행했는지 확인하고 이후 ㅁ
+
+Busybox는 주로 자원이 한정적인 임베디드 기기가 많이 사용하는 바이너리로, 유닉스 명령어들이 busybox 실행 파일 안에 모두 들어있어 명령어 실행 파일의 용량을 줄인다.
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/fa3967663d09f348bf7e56794be58106_MD5.jpeg)
 
