@@ -388,6 +388,7 @@ qemu-system-arm \
 # `hostaddr`과 `guestaddr`은 생략
 -netdev user,id=eth0,hostfwd=tcp::1413-:1413,hostfwd=tcp::8899-:8899 \
 # TAP 네트워크 설정
+# 만든 후 쉘에서 (Guest)ifconfig eth0 192.168.1.10 / (Host)ifconfig tap0 192.168.1.11 로 static ip 부여
 -netdev tap,id=eth0,ifname=tap0 \
 -device virtio-net-device,netdev=eth0
 ```
