@@ -415,7 +415,10 @@ qemu-system-arm \
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/d527a6dfb1092d4c5ba630c159cef83a_MD5.jpeg)
 
 ### 펌웨어 디버깅 환경 구축
-> 임베디드 파일시스템에 gdb가 없고, gdb를 넣을만한 여유 공간이 없다.
+> 임베디드 파일시스템에 gdb가 없고, gdb를 넣을만한 여유 공간이 없기에 `gdbserver`를 넣어야 한다.
+
+1. 펌웨어에 `gdbserver`삽입
+2. `gdbserver` 사용하여 프로세스 디버깅
 
 
 ### 펌웨어 공격 실습
