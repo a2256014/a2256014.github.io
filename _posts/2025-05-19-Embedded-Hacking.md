@@ -337,6 +337,16 @@ System Emulation은 보드 안에 있는 부품을 포함하여 보드 자체를
 qemu-system-arm -device help
 ```
 
+![](/assets/images/posts/2025-05-19-Embedded-Hacking/efe32fb58f6499cfb47cbf3f63748195_MD5.jpeg)
+
+#### 사용법
+```shell
+# 설치
+sudo apt install qemu-system-arm -y
+
+
+```
+
 ### 펌웨어 디버깅 환경 구축
 
 ### 펌웨어 공격 실습
