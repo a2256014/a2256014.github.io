@@ -484,9 +484,13 @@ cp ./gdbserver ./_Target_Firmware.bin.extracted/squashfs-root/
 cp /usr/lib/* ./_Target_Firmware.bin.extracted/squashfs-root/lib/
 
 # 파일 시스템 재생성
-# Squashfs filesystem, little endian, version 4.0, compression:xz, size: 7993268 bytes, 1442 inodes, blocksize: 131072 bytes, created: 2023-04-19 05:17:14
+# binwalk로 block size 체크
 mksqushfs sources ... dest -b <block_size> -comp <compression_type> 
 mksquashfs ./* ./new_fs -b 131072 -comp xz
+
+# 펌웨어 다시 넣기
+dd if=./Target_Firmware.bin bs=1 count=3473408 of=./New_Firmware
+cat ./new_fs >> ./New_Firmware
 ```
 
 
