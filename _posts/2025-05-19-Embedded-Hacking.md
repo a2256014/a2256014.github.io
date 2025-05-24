@@ -397,7 +397,10 @@ qemu-system-arm \
 -M virt \
 # -nographic : CLI 환경에서는 해당 옵션 필요
 -nographic \
+# ram disk
 -append "root=/dev/ram0" \
+# Block Device 추가
+-drive file=./disk.img,format=raw,id=vd,if=none \
 # User-mode network 설정
 # hostfwd=[tcp|udp]:[hostaddr]:hostport-[guestaddr]:guestport 포트포워딩
 # `hostaddr`과 `guestaddr`은 생략
