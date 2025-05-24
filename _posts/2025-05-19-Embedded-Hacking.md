@@ -541,4 +541,19 @@ pwndbg> p (int)close([watchdog_fd])
 
 
 
+```c
+#define _GNU_SOURCE
+#include <dlfcn.h>
+#include <stdio.h>
+
+void system(char *command){
+    void (*real_system)(char *);
+    real_system = dlsym(RTLD_NEXT, "system");
+    printf("%s occured", command);
+    fflush(stdout);
+    return real_system(command);
+}
+```
+
+
 ### 펌웨어 공격 실습
