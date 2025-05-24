@@ -324,7 +324,8 @@ Busybox는 주로 자원이 한정적인 임베디드 기기가 많이 사용하
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/fa3967663d09f348bf7e56794be58106_MD5.jpeg)
 
-### 펌웨어 에뮬레이션
+### 펌웨어 에뮬레이션 - QE
+
 
 ### 펌웨어 디버깅 환경 구축
 
