@@ -203,6 +203,9 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 
 # 데이터 추출
 binwalk -e ./Target_Firmware.bin
+
+# 에러 발생 시
+pip uninstall caps
 ```
 
 
