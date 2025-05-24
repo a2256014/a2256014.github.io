@@ -472,7 +472,7 @@ make
 
 ![](assets/images/posts/2025-05-19-Embedded-Hacking/a57ea99782e1f9ba433b0f47c39e3b19_MD5.jpeg)
 
-
+#### 파일 시스템 재생성
 
 
 ### 펌웨어 공격 실습
