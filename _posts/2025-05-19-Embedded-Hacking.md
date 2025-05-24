@@ -375,6 +375,9 @@ qemu-system-arm -initrd [file_path]
 ```shell
 # virt 가상 보드 사용
 # -nographic : CLI 환경에서는 해당 옵션 필요
+
+# hostfwd=[tcp|udp]:[hostaddr]:hostport-[guestaddr]:guestport 포트포워딩
+# `hostaddr`과 `guestaddr`은 생략
 qemu-system-arm \
 -kernel ./zImage \
 -initrd ./_Target_Firmware.bin.extracted/350000.squashfs \
