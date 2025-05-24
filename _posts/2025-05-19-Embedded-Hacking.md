@@ -256,6 +256,8 @@ Squash 파일 시스템의 구성도 / [squashfs 공식](https://dr-emann.github
 | Xattr(Extended attribute) Table | 아카이브 내 항목들의 확장 속성이 저장된다.                               |
 
 ```shell
+# https://github.com/sbourdelin/squashfs-info
+
 
 ./squashfs-info ./350000.squashfs
 ```
