@@ -318,7 +318,7 @@ make
 계정 정보는 `/etc/passwd`, `/etc/shadow`에서 확인
 
 #### Appendix - Busybox
->busybox로 symlink 되어 있어서 어느 명령어를 실행시키든 busybox가 실행이 되며 busybox 내에서 `argv[0]`를 참조해 어떤 명령어를 실행했는지 확인하고 이후 ㅁ
+>busybox로 symlink 되어 있어서 어느 명령어를 실행시키든 busybox가 실행이 되며 busybox 내에서 `argv[0]`를 참조해 어떤 명령어를 실행했는지 확인하고 이후 명령어에 맞는 코드를 실행하는 구조다.
 
 Busybox는 주로 자원이 한정적인 임베디드 기기가 많이 사용하는 바이너리로, 유닉스 명령어들이 busybox 실행 파일 안에 모두 들어있어 명령어 실행 파일의 용량을 줄인다.
 
