@@ -238,6 +238,9 @@ strings ./uboot.bin
 3. Application을 실행 시키는 단계까지 위와 같은 과정을 거친다.
 4. 이후 기기가 작동하면, RoT를 기점으로 다음 Stage를 복호화 하면서 코드를 실행한다
 
+#### Squash 파일 시스템
+> UBIFS, Cramfs 등 파일 시스템 종류는 다양하다.
+
 
 
 ### 펌웨어 에뮬레이션
