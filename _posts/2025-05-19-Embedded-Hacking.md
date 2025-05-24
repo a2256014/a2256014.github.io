@@ -241,7 +241,7 @@ strings ./uboot.bin
 #### Squash 파일 시스템
 > UBIFS, Cramfs 등 파일 시스템 종류는 다양하다.
 
-Squash 파일 시스템의 구성도 / [squashfs 자세하](https://dr-emann.github.io/squashfs/)
+Squash 파일 시스템의 구성도 / [squashfs 공식](https://dr-emann.github.io/squashfs/)
 
 | **이름**                          | **역할**                                                 |
 | ------------------------------- | ------------------------------------------------------ |
