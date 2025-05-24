@@ -227,6 +227,7 @@ strings ./uboot.bin
 ![](assets/images/posts/2025-05-19-Embedded-Hacking/8eddc143ebf0a9bba9d89c316737e05c_MD5.jpeg)
 
 #### Appendix - 펌웨어 보호
+>파일 시스템을 암호화하고 부트로더 및 커널에 복호화 코드를 넣는 방식으로 파일 시스템을 보호한다.
 
 
 ### 펌웨어 에뮬레이션
