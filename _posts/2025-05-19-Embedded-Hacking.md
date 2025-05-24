@@ -205,7 +205,8 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 binwalk -e ./Target_Firmware.bin
 
 # 에러 발생 시
-pip uninstall caps
+pip uninstall capstone
+pip install capstone==3.0.5
 ```
 
 
