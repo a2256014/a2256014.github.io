@@ -538,10 +538,22 @@ pwndbg> p (int)close([watchdog_fd])
 - 일반적인 동적 링크 : `system()` → `ld` → `libc`
 - LD_PRELOAD 적용 : `system()` → `ld` → `LD_PRELOAD Library` → (LD_PRELOAD Library에 없을 경우)`libc`
 
+LD_PRELOAD를 사용하는 용도는 아래와 같다.
+- 후킹을 통한 디버깅
+- `__attribute__((constructor))`을 이용한 프로그램 시작에 코드 삽입
+- 특정 함수 무력화 (sleep 등 디버깅에 방해되는 함수 무력화)
 
-
+```shell
+LD_PRELOAD=/app/debug.lib /app/app 
+export LD_PRELOAD=/app/debug.lib
+```
 
 ```c
+|   |
+|---|
+|// arm-buildroot-linux-gnueabi-gcc -fPIC -c ./debug.c|
+||// arm-buildroot-linux-gnueabi-gcc -shared -o ./debug.lib ./debug.o|
+
 #define _GNU_SOURCE
 #include <dlfcn.h>
 #include <stdio.h>
