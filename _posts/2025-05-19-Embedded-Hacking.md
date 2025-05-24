@@ -359,7 +359,14 @@ qemu-system-arm -drive file=[file_path],format=[type]
 
 # RAM Disk 연결
 qemu-system-arm -initrd [file_path]
+
+# 네트워크 구성 아래 표 참고
 ```
+
+| **네트워크 구성**       | **사용법**                                                                                                                                               | **설명**                                                                                                                                                                                                                                                                                                                                                                                                   |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| TAP network       | qemu 실행 시 아래 옵션 추가<br><br>-netdev tap,id=[id],ifname=[ifname]<br><br>-device [device_name],netdev=[id]<br><br>---<br><br>host, guest의 tap 인터페이스 ip 설정 | `-netdev` 옵션을 사용하여 host에 가상 네트워크 인터페이스인 TAP Device를 구성 `id`에는 이후 `-device` 옵션과 연결하기 위한 임의 id를 설정하고 `ifname`에는 TAP 인터페이스의 이름을 설정<br><br>`-device` 옵션으로 guest에 가상 네트워크 기기를 추가하여 host와 실제 기기처럼 통신할 수 있다. `netdev`에는 이전에 설정한 `netdev` id를 입력하여 서로 연결<br><br>실행 시 /etc/qemu-ifup 스크립트에 의해 host에 자동으로 tap 인터페이스가 생성, 이후 host와 guest의 ip를 설정하면 서로 통신할 수 있다. 종료 시 /etc/qemu-ifdown 스크립트에 의해 host의 tap 인터페이스가 종료됨 |
+| User-mode network | qemu 실행 시 아래 옵션 추가<br><br>-netdev user,id=[id],[options]<br><br>-device [device_name],netdev=[id]                                                     | `-netdev` 옵션을 사용하여 host의 network를 공유하는 가상 네트워크 인터페이스를 구성<br><br>이후 `-device` 옵션으로 guest에 가상 네트워크 기기를 추가하여 host의 네트워크를 공유할 수 있게 합니다.                                                                                                                                                                                                                                                                      |
 
 >그 외에도 Network File System(NFS), ssh disk image, NVMe disk image 등 많은 프로토콜과 이미지를 지원 [QEMU Docs](https://qemu-project.gitlab.io/qemu/system/images.html) 참조
 
