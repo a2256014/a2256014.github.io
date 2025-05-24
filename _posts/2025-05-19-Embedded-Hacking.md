@@ -420,5 +420,6 @@ qemu-system-arm \
 1. 펌웨어에 `gdbserver`삽입
 2. `gdbserver` 사용하여 프로세스 디버깅
 
+#### 크로스 커
 
 ### 펌웨어 공격 실습
