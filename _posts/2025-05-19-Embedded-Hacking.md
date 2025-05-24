@@ -289,10 +289,10 @@ make
 
 ![](/assets/images/posts/2025-05-19-Embedded-Hacking/cb1a025f1d5f7c5d617dcef2fc191117_MD5.jpeg)
 
-1. linuxrc
+1. `linuxrc`는 부팅 시 처음 실행되는 바이너리로 `/etc/inittab` 설정 파일을 읽는다.
    `squashfs-root` 디렉토리에서 서비스 바이너리 찾기
    ![](/assets/images/posts/2025-05-19-Embedded-Hacking/110767eadbd0e951e5c4c7192de9b56b_MD5.jpeg)
-2. 
+2. `/etc/inittab` 파일은 부팅 시 필요한 정보를 담는 파일이다.
 
 
 ### 펌웨어 에뮬레이션
