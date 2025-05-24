@@ -438,7 +438,8 @@ arm-linux-gnueabi-readelf -A ./app
 arm-linux-gnueabi-readelf -h ./app
 ```
 
-> 펌웨어 아키텍처 분석을 통해 buildroot 옵션들을 설정하면 된다
+> 펌웨어 아키텍처 분석을 통해 buildroot 옵션들을 설정하면 된다. 
+> 또한 gdbserver 옵션 비활성화 되어 있을 시 `Tollchain` 옵션에서 `Enable C++ support` 켜기
 
 - Target Architecture : 빌드 타겟 아키텍처 선택
 - Target Architecture Variant : 빌드 타겟 아키텍처 세부 종류 선택
