@@ -517,6 +517,10 @@ pwndbg> target remote [ip]:[port]
 #### Watchdog Timer
 **Watchdog**라 불리는 이 기능은 시스템의 비정상적인 동작을 탐지하고 재시작 또는 복구 과정을 진행하기 때문에 `gdbserver`를 실행하더라도 바로 시스템이 재시작된다.
 
+https://github.com/torvalds/linux/blob/master/drivers/watchdog/wdt.c 에서 코드를 볼 수 있는데, `wdt_`
 
+```shell
+
+```
 
 ### 펌웨어 공격 실습
