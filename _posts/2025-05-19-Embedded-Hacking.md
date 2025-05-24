@@ -399,7 +399,8 @@ qemu-system-arm \
 -nographic \
 # ram disk
 -append "root=/dev/ram0" \
-# Block Device 추가
+# Block Device 추가 및 드라이브 추가
+-device virtio-blk-device,drive=vd \
 -drive file=./disk.img,format=raw,id=vd,if=none \
 # User-mode network 설정
 # hostfwd=[tcp|udp]:[hostaddr]:hostport-[guestaddr]:guestport 포트포워딩
