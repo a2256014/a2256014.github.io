@@ -328,11 +328,14 @@ Busybox는 주로 자원이 한정적인 임베디드 기기가 많이 사용하
 **QEMU**는 X86, Arm, MIPS, PowerPC, RISC-V, s390x, SPARC 등의 아키텍처를 지원하는 오픈소스 머신 에뮬레이터로 **User-mode Emulation**과 **System Emulation**가 있다.
 
 #### User-mode Emulation
-User-mode Emulation은 다른 아키텍처의 CPU를 에뮬레이트 한다. 이를 통해 다른 아키텍처의 실행 파일을 실행할 수 있다. 또한 `-g [port]` 옵션을 사용하여 gdb-multiarch를 통한 디버깅이 가능합니다. User-mode Emulation의 대표적 예시에는 `qemu-arm-static` 등이 있습니다.
+User-mode Emulation은 다른 아키텍처의 CPU를 에뮬레이트 한다. 이를 통해 다른 아키텍처의 실행 파일을 실행할 수 있다. 또한 `-g [port]` 옵션을 사용하여 gdb-multiarch를 통한 디버깅이 가능함 
+User-mode Emulation의 예시로 `qemu-arm-static` 등이 있다.
 
 #### System Emulation
-System Emulation은 보드 안에 있는 부품을 포함하여 보드 자체를 에뮬레이트 하는 방법입니다. 또한 보드에 다른 기기들을 추가할 수도 있습니다. `qemu-system-arm`에서 `-device help` 옵션을 통해 추가 가능한 기기들을 확인할 수 있습니다.
-
+System Emulation은 보드 안에 있는 부품을 포함하여 보드 자체를 에뮬레이트 한다. 또한 보드에 다른 기기들을 추가할 수도 있다. `qemu-system-arm`에서 `-device help` 옵션을 통해 추가 가능한 기기들을 확인할 수 있다.
+```shell
+qemu-system-arm -device help
+```
 
 ### 펌웨어 디버깅 환경 구축
 
