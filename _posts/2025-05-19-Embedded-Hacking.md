@@ -200,6 +200,9 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 346008        0x54798         LZMA compressed data, properties: 0x5D, dictionary size: 67108864 bytes, uncompressed size: -1 bytes
 2983576       0x2D8698        Flattened device tree, size: 13326 bytes, version: 17
 3473408       0x350000        Squashfs filesystem, little endian, version 4.0, compression:xz, size: 7993268 bytes, 1442 inodes, blocksize: 131072 bytes, created: 2023-04-19 05:17:14
+
+# 데이터 추출
+binwalk -e ./Target_Firmware.bin
 ```
 
 
