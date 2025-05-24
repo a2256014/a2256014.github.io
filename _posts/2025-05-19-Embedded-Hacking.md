@@ -241,7 +241,7 @@ strings ./uboot.bin
 #### Squash 파일 시스템
 > UBIFS, Cramfs 등 파일 시스템 종류는 다양하다.
 
-Squash 파일 시스템의 구성도
+Squash 파일 시스템의 구성도 / [squashfs 자세하](https://dr-emann.github.io/squashfs/)
 
 | **이름**                          | **역할**                                                 |
 | ------------------------------- | ------------------------------------------------------ |
@@ -255,7 +255,10 @@ Squash 파일 시스템의 구성도
 | UID/GID Lookup Table            | UID와 GID의 리스트가 저장된다. ID들은 이 테이블을 통해 인덱스로 참조된다.         |
 | Xattr(Extended attribute) Table | 아카이브 내 항목들의 확장 속성이 저장된다.                               |
 
+```shell
 
+./squashfs-info ./350000.squashfs
+```
 
 ### 펌웨어 에뮬레이션
 
