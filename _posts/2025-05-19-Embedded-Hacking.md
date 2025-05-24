@@ -498,7 +498,19 @@ cat ./new_fs >> ./New_Firmware
 ```
 
 #### gdbserver
+> gdbserver는 GDB Remote Serial Protocol (RSP)를 사용하여 gdb와 통신
 
+```shell
+# 타겟 보드에서
+gdbserver :[port] --attach [pid]
+
+# 호스트에서
+sudo apt install gdb-multiarch -y
+
+
+
+
+```
 
 
 ### 펌웨어 공격 실습
