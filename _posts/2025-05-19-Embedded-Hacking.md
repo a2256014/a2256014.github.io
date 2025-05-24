@@ -504,13 +504,14 @@ cat ./new_fs >> ./New_Firmware
 # 타겟 보드에서
 gdbserver :[port] --attach [pid]
 
-# 호스트에서
+# 호스트에서 설치 및 실행
 sudo apt install gdb-multiarch -y
+gdb-multiarch
 
-
-
-
+# 원격 붙기
+pwndbg> target remote [ip]:[port]
 ```
 
+>에뮬레이션으로 진행 시 예제와 같이 1234 포트로 디버깅하려 한다면, 명령어에 hostfwd 옵션을 통해 1234포트를 포워딩을 해주어야 합니다.
 
 ### 펌웨어 공격 실습
