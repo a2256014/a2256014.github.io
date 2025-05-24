@@ -293,6 +293,29 @@ make
    `squashfs-root` 디렉토리에서 서비스 바이너리 찾기
    ![](/assets/images/posts/2025-05-19-Embedded-Hacking/110767eadbd0e951e5c4c7192de9b56b_MD5.jpeg)
 2. `/etc/inittab` 파일은 부팅 시 필요한 정보를 담는 파일이다.
+   inittab 파일의 작성 포맷은 `<id>:<runlevels>:<action>:<process>` 구조입니다. 각각에 들어가는 내용은 아래와 같습니다.
+
+- id : 프로세스를 실행할 tty
+    
+- runlevels : runlevel 선택, 하지만 busybox의 init에서는 지원 X
+    
+- action : 프로세스를 어떻게 다룰 것인지 선택
+    
+    - respawn : 만약 작성된 프로세스가 진행 중이라면 실행 X, 진행 중이 아니라면 실행, 중간에 죽으면 다시 실행
+        
+    - wait : 선택한 runlevel에 해당하는 runlevel이 init을 하면 프로세스 실행하고 죽기 전까지 대기
+        
+    - once : 선택한 runlevel에 해당하는 runlevel이 init을 하면 프로세스 실행, 대기 X
+        
+    - askfirst : respawn과 동일한 역할을 하지만, 프로세스를 실행하기 전 `"Please press Enter to activate this console."`이라고 출력
+        
+    - sysinit : init에서 console에 접근하기 전에 실행
+        
+    - shutdown : 기기가 종료될 때 실행
+        
+- process : 실행할 프로그램
+   ![](/assets/images/posts/2025-05-19-Embedded-Hacking/72724a4217f012e6cb4cdc503b80931c_MD5.jpeg)
+3. 
 
 
 ### 펌웨어 에뮬레이션
