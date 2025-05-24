@@ -192,15 +192,6 @@ OS가 저장 장치에 들어있는 데이터 및 파일들을 체계적으로 �
 sudo apt install binwalk
 binwalk ./Target_Firmware.bin
 
-DECIMAL       HEXADECIMAL     DESCRIPTION
---------------------------------------------------------------------------------
-18400         0x47E0          gzip compressed data, has original file name: "u-boot.bin", from Unix, last modified: 2019-12-06 07:30:54
-327680        0x50000         uImage header, header size: 64 bytes, header CRC: 0x27E92268, created: 2019-09-17 06:30:32, image size: 2669158 bytes, Data Address: 0x40008000, Entry Point: 0x40008000, data CRC: 0xB96A8DC2, OS: Linux, CPU: ARM, image type: OS Kernel Image, compression type: none, image name: "Linux-4.9.37"
-327744        0x50040         Linux kernel ARM boot executable zImage (little-endian)
-346008        0x54798         LZMA compressed data, properties: 0x5D, dictionary size: 67108864 bytes, uncompressed size: -1 bytes
-2983576       0x2D8698        Flattened device tree, size: 13326 bytes, version: 17
-3473408       0x350000        Squashfs filesystem, little endian, version 4.0, compression:xz, size: 7993268 bytes, 1442 inodes, blocksize: 131072 bytes, created: 2023-04-19 05:17:14
-
 # 데이터 추출
 binwalk -e ./Target_Firmware.bin --run-as=root
 
@@ -209,6 +200,9 @@ pip uninstall capstone
 pip install capstone==3.0.5
 ```
 
+![](assets/images/posts/2025-05-19-Embedded-Hacking/5592782f0e696c43aca8936092628194_MD5.jpeg)
+
+![](Pasted%20image%2020250524165714.png)
 
 ### 펌웨어 에뮬레이션
 
