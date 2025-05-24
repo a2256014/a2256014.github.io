@@ -264,17 +264,27 @@ make
 
 ![](assets/images/posts/2025-05-19-Embedded-Hacking/226646ecfcf1bf6e0895a628fc885843_MD5.jpeg)
 
-| **이름**                          | **설명**                                                 |
-| ------------------------------- | ------------------------------------------------------ |
-| s_magic                         | 다른 섹션의 위치를 포함한 아카이브의 중요한 정보가 저장된다.                     |
-| inodesons                       | `COMPRESSOR_OPTIONS` flag가 세팅되면 압축 옵션들이 해당 섹션에 저장된다.   |
-| Datablocks & Fragments          | 아카이브 내에 저장된 파일의 데이터가 블록 단위로 해당 섹션에 저장된다.               |
-| Inode Table                     | 아카이브 내에 저장된 파일의 메타데이터(소유권, 권한 등)가 저장된다.                |
-| Directory Table                 | 파일 이름과 inode에 대한 참조를 포함한 디렉토리 목록이 저장된다.                |
-| Fragment Table                  | `Datablocks & Fragments` 섹션 내에 위치한 Fragment의 설명이 저장된다. |
-| Export Table                    | NFS export에 필요한 inode 번호에서 디스크 위치로의 매핑이 저장된다.          |
-| UID/GID Lookup Table            | UID와 GID의 리스트가 저장된다. ID들은 이 테이블을 통해 인덱스로 참조된다.         |
-| Xattr(Extended attribute) Table | 아카이브 내 항목들의 확장 속성이 저장된다.                               |
+| **이름**               | **설명**                                                 |
+| -------------------- | ------------------------------------------------------ |
+| s_magic              | 다른 섹션의 위치를 포함한 아카이브의 중요한 정보가 저장된다.                     |
+| inodes               | `COMPRESSOR_OPTIONS` flag가 세팅되면 압축 옵션들이 해당 섹션에 저장된다.   |
+| mkfs_time            | 아카이브 내에 저장된 파일의 데이터가 블록 단위로 해당 섹션에 저장된다.               |
+| block_size           | 아카이브 내에 저장된 파일의 메타데이터(소유권, 권한 등)가 저장된다.                |
+| fragments            | 파일 이름과 inode에 대한 참조를 포함한 디렉토리 목록이 저장된다.                |
+| compresultsion       | `Datablocks & Fragments` 섹션 내에 위치한 Fragment의 설명이 저장된다. |
+| block_log            | NFS export에 필요한 inode 번호에서 디스크 위치로의 매핑이 저장된다.          |
+| flags                | UID와 GID의 리스트가 저장된다. ID들은 이 테이블을 통해 인덱스로 참조된다.         |
+| no_ids               | 아카이브 내 항목들의 확장 속성이 저장된다.                               |
+| s_major              |                                                        |
+| s_minor              |                                                        |
+| root_inode           |                                                        |
+| bytes_used           |                                                        |
+| id_table_start       |                                                        |
+| xattr_id_table_start |                                                        |
+| inode_table_start    |                                                        |
+|                      |                                                        |
+|                      |                                                        |
+|                      |                                                        |
 
 
 ### 펌웨어 에뮬레이션
