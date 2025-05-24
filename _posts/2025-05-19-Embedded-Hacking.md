@@ -544,16 +544,16 @@ LD_PRELOAD를 사용하는 용도는 아래와 같다.
 - 특정 함수 무력화 (sleep 등 디버깅에 방해되는 함수 무력화)
 
 ```shell
+# 빌드
+arm-buildroot-linux-gnueabi-gcc -fPIC -c ./debug.c
+arm-buildroot-linux-gnueabi-gcc -shared -o ./debug.lib ./debug.o
+
+# 환경변수 설정
 LD_PRELOAD=/app/debug.lib /app/app 
 export LD_PRELOAD=/app/debug.lib
 ```
 
 ```c
-|   |
-|---|
-|// arm-buildroot-linux-gnueabi-gcc -fPIC -c ./debug.c|
-||// arm-buildroot-linux-gnueabi-gcc -shared -o ./debug.lib ./debug.o|
-
 #define _GNU_SOURCE
 #include <dlfcn.h>
 #include <stdio.h>
