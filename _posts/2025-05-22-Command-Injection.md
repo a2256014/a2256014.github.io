@@ -53,7 +53,7 @@ sidebar:
 
 인수 주입 벡터로 만약 서버측에서 보안조치를 `& # ; ' | * ? ~ < > ^ ( ) [ ] { } $ \ , \x0A \xFF` 와 같은 특수문자로만 했다면, 명령어 옵션을 활용하여 우회할 수 있는 기법이다.
 
-https://sonarsource.github.io/argument-injection-vectors/ 참조
+[인수주입벡터](https://sonarsource.github.io/argument-injection-vectors/) 참조
 
 ## Security Measures
 근본적인 문제를 해결하기 위해 **취약한 함수 ( system(), exec() 등 )를 사용하지 않고 개발**을 하는 방법이 가장 좋다.
