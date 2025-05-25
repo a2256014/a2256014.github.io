@@ -17,6 +17,7 @@ sidebar:
 ---
 ## Intro
 사용자가 입력 값 조작을 통해 원하는 시스템 명령어를 실행 시킬 수 있는 취약점으로 시스템을 조작할 수 있기에 매우 취약하다.  
+![](/assets/images/posts/2025-05-22-Command-Injection/2b2d300f2a50b7bd5633915da4657fee_MD5.jpeg)
 
 ## Detect & Exploit 
 ### Detect
