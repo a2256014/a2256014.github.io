@@ -16,10 +16,27 @@ tags:
 sidebar:
 ---
 ## Intro
-사용자 입력 값서버에서 시스템 명령 사용 시 
+사용자 입력 값이 시스템 명령  
 
 ## Detect & Exploit 
 ### Detect
+|언어|함수|
+|---|---|
+|Java|System.*, 특히 System.runtime 취약, Runtime.exec()|
+|C/C++|system(), exec(), ShellExecute()|
+|python|exec(), eval(), os.system(), os.popen(), subprocess.popen(), subprocess.call()|
+|Perl|open(), sysopen(), system(), glob()|
+|php|exec(), system(), passthru(), popen(), rquire(), include(), eval(), preg_replace(), shell_exec(), proc_open(), eval()|
+
+|메타문자|설명|
+|---|---|
+|``|**명령어 치환** `` 안에 들어있는 명령어를 실행한 결과로 치환|
+|$()|**명령어 치환** `$()` 안에 들어있는 명령어를 실행한 결과로 치환, 중복 사용 가능|
+|&&|**명령어 연속 실행** 한 줄에 여러 명령어를 사용하고 싶을 때 사용. 앞 명령어에서 에러가 발생하지 않아야 뒷 명령어 실행|
+|\||**명령어 연속 실행** 한 줄에 여러 명령어를 사용하고 싶을 때 사용. 앞 명령어에서 에러가 발생해야 뒷 명령어 실행|
+|;|**명령어 구분자** 한 줄에 여러 명령어를 사용하고 싶을 때 사용. `;` 은 단순히 명령어 구분을 위해 사용하며, 앞 명령어의 에러 유무와 관계 없이 뒷 명령어 실행|
+|\||**파이프** 앞 명령어 결과가 뒷 명령어 입력으로 들어간다.|
+|그 외|`.`, >, >>, &>, >&, <, {}, ?, *, ~|
 
 ### Exploit
 
