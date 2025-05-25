@@ -16,7 +16,7 @@ tags:
 sidebar:
 ---
 ## Intro
-
+사용자 입력 값서버에서 시스템 명령 사용 시 
 
 ## Detect & Exploit 
 ### Detect
