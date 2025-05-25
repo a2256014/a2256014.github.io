@@ -15,9 +15,8 @@ tags:
   - markdown
 sidebar:
 ---
-
-
 ## Intro
+
 
 ## Bypass
 https://sonarsource.github.io/argument-injection-vectors/
