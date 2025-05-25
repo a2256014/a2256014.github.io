@@ -45,12 +45,15 @@ sidebar:
 
 ### Exploit
 가령 핑을 날리는 기능이 있다고 가정했을 때,
-![](Pasted%20image%2020250525145817.png)
+![](/assets/images/posts/2025-05-22-Command-Injection/85d779cbbb589601880bfdef387f801f_MD5.jpeg)
 이와 같이 체인을 만들어 원하는 명령어를 실행 시킬 수 있다
-![](Pasted%20image%2020250525145820.png)
+![](/assets/images/posts/2025-05-22-Command-Injection/922173220ecd89722c124d416be921a3_MD5.jpeg)
 #### Bypass - 인수 주입 벡터
 인수 주입 벡터로 만약 서버측에서 보안조치를 `& # ; ' | * ? ~ < > ^ ( ) [ ] { } $ \ , \x0A \xFF` 와 같은 특수문자로만 했다면, 명령어 옵션을 활용하여 우회할 수 있는 기법이다.
 
 https://sonarsource.github.io/argument-injection-vectors/ 참조
 
 ## Security Measures
+근본적인 문제를 해결하기 위해 **취약한 함수 ( system(), exec() 등 )를 사용하지 않고 개발**을 하는 방법이 가장 좋다.
+부득이하게 시스템 명령을 사용할 수 있는 함수를 사용해야 한다면 **입력값을 검증할 수 있는 로직을 구현**하여 부적절한 입력값을 제한한다.
+- **최소 권한의 원칙**을 적용하여 각 시스템 계정마다 적절한 권한을 부여함으로써 공격에 당하더라도 피해가 최소화될 수 있도록 한다.
