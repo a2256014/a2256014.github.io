@@ -20,6 +20,8 @@ sidebar:
 
 ## Detect & Exploit 
 ### Detect
+서버측 코드에서 아래와 같은 함수를 사용하면 사용자 입력 값이 시스템 명령어로 활용될 수 있다.
+
 |언어|함수|
 |---|---|
 |Java|System.*, 특히 System.runtime 취약, Runtime.exec()|
@@ -27,6 +29,8 @@ sidebar:
 |python|exec(), eval(), os.system(), os.popen(), subprocess.popen(), subprocess.call()|
 |Perl|open(), sysopen(), system(), glob()|
 |php|exec(), system(), passthru(), popen(), rquire(), include(), eval(), preg_replace(), shell_exec(), proc_open(), eval()|
+
+사용자 입력 값이 들어가는 부분이 명령어 뒷 부분이라면 체인을 통해 
 
 |메타문자|설명|
 |---|---|
