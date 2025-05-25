@@ -16,7 +16,7 @@ tags:
 sidebar:
 ---
 ## Intro
-사용자가 입력 값 조작을 통해 원하는 시스템 명령어를 실행 시킬 수 있는 취약점으로 시스템을 ㅇ  
+사용자가 입력 값 조작을 통해 원하는 시스템 명령어를 실행 시킬 수 있는 취약점으로 시스템을 조작할 수 있기에 매우 취약하다.  
 
 ## Detect & Exploit 
 ### Detect
@@ -44,9 +44,10 @@ sidebar:
 
 ### Exploit
 
-#### Bypass
-https://sonarsource.github.io/argument-injection-vectors/
 
+#### Bypass - 인수 주입 벡터
 인수 주입 벡터로 만약 서버측에서 보안조치를 `& # ; ' | * ? ~ < > ^ ( ) [ ] { } $ \ , \x0A \xFF` 와 같은 특수문자로만 했다면, 명령어 옵션을 활용하여 우회할 수 있는 기법이다.
+
+https://sonarsource.github.io/argument-injection-vectors/ 참조
 
 ## Security Measures
