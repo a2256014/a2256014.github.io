@@ -3,7 +3,7 @@ layout: post
 title: Hardware Hacking
 subtitle: 드림핵 Hardware Hacking 정리
 author: g3rm
-categories: 
+categories: Hardware
 banner:
   image: /assets/images/banners/home.gif
   opacity: 0.618

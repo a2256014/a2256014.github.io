@@ -3,7 +3,7 @@ layout: post
 title: Command Injection
 subtitle: Command Injection
 author: g3rm
-categories: 
+categories: Web
 banner:
   image: /assets/images/banners/home.gif
   opacity: 0.618
@@ -11,8 +11,8 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold;"
   subheading_style: "color: gold"
 tags:
-  - example
-  - markdown
+  - WEB
+  - Command-Injection
 sidebar:
 ---
 ## Intro
