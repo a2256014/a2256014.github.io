@@ -24,10 +24,13 @@ sidebar:
 ```shell
 brew install cask
 
-# ja
+# jdk 21
 brew install --cask temurin@21
 
 java --version
+
+# jenv
+brew install jenv
 ```
 
 
