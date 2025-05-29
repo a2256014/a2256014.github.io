@@ -51,6 +51,7 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 pyenv --version
 
@@ -59,22 +60,23 @@ pyenv install --list
 
 # 특정 버전 python 설치
 pyenv install 3.12.0
-pyenv install 3.11.x
 
 # 특정 버전 Python 삭제
-pyenv uninstall 3.11.x
+pyenv uninstall 3.12.0
 
 # 설치된 Python list 확인하기
 pyenv versions
 
 # 원하는 Python 버전을 기본으로 설정하기
-pyenv global 3.11.x
+pyenv global 3.12.0
 
 # 특정 위치에서 원하는 Python 버전 사용하기
-pyenv local 3.8.x
+pyenv local 3.12.0
 
 # 가상환경 추가
-pyenv virtualenv 3.10.4 py3_10_4
+pyenv virtualenv 3.12.0 py3.12.0
+
+pyenv activate py3_10_4
 
 ```
 
