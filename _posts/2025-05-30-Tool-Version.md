@@ -58,7 +58,7 @@ pyenv --version
 pyenv install --list
 
 # 특정 버전 python 설치
-pyenv install 3.8.x
+pyenv install 3.12.0
 pyenv install 3.11.x
 
 # 특정 버전 Python 삭제
@@ -72,6 +72,10 @@ pyenv global 3.11.x
 
 # 특정 위치에서 원하는 Python 버전 사용하기
 pyenv local 3.8.x
+
+# 가상환경 추가
+pyenv virtualenv 3.10.4 py3_10_4
+
 ```
 
 
