@@ -34,6 +34,12 @@ brew install jenv
 echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
 echo 'eval "$(jenv init -)"' >> ~/.zshrc
 jenv enable-plugin export
+
+exec $SHELL -l
+jenv add /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
+jenv global 21.0
+
+jenv versions
 ```
 
 
