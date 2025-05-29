@@ -18,7 +18,17 @@ sidebar:
 ---
 
 ## Intro
-자바나 파이썬 등 버전이 바
+자바나 파이썬 등 버전을 바꿔서 사용할 가능성이 높은 것들 여러 버전으로 관리하기 위해 작성
+
+## Java
+```shell
+brew install cask
+
+# ja
+brew install --cask temurin@21
+
+java --version
+```
 
 
 
