@@ -75,9 +75,10 @@ pyenv local 3.12.0
 
 # 가상환경 추가
 pyenv virtualenv 3.12.0 py3.12.0
-
+# 가상환경 실행
 pyenv activate py3_10_4
-
+# 가상환경 나오기
+source deactivate
 ```
 
 
