@@ -14,13 +14,14 @@ tags:
   - Java
   - Python
   - jenv
+  - Gradle
 sidebar:
 ---
 
 ## Intro
 자바나 파이썬 등 버전을 바꿔서 사용할 가능성이 높은 것들 여러 버전으로 관리하기 위해 작성
 
-## Java
+## Java & Gradle
 ```shell
 brew install cask
 
@@ -40,6 +41,12 @@ jenv add /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home
 jenv global 21.0
 
 jenv versions
+
+# Gradle
+curl -s "https://get.sdkman.io" | bash
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install gradle 8.8
+gradle -v
 ```
 
 ## Python
