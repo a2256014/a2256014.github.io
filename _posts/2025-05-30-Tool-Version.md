@@ -43,10 +43,8 @@ jenv global 21.0
 jenv versions
 
 # Gradle
-curl -s "https://get.sdkman.io" | bash
-source "$HOME/.sdkman/bin/sdkman-init.sh"
-sdk install gradle 8.8
-gradle -v
+brew install gradle
+
 ```
 
 ## Python
