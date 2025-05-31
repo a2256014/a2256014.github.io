@@ -1,7 +1,7 @@
 ---
 layout: post
-title: titletest
-subtitle: subtitletest
+title: Python & Java 버전 관리
+subtitle: Python & Java 버전 관리
 author: g3rm
 categories: Setting
 banner:
