@@ -15,6 +15,7 @@ tags:
   - Python
   - jenv
   - Gradle
+  - Mac
 sidebar:
 ---
 
