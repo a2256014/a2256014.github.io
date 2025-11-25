@@ -11,6 +11,7 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold;"
   subheading_style: "color: gold"
 tags:
+  - OSCP
 sidebar:
 ---
 
