@@ -21,7 +21,12 @@ OSCP 자격증 합격을 위해 유용한 문제들로 구성된 [리스트](htt
 ## Linux 
 ### ClamAV : 25
 ```shell
-# port scan
+# port scan 일부만
+PORT      STATE SERVICE     VERSION
+25/tcp    open  smtp        Sendmail 8.13.4/8.13.4/Debian-3sarge3
+| smtp-commands: localhost.localdomain Hello [192.168.45.185], pleased to meet you, ENHANCEDSTATUSCODES, PIPELINING, EXPN, VERB, 8BITMIME, SIZE, DSN, ETRN, DELIVERBY, HELP
+|_ 2.0.0 This is sendmail version 8.13.4 2.0.0 Topics: 2.0.0 HELO EHLO MAIL RCPT DATA 2.0.0 RSET NOOP QUIT HELP VRFY 2.0.0 EXPN VERB ETRN DSN AUTH 2.0.0 STARTTLS 2.0.0 For more info use "HELP <topic>". 2.0.0 To report bugs in the implementation send email to 2.0.0 sendmail-bugs@sendmail.org. 2.0.0 For local information send email to Postmaster at your site. 2.0.0 End of HELP info
+
 # smtp get info
 snmpwalk 192.168.xxx.xxx -c public
 
