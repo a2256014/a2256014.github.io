@@ -76,9 +76,31 @@ OSCP 자격증 합격을 위해 유용한 문제들로 구성된 [리스트](htt
 
 
 # Windows
+## Kevin
+## Internal
+## Algernon
+## Jacko
+## Craft
+## Squid
+## Nickel
+## MedJed
+## Billyboss
+## Shenzi
+## AuthBy
+## Slort
+## Hepet
+## DVR4
+## Mice
+## Monster
+## Fish
 
 # AD
- 
+## Access
+## Resourced
+## Nagoya
+## Hokkaido
+## Hutch
+## Vault
 
 
 
