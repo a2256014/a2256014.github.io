@@ -28,7 +28,7 @@ PORT      STATE SERVICE     VERSION
 |_ 2.0.0 This is sendmail version 8.13.4 2.0.0 Topics: 2.0.0 HELO EHLO MAIL RCPT DATA 2.0.0 RSET NOOP QUIT HELP VRFY 2.0.0 EXPN VERB ETRN DSN AUTH 2.0.0 STARTTLS 2.0.0 For more info use "HELP <topic>". 2.0.0 To report bugs in the implementation send email to 2.0.0 sendmail-bugs@sendmail.org. 2.0.0 For local information send email to Postmaster at your site. 2.0.0 End of HELP info
 
 # smtp get info
-snmpwalk 192.168.xxx.xxx -c public
+snmp-check 192.168.xxx.xxx -c public
 
 # 실행중인 process 중 clamav-milter 에 취약점 있음
 searchsploit clamav-milter
