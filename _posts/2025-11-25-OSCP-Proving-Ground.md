@@ -21,6 +21,11 @@ OSCP 자격증 합격을 위해 유용한 문제들로 구성된 [리스트](htt
 ## Linux 
 ### ClamAV : 25
 ```shell
+# port scan
+# smtp get info
+snmpwalk 192.168.xxx.xxx -c public
+
+# 
 
 ```
 
