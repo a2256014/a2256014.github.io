@@ -15,11 +15,15 @@ tags:
 sidebar:
 ---
 
-# 
+# Info
+OSCP 자격증 합격을 위해 유용한 문제들로 구성된 [리스트]()를 참고하여 풀이 방법을 남깁니다.
 
 # Linux 
 
 
+# Windows
+
+# AD
  
 
 
