@@ -77,7 +77,12 @@ User charles may run the following commands on pelican:
 Sudoers file: /etc/sudoers.d/charles is readable
 charles ALL=(ALL) NOPASSWD:/usr/bin/gcore
 
-
+                      ╔════════════════════════════════════╗
+══════════════════════╣ Files with Interesting Permissions ╠══════════════════════                                                                          
+                      ╚════════════════════════════════════╝                                                                                                
+╔══════════╣ SUID - Check easy privesc, exploits and write perms
+╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#sudo-and-suid    
+-rws--x--x 1 root root 17K Sep 10  2020 /usr/bin/password-store (Unknown SUID binary!)
 
 
 ╔══════════╣ Running processes (cleaned)
