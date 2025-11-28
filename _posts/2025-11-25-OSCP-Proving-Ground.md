@@ -21,7 +21,7 @@ OSCP 자격증 합격을 위해 유용한 문제들로 구성된 [리스트](htt
 ## Linux 
 ### ClamAV : 25 SMTP
 ```shell
-# port scan 일부만
+# port scan
 sudo nmap -sC -sV -Pn -p- 192.168.xxx.xxx -oN xxx.xxx_allport
 PORT      STATE SERVICE     VERSION
 25/tcp    open  smtp        Sendmail 8.13.4/8.13.4/Debian-3sarge3
@@ -45,6 +45,11 @@ nc -nv 192.168.xxx.xxx 31337
 
 ### Pelican
 ```shell
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.180.98 -oN 180.98_allport
+
+
+
 
 ```
 
