@@ -77,6 +77,9 @@ User charles may run the following commands on pelican:
 Sudoers file: /etc/sudoers.d/charles is readable
 charles ALL=(ALL) NOPASSWD:/usr/bin/gcore
 
+
+
+
 ╔══════════╣ Running processes (cleaned)
 ╚ Check weird & unexpected processes run by root: https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#processes   
 root       513  0.0  0.0   2276    72 ?        Ss   09:16   0:00 /usr/bin/password-store
