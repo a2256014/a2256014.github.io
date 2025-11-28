@@ -47,6 +47,12 @@ nc -nv 192.168.xxx.xxx 31337
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.180.98 -oN 180.98_allport
+8080/tcp  open  http        Jetty 1.0
+|_http-server-header: Jetty(1.0)
+|_http-title: Error 404 Not Found
+8081/tcp  open  http        nginx 1.14.2
+|_http-server-header: nginx/1.14.2
+|_http-title: Did not follow redirect to http://192.168.180.98:8080/exhibitor/v1/ui/index.html
 
 
 
