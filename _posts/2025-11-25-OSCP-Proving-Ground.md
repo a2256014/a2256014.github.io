@@ -195,6 +195,9 @@ echo 'owned:$1$password$Da2mWXlxe6J7jtww12SNG/:0:0:owned:/root:/bin/bash' >> /et
 ```
 ### Bratarina
 ```shell
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.207.71 -oN 207.71_allport
+
 
 ```
 ### Pebbles
