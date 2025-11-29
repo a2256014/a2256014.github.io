@@ -144,6 +144,10 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.58 -oN 207.58_allport
 |_http-server-header: Apache/2.4.6 (CentOS) PHP/5.4.16
 |_http-title: Simple PHP Photo Gallery
 
+# web
+whatweb http://192.168.207.58
+http://192.168.207.58 [200 OK] Apache[2.4.6], Country[RESERVED][ZZ], Google-Analytics[UA-2196019-1], HTML5, HTTPServer[CentOS][Apache/2.4.6 (CentOS) PHP/5.4.16], IP[192.168.207.58], JQuery[1.7.2], Lightbox, PHP[5.4.16], Script, Title[Simple PHP Photo Gallery], X-Powered-By[PHP/5.4.16]
+
 # web enum
 dirsearch -u http://192.168.230.58 -w /usr/share/seclists/Discovery/Web-Content/big.txt -r -t 60 --full-url
 ```
