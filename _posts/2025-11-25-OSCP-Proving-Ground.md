@@ -118,6 +118,8 @@ gobuster dir -u 192.168.207.39 -w /usr/share/wordlists/dirb/common.txt
 /admin.php            (Status: 200) [Size: 9483]
 /admin                (Status: 200) [Size: 9483]
 
+# admin:admin 추측
+
 
 ```
 ### Snookums
