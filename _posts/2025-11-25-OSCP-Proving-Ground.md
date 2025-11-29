@@ -136,7 +136,7 @@ sudo -l
 sudo su
 
 ```
-### Snookums
+### Snookums : SimplePHPGal - 
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.58 -oN 207.58_allport
