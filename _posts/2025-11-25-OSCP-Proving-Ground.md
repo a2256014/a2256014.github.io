@@ -248,6 +248,9 @@ limit=100;SELECT SLEEP(10)#
 ```
 ### Nibbles
 ```shell
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.207.47 -oN 207.47_allport
+
 
 
 ```
