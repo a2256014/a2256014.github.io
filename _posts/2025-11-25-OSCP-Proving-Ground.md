@@ -177,9 +177,10 @@ josh    VFc5aWFXeHBlbVZJYVhOelUyVmxaSFJwYldVM05EYz0=
 michael U0c5amExTjVaRzVsZVVObGNuUnBabmt4TWpNPQ==
 serena  VDNabGNtRnNiRU55WlhOMFRHVmhiakF3TUE9PQ==
 
-# password decode
-
+# password decode - HockSydneyCertify123
+echo -n "U0c5amExTjVaRzVsZVVObGNuUnBabmt4TWpNPQ==" | base64 -d
 echo -n "SG9ja1N5ZG5leUNlcnRpZnkxMjM=" | base64 -d
+
 
 ```
 ### Bratarina
