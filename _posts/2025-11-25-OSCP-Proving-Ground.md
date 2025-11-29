@@ -97,8 +97,9 @@ strings <outputfile>
 ClogKingpinInning731
 
 # root 
+95cee2bcb5cb60a70ef4c6bb62a36b64
 su -
-
+Password: ClogKingpinInning731
 ```
 
 ### Payday
