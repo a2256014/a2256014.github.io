@@ -119,7 +119,7 @@ gobuster dir -u 192.168.207.39 -w /usr/share/wordlists/dirb/common.txt
 /admin                (Status: 200) [Size: 9483]
 
 # admin:admin 추측
-
+# https://www.exploit-db.com/exploits/48891 : CS-Cart 1.3.3 - authenticated RCE
 
 ```
 ### Snookums
