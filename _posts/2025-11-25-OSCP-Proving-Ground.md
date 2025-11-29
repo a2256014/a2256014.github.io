@@ -238,6 +238,7 @@ feroxbuster -u http://192.168.207.52:80 -w /usr/share/seclists/Discovery/Web-Con
 feroxbuster -u http://192.168.207.52:3305 -w /usr/share/seclists/Discovery/Web-Content/big.txt -o 207.52:3305
 
 [ZoneMinder] Console - [Running] - default [v1.29.0]
+searchsploit zoneminder 
 ```
 ### Nibbles
 ```shell
