@@ -211,8 +211,7 @@ smbclient //192.168.207.71/backups
 get passwd.bak
 
 # smtp
-searchsploit OpenSMTPD
-
+searchsploit Open
 ```
 ### Pebbles
 ```shell
