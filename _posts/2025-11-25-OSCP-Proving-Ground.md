@@ -96,6 +96,8 @@ strings <outputfile>
 001 Password: root:
 ClogKingpinInning731
 
+# root 
+su -
 
 ```
 
