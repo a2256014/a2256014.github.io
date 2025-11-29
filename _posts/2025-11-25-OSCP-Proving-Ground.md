@@ -178,7 +178,9 @@ michael U0c5amExTjVaRzVsZVVObGNuUnBabmt4TWpNPQ==
 serena  VDNabGNtRnNiRU55WlhOMFRHVmhiakF3TUE9PQ==
 
 # password decode
- 
+
+echo -n "SG9ja1N5ZG5leUNlcnRpZnkxMjM=" | base64 -d
+
 ```
 ### Bratarina
 ```shell
