@@ -239,6 +239,10 @@ feroxbuster -u http://192.168.207.52:3305 -w /usr/share/seclists/Discovery/Web-C
 
 [ZoneMinder] Console - [Running] - default [v1.29.0]
 searchsploit zoneminder 
+Zoneminder 1.29/1.30 - Cross-Site Scripting / SQL Injection / Session Fixation / Cross-Site Request Forgery               | php/webapps/41239.txt
+
+# sql injection
+
 ```
 ### Nibbles
 ```shell
