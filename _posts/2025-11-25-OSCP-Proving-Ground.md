@@ -250,6 +250,9 @@ limit=100;SELECT SLEEP(10)#
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.47 -oN 207.47_allport
+5437/tcp open   postgresql   PostgreSQL DB 11.3 - 11.9
+
+# postgres:postgres
 
 
 
