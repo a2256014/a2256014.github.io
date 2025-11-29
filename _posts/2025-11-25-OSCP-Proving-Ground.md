@@ -220,6 +220,8 @@ python3 47984.py 192.168.207.71 25 'python -c "import socket,subprocess,os;s=soc
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.52 -oN 207.52_allport
 
+# web scan
+
 
 ```
 ### Nibbles
