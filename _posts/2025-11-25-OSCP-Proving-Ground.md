@@ -133,7 +133,7 @@ ssh -o HostKeyAlgorithms=+ssh-rsa -o PubkeyAcceptedAlgorithms=+ssh-rsa user@192.
 
 # escal
 sudo -l
-sudo -u root /bin/bash
+sudo su
 
 ```
 ### Snookums
