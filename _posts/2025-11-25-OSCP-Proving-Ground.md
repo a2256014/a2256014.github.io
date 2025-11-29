@@ -104,6 +104,14 @@ Password: ClogKingpinInning731
 
 ### Payday 
 ```shell
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.207.39 -oN 207.39_allport
+80/tcp  open  http        Apache httpd 2.2.4 ((Ubuntu) PHP/5.2.3-1ubuntu6)
+|_http-server-header: Apache/2.2.4 (Ubuntu) PHP/5.2.3-1ubuntu6
+|_http-title: CS-Cart. Powerful PHP shopping cart software
+
+# web exploit
+
 
 ```
 ### Snookums
