@@ -150,6 +150,9 @@ http://192.168.207.58 [200 OK] Apache[2.4.6], Country[RESERVED][ZZ], Google-Anal
 
 # web enum
 dirsearch -u http://192.168.230.58 -w /usr/share/seclists/Discovery/Web-Content/big.txt -r -t 60 --full-url
+
+# SimplePHPGal 0.7 - Remote File Inclusion
+https://www.exploit-db.com/exploits/48424
 ```
 ### Bratarina
 ```shell
