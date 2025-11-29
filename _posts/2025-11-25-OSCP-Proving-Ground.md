@@ -275,6 +275,10 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.117 -oN 207.117_allport
 |_http-server-header: Werkzeug/1.0.1 Python/3.6.8
 |_http-title: Site doesn't have a title (text/html; charset=utf-8).
 
+# web 50000 post
+
+
+
 
 ```
 ### ZenPhoto
