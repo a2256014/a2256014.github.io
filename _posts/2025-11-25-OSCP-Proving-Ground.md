@@ -163,6 +163,12 @@ define('DBPASS', 'MalapropDoffUtilize1337');
 SimplePHPGal
 
 # mysql login
+mysql -u root -p
+Enter password: MalapropDoffUtilize1337
+
+use SimplePHPGal;
+show tables;
+select * from users;
 
 Tables_in_SimplePHPGal
 users
