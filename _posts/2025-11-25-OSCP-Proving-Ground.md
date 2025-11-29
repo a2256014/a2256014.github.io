@@ -234,7 +234,8 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.52 -oN 207.52_allport
 
 # web scan
 feroxbuster -u http://192.168.207.52:8080 -w /usr/share/seclists/Discovery/Web-Content/big.txt -o 207.52:8080
-
+feroxbuster -u http://192.168.207.52:80 -w /usr/share/seclists/Discovery/Web-Content/big.txt -o 207.52:80
+feroxbuster -u http://192.168.207.52:3305 -w /usr/share/seclists/Discovery/Web-Content/big.txt -o 207.52:3305
 
 ```
 ### Nibbles
