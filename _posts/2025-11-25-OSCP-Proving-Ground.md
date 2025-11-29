@@ -111,6 +111,9 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.39 -oN 207.39_allport
 |_http-title: CS-Cart. Powerful PHP shopping cart software
 
 # web exploit
+whatweb http://192.168.207.39
+http://192.168.207.39 [200 OK] Apache[2.2.4], CS-Cart, Cookies[cart_languageC,csid,secondary_currencyC], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.2.4 (Ubuntu) PHP/5.2.3-1ubuntu6], IP[192.168.207.39], Meta-Author[CS-Cart.com], PHP[5.2.3-1ubuntu6], PasswordField[password], PoweredBy[the], Script[javascript], Title[CS-Cart. Powerful PHP shopping cart software], X-Powered-By[PHP/5.2.3-1ubuntu6]
+
 
 
 ```
