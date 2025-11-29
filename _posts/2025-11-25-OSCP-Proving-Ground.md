@@ -242,6 +242,8 @@ searchsploit zoneminder
 Zoneminder 1.29/1.30 - Cross-Site Scripting / SQL Injection / Session Fixation / Cross-Site Request Forgery               | php/webapps/41239.txt
 
 # sql injection
+searchsploit -m 41239
+
 
 ```
 ### Nibbles
