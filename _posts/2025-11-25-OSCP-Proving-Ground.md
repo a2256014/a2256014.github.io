@@ -138,7 +138,14 @@ sudo su
 ```
 ### Snookums
 ```shell
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.207.58 -oN 207.58_allport
+80/tcp    open  http        Apache httpd 2.4.6 ((CentOS) PHP/5.4.16)
+|_http-server-header: Apache/2.4.6 (CentOS) PHP/5.4.16
+|_http-title: Simple PHP Photo Gallery
 
+# web enum
+python3 dirsearch.py -u http://192.168.230.58 -w /usr/share/seclists/Discovery/Web-Content/big.txt -r -t 60 --full-url
 ```
 ### Bratarina
 ```shell
