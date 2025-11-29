@@ -201,6 +201,9 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.71 -oN 207.71_allport
 
 # 
 crackmapexec smb 192.168.207.71 -u '' -p '' --shares
+crackmapexec smb 192.168.207.71 -u '' -p '' --spider backups --regex .
+SMB         192.168.207.71  445    BRATARINA        //192.168.207.71/backups/passwd.bak [lastm:'2020-07-06 16:46' size:1747]
+
 
 ```
 ### Pebbles
