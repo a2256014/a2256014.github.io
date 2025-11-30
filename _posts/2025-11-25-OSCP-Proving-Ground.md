@@ -307,9 +307,11 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.41 -oN 207.41_allport
 |_http-server-header: Apache/2.2.14 (Ubuntu)
 
 # web
-f
-http://192.168.207.41/test 개발자 도구 하단 zenphoto version 1.4
+feroxbuster -u http://192.168.207.41 -w /usr/share/seclists/Discovery/Web-Content/big.txt -o 207.41
+http://192.168.207.41/test 개발자 도구 하단 zenphoto version 1.4.1.4
 
+# cve
+searchsploit zenphoto 
 
 
 ```
