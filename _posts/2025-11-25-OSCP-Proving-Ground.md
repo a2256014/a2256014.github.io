@@ -306,7 +306,9 @@ sudo nmap -sC -sV -Pn -p- 192.168.207.41 -oN 207.41_allport
 |_http-title: Site doesn't have a title (text/html).
 |_http-server-header: Apache/2.2.14 (Ubuntu)
 
-
+# web
+f
+http://192.168.207.41/test 개발자 도구 하단 zenphoto version 1.4
 
 
 
