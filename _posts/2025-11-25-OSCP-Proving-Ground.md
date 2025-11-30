@@ -300,7 +300,8 @@ reboot
 ```
 ### ZenPhoto
 ```shell
-
+# port
+sudo nmap -sC -sV -Pn -p- 192.168.207.41 -oN 207.41_allport
 ```
 ### Nukem
 
