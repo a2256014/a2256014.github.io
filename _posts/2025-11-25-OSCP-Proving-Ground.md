@@ -300,8 +300,16 @@ reboot
 ```
 ### ZenPhoto
 ```shell
-# port
+# port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.41 -oN 207.41_allport
+80/tcp   open  http    Apache httpd 2.2.14 ((Ubuntu))
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: Apache/2.2.14 (Ubuntu)
+
+
+
+
+
 ```
 ### Nukem
 
