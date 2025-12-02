@@ -387,8 +387,8 @@ canttouchhhthiss@455152
 echo "dGhpc3NjYW50dGJldG91Y2hlZGRANDU1MTUy" | base64 -d
 thisscanttbetouchedd@455152
 
-# 9090 login
-
+# 9090 login & ssh key 등록
+ssh-keygen -t ECDSA -f james_ecdsa
 
 ```
 
