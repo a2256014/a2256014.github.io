@@ -428,6 +428,7 @@ filemanager/config/.htusers.php credential
 
 # crack
 echo "$2a$08$zyiNvVoP/UuSMgO2rKDtLuox.vYj.3hZPVYq3i4oG3/CtgET7CjjS" > dora.hash
+doraemon
 
 
 ```
