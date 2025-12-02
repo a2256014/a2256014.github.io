@@ -365,7 +365,7 @@ LFILE='/etc/sudoers'
 dosbox -c 'mount c /' -c "echo commander ALL=(ALL) ALL >>c:$LFILE" -c exit
 ```
 
-### Cockpit
+### Cockpit *
 ```shell
 # port scan 
 sudo nmap -sC -sV -Pn -p- 192.168.231.10 -oN 231.10_allport
@@ -403,6 +403,9 @@ sudo /usr/bin/tar -czvf /tmp/backup.tar.gz *
 ```
 
 ### Clue
+```shell
+
+```
 
 ### Extplorer
 
@@ -467,7 +470,6 @@ sudo /usr/bin/tar -czvf /tmp/backup.tar.gz *
 ### Mantis
 
 ### BitForge
-
 
 ### WallpaperHub
 
