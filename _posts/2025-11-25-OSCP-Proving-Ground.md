@@ -380,9 +380,12 @@ feroxbuster -u http://192.168.231.10 -w /usr/share/dirb/wordlists/common.txt -o 
 200      GET       28l       63w      769c http://192.168.231.10/login.php
 
 # sql injection & password get
+## james
 echo "Y2FudHRvdWNoaGh0aGlzc0A0NTUxNTI=" | base64 -d 
 canttouchhhthiss@455152
-
+## cameron
+echo "dGhpc3NjYW50dGJldG91Y2hlZGRANDU1MTUy" | base64 -d
+thisscanttbetouchedd@455152
 
 ```
 
