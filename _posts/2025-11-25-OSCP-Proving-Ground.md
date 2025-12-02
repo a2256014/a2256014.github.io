@@ -375,7 +375,12 @@ sudo nmap -sC -sV -Pn -p- 192.168.231.10 -oN 231.10_allport
 9090/tcp open  http    Cockpit web service 198 - 220
 |_http-title: Did not follow redirect to https://192.168.231.10:9090/
 
-# 
+# dir scan
+feroxbuster -u http://192.168.231.10 -w /usr/share/dirb/wordlists/common.txt -o 231.10 -x php 
+200      GET       28l       63w      769c http://192.168.231.10/login.php
+
+# sql injection
+
 
 ```
 
