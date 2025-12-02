@@ -328,7 +328,8 @@ make
 ```
 ### Nukem
 ```shell
-
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.231.105 -oN 231.105_allport
 ```
 
 ### Cockpit
