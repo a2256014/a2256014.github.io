@@ -444,8 +444,6 @@ unshadow passwd.txt shadow.txt > passwords.txt
 john passwords.txt --wordlist=/usr/share/wordlists/rockyou.txt
 explorer (root)
 
-
-
 ```
 
 ### Postfish
