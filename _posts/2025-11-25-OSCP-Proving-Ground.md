@@ -404,6 +404,9 @@ sudo /usr/bin/tar -czvf /tmp/backup.tar.gz *
 
 ### Clue
 ```shell
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.231.240 -oN 231.240_allport
+8021/tcp open  freeswitch-event FreeSWITCH mod_event_socket
 
 ```
 
