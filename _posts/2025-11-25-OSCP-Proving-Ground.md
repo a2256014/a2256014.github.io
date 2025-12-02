@@ -390,6 +390,10 @@ thisscanttbetouchedd@455152
 # 9090 login & ssh key 등록
 ssh-keygen -t ECDSA -f james_ecdsa
 cat james_ecdsa.pub 
+ssh james@192.168.231.10 -i james_ecdsa 
+
+# exploit
+sudo -l
 
 ```
 
