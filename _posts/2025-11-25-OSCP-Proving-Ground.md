@@ -417,8 +417,12 @@ sudo nmap -sC -sV -Pn -p- 192.168.231.16 -oN 231.16_allport
 80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
 |_http-server-header: Apache/2.4.41 (Ubuntu)
 
-# wpscan
+# dir scan
 wpscan --url http://192.168.231.16
+feroxbuster -u http://192.168.231.16 -w /usr/share/seclists/Discovery/Web-Content/big.txt
+301      GET        9l       28w      322c http://192.168.231.16/filemanager => http://192.168.231.16/filemanager/
+
+# admin:admin filemanager
 
 ```
 
