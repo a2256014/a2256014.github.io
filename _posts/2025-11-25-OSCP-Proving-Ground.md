@@ -369,6 +369,10 @@ dosbox -c 'mount c /' -c "echo commander ALL=(ALL) ALL >>c:$LFILE" -c exit
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.231.10 -oN 231.10_allport
+9090/tcp open  http    Cockpit web service 198 - 220
+|_http-title: Did not follow redirect to https://192.168.231.10:9090/
+
+
 
 ```
 
