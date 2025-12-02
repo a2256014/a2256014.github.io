@@ -423,6 +423,7 @@ feroxbuster -u http://192.168.231.16 -w /usr/share/seclists/Discovery/Web-Conten
 301      GET        9l       28w      322c http://192.168.231.16/filemanager => http://192.168.231.16/filemanager/
 
 # admin:admin filemanager
+filemanager/
 
 ```
 
