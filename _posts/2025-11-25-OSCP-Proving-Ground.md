@@ -417,7 +417,8 @@ sudo nmap -sC -sV -Pn -p- 192.168.231.16 -oN 231.16_allport
 80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
 |_http-server-header: Apache/2.4.41 (Ubuntu)
 
-# 
+# wpscan
+
 ```
 
 ### Postfish
