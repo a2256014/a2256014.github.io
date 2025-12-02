@@ -367,12 +367,15 @@ dosbox -c 'mount c /' -c "echo commander ALL=(ALL) ALL >>c:$LFILE" -c exit
 
 ### Cockpit
 ```shell
-# port scan
+# port scan / 9090 레빗홀
 sudo nmap -sC -sV -Pn -p- 192.168.231.10 -oN 231.10_allport
+80/tcp   open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: blaze
 9090/tcp open  http    Cockpit web service 198 - 220
 |_http-title: Did not follow redirect to https://192.168.231.10:9090/
 
-
+# 
 
 ```
 
