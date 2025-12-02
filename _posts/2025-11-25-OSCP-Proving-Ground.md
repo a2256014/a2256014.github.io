@@ -418,6 +418,7 @@ sudo nmap -sC -sV -Pn -p- 192.168.231.16 -oN 231.16_allport
 |_http-server-header: Apache/2.4.41 (Ubuntu)
 
 # wpscan
+wpscan --url http://192.168.231.16
 
 ```
 
