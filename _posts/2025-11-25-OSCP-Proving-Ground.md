@@ -366,6 +366,11 @@ dosbox -c 'mount c /' -c "echo commander ALL=(ALL) ALL >>c:$LFILE" -c exit
 ```
 
 ### Cockpit
+```shell
+# port scan
+sudo nmap -sC -sV -Pn -p- 192.168.231.10 -oN 231.10_allport
+
+```
 
 ### Clue
 
