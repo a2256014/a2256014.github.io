@@ -337,6 +337,9 @@ wpscan --url http://192.168.231.105
 [i] Plugin(s) Identified:
 [+] simple-file-list
 
+searchsploit simple file list
+WordPress Plugin Simple File List 4.2.2 - Remote Code Execution                                                           | php/webapps/48449.py
+
 
 ```
 
