@@ -333,6 +333,11 @@ sudo nmap -sC -sV -Pn -p- 192.168.231.105 -oN 231.105_allport
 80/tcp    open  http        Apache httpd 2.4.46 ((Unix) PHP/7.4.10)
 |_http-generator: WordPress 5.5.1
 
+wpscan --url http://192.168.231.105 
+[i] Plugin(s) Identified:
+[+] simple-file-list
+
+
 ```
 
 ### Cockpit
