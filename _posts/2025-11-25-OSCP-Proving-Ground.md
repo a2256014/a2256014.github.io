@@ -426,7 +426,7 @@ feroxbuster -u http://192.168.231.16 -w /usr/share/seclists/Discovery/Web-Conten
 filemanager/config/.htusers.php credential
 'dora','$2a$08$zyiNvVoP/UuSMgO2rKDtLuox.vYj.3hZPVYq3i4oG3/CtgET7CjjS'
 
-# crack - 레빗홀
+# crack - 레빗홀 - 이 아니고 아래에 쓰인다.
 echo "$2a$08$zyiNvVoP/UuSMgO2rKDtLuox.vYj.3hZPVYq3i4oG3/CtgET7CjjS" > dora.hash
 doraemon
 
@@ -447,6 +447,9 @@ explorer (root)
 ```
 
 ### Postfish
+```shell
+
+```
 
 ### Hawat
 
