@@ -448,6 +448,8 @@ explorer (root)
 
 ### Postfish
 ```shell
+sudo nmap 192.168.211.137 -p- -sS -sV -Pn
+
 
 ```
 
