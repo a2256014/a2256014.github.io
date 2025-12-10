@@ -588,13 +588,48 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ### Sybaris - Redis/FTP/crontap.so
-```shell
-
-```
 
 ### Peppo
 ```shell
-
+PORT STATE SERVICE VERSION  
+22/tcp open ssh OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)  
+|_auth-owners: root  
+| ssh-hostkey:  
+| 2048 754c0201fa1e9fcce47b52feba3685a9 (RSA)  
+| 256 b76f9c2bbffb0462f418c938f43d6b2b (ECDSA)  
+|_ 256 987fb640cebbb557d5d13c65727487c3 (ED25519)  
+113/tcp open ident FreeBSD identd  
+|_auth-owners: nobody  
+5432/tcp open postgresql PostgreSQL DB 12.3 - 12.4  
+8080/tcp open http WEBrick httpd 1.4.2 (Ruby 2.6.6 (2020-03-31))  
+| http-robots.txt: 4 disallowed entries  
+|_/issues/gantt /issues/calendar /activity /search  
+|_http-server-header: WEBrick/1.4.2 (Ruby/2.6.6/2020-03-31)  
+|_http-title: Redmine  
+10000/tcp open snet-sensor-mgmt?  
+| fingerprint-strings:  
+| DNSStatusRequestTCP, DNSVersionBindReqTCP, Help, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, RPCCheck, RTSPRequest, SIPOptions, SMBProgNeg, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie, X11Probe:  
+| HTTP/1.1 400 Bad Request  
+| Connection: close  
+| FourOhFourRequest:  
+| HTTP/1.1 200 OK  
+| Content-Type: text/plain  
+| Date: Fri, 20 Jan 2023 11:29:37 GMT  
+| Connection: close  
+| Hello World  
+| GetRequest:  
+| HTTP/1.1 200 OK  
+| Content-Type: text/plain  
+| Date: Fri, 20 Jan 2023 11:29:26 GMT  
+| Connection: close  
+| Hello World  
+| HTTPOptions:  
+| HTTP/1.1 200 OK  
+| Content-Type: text/plain  
+| Date: Fri, 20 Jan 2023 11:29:27 GMT  
+| Connection: close  
+|_ Hello World  
+|_auth-owners: eleanor
 ```
 
 ### Hunit
