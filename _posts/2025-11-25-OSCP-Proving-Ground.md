@@ -807,10 +807,7 @@ ssh-keygen으로 해결
 
 ```
 
-### Levram
-```shell
-
-```
+### Levram - Gerapy
 
 ### Mzeeav
 ```shell
