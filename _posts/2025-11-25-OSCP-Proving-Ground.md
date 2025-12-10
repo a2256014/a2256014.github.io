@@ -809,7 +809,7 @@ ssh-keygen으로 해결
 
 ### Levram - Gerapy
 
-### Mzeeav - Mzee-av - Upload MIME bypass
+### Mzeeav - Mzee-av - Upload MIME bypass - findutils
 ```shell
 └─$ sudo nmap -Pn -n $IP -sC -sV -p- --open  
 [sudo] password for kali:  
