@@ -648,14 +648,73 @@ PORT STATE SERVICE VERSION
 
 ### Marketing - LimeSurvey - mlocate group
 
-### Exfiltrated - Subrion - exift
-```shell
-
-```
+### Exfiltrated - Subrion - exif tool
 
 ### Fanatastic
 ```shell
-
+└─$ sudo nmap -Pn -n $IP -sC -sV -p- --open  
+[sudo] password for kali:  
+Starting Nmap 7.94 ( https://nmap.org ) at 2023-09-26 10:09 EDT  
+Nmap scan report for 192.168.193.181  
+Host is up (0.087s latency).  
+Not shown: 63966 closed tcp ports (reset), 1566 filtered tcp ports (no-response)  
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit  
+PORT STATE SERVICE VERSION  
+22/tcp open ssh OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)  
+| ssh-hostkey:  
+| 3072 c1:99:4b:95:22:25:ed:0f:85:20:d3:63:b4:48:bb:cf (RSA)  
+| 256 0f:44:8b:ad:ad:95:b8:22:6a:f0:36:ac:19:d0:0e:f3 (ECDSA)  
+|_ 256 32:e1:2a:6c:cc:7c:e6:3e:23:f4:80:8d:33:ce:9b:3a (ED25519)  
+3000/tcp open ppp?  
+| fingerprint-strings:  
+| FourOhFourRequest:  
+| HTTP/1.0 302 Found  
+| Cache-Control: no-cache  
+| Content-Type: text/html; charset=utf-8  
+| Expires: -1  
+| Location: /login  
+| Pragma: no-cache  
+| Set-Cookie: redirect_to=%2Fnice%2520ports%252C%2FTri%256Eity.txt%252ebak; Path=/; HttpOnly; SameSite=Lax  
+| X-Content-Type-Options: nosniff  
+| X-Frame-Options: deny  
+| X-Xss-Protection: 1; mode=block  
+| Date: Tue, 26 Sep 2023 14:10:21 GMT  
+| Content-Length: 29  
+| href="/login">Found</a>.  
+| GenericLines, Help, Kerberos, RTSPRequest, SSLSessionReq, TLSSessionReq, TerminalServerCookie:  
+| HTTP/1.1 400 Bad Request  
+| Content-Type: text/plain; charset=utf-8  
+| Connection: close  
+| Request  
+| GetRequest:  
+| HTTP/1.0 302 Found  
+| Cache-Control: no-cache  
+| Content-Type: text/html; charset=utf-8  
+| Expires: -1  
+| Location: /login  
+| Pragma: no-cache  
+| Set-Cookie: redirect_to=%2F; Path=/; HttpOnly; SameSite=Lax  
+| X-Content-Type-Options: nosniff  
+| X-Frame-Options: deny  
+| X-Xss-Protection: 1; mode=block  
+| Date: Tue, 26 Sep 2023 14:09:50 GMT  
+| Content-Length: 29  
+| href="/login">Found</a>.  
+| HTTPOptions:  
+| HTTP/1.0 302 Found  
+| Cache-Control: no-cache  
+| Expires: -1  
+| Location: /login  
+| Pragma: no-cache  
+| Set-Cookie: redirect_to=%2F; Path=/; HttpOnly; SameSite=Lax  
+| X-Content-Type-Options: nosniff  
+| X-Frame-Options: deny  
+| X-Xss-Protection: 1; mode=block  
+| Date: Tue, 26 Sep 2023 14:09:55 GMT  
+|_ Content-Length: 0  
+9090/tcp open http Golang net/http server (Go-IPFS json-rpc or InfluxDB API)  
+| http-title: Prometheus Time Series Collection and Processing Server  
+|_Requested resource was /graph
 ```
 
 ### QuackerJack
