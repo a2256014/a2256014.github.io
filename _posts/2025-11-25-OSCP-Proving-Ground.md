@@ -589,7 +589,7 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ### Sybaris - Redis/FTP/crontap.so
 
-### Peppo
+### Peppo - docker group
 ```shell
 PORT STATE SERVICE VERSION  
 22/tcp open ssh OpenSSH 7.4p1 Debian 10+deb9u7 (protocol 2.0)  
