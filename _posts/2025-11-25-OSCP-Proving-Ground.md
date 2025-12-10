@@ -790,8 +790,9 @@ Host script results:
 |_ Message signing enabled but not required
 ```
 
-### Wombo
+### Wombo 
 ```shell
+nmap -p22,80,8080,6379,27017 -sV -A 192.168.153.69
 
 ```
 
