@@ -879,7 +879,7 @@ rot13 디코더
 21, 22, 80, 9443
 ```
 
-### BitForge - Simple Online Planning - git show - 
+### BitForge - Simple Online Planning - git show - writable
 ```shell
 22, 80, 3306, 9000
 ```
