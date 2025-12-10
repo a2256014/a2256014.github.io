@@ -872,11 +872,11 @@ rot13 디코더
 
 ### Scrutiny - TeamCity - sshcrack - smtp
 
-### SPX - H3K
+### SPX - H3K - Make
 
-### Vmdak
+### Vmdak - Prison Management
 ```shell
-
+21, 22, 80, 9443
 ```
 
 ### Mantis
