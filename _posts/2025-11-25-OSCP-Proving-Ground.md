@@ -544,7 +544,7 @@ PORT STATE SERVICE VERSION
 |_ Auth Plugin Name: mysql_native_password
 ```
 
-### Sorcerer
+### Sorcerer - scp/authorized key
 ```shell
 sudo nmap -Pn -n $IP -sC -sV -p- --open  
 [sudo] password for kali:  
