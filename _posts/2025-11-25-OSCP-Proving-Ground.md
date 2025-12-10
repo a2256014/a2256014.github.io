@@ -886,9 +886,9 @@ rot13 디코더
 
 ### WallpaperHub - bash_history - happy-dom
 
-### Zab
+### Zab - Tornado
 ```shell
-
+22(SSH), 80(HTTP) 및 6789(HTTP)
 ```
 
 ### SpiderSociety
