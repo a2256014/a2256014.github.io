@@ -830,14 +830,14 @@ PORT STATE SERVICE VERSION
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
-### LaVita - laravel
+### LaVita - laravel - user process
 ```shell
 Port 22 and 80 opened.
 ```
 
-### Xposedapi
+### Xposedapi - 
 ```shell
-
+22, 13337
 ```
 
 ### Zipper
