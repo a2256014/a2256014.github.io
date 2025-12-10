@@ -637,9 +637,9 @@ PORT STATE SERVICE VERSION
 소스코드 일일히 다 보기
 ```
 
-### Readys
+### Readys - Redis rce
 ```shell
-
+6379
 ```
 
 ### Astronaut
