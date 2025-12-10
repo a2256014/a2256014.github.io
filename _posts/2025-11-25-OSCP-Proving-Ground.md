@@ -516,6 +516,10 @@ Service Info: Host: walla; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ### PC
+```shell
+22
+8000
+```
 
 ### Apex
 
