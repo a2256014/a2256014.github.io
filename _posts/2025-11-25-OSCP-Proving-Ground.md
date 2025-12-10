@@ -632,7 +632,7 @@ PORT STATE SERVICE VERSION
 |_auth-owners: eleanor
 ```
 
-### Hunit - git
+### Hunit - ssh + git push
 ```shell
 소스코드 일일히 다 보기
 ```
