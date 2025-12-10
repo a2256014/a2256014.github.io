@@ -879,11 +879,6 @@ rot13 디코더
 21, 22, 80, 9443
 ```
 
-### Mantis
-```shell
-
-```
-
 ### BitForge
 ```shell
 
