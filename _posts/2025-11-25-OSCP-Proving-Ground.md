@@ -644,10 +644,7 @@ PORT STATE SERVICE VERSION
 
 ### Astronaut - Grav
 
-### Bullybox - Boxbilling - .git - 
-```shell
-
-```
+### Bullybox - Boxbilling - .git 
 
 ### Marketing
 ```shell
