@@ -866,12 +866,9 @@ Nmap done: 1 IP address (1 host up) scanned in 7.29 seconds
 rot13 디코더
 ```
 
-### Workaholic
-```shell
+### Workaholic - WP-Advanced-Search plugin
 
-```
-
-### Fired
+### Fired - Openfire
 ```shell
 
 ```
