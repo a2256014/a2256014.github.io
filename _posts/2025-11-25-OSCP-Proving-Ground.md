@@ -637,7 +637,7 @@ PORT STATE SERVICE VERSION
 소스코드 일일히 다 보기
 ```
 
-### Readys - Redis rce
+### Readys - Redis rce - PHP shell - LFI
 ```shell
 6379
 ```
