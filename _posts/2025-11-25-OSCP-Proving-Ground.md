@@ -879,9 +879,9 @@ rot13 디코더
 21, 22, 80, 9443
 ```
 
-### BitForge
+### BitForge - Simple Online Planning
 ```shell
-
+22, 80, 3306, 9000
 ```
 
 ### WallpaperHub
