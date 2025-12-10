@@ -650,7 +650,7 @@ PORT STATE SERVICE VERSION
 
 ### Exfiltrated - Subrion - exif tool
 
-### Fanatastic
+### Fanatastic - grafana
 ```shell
 └─$ sudo nmap -Pn -n $IP -sC -sV -p- --open  
 [sudo] password for kali:  
