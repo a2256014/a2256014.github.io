@@ -793,12 +793,11 @@ Host script results:
 ### Wombo - Redis
 ```shell
 nmap -p22,80,8080,6379,27017 -sV -A 192.168.153.69
-
 ```
 
-### Flu
+### Flu - atlassian
 ```shell
-
+22, 8090 and 8091
 ```
 
 ### Roquefort
