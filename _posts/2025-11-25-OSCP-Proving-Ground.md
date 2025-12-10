@@ -446,11 +446,12 @@ explorer (root)
 
 ```
 
-### Postfish
+### Postfish - SMTP
 ```shell
 sudo nmap 192.168.211.137 -p- -sS -sV -Pn
 
-
+cewl http://postfish.off/team.html -m 5 -w team.txt 
+smtp-user-enum -U team.txt -t postfish.offsec                                                           
 ```
 
 ### Hawat
