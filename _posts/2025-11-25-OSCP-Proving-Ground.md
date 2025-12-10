@@ -446,12 +446,20 @@ explorer (root)
 
 ```
 
-### Postfish - SMTP
+### Postfish - SMTP/POP3
 ```shell
 sudo nmap 192.168.211.137 -p- -sS -sV -Pn
+25/tcp open smtp Postfix smtpd  
+|_smtp-commands: postfish.off, PIPELINING, SIZE 10240000, VRFY, ETRN, STARTTLS, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8, CHUNKING
+110/tcp open pop3 Dovecot pop3d  
+|_pop3-capabilities: CAPA RESP-CODES AUTH-RESP-CODE TOP USER STLS
 
 cewl http://postfish.off/team.html -m 5 -w team.txt 
+
 smtp-user-enum -U team.txt -t postfish.off                                    
+postfish.off: Legal exists
+postfish.off: Sales exists
+
 
 ```
 
