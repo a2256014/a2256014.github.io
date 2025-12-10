@@ -527,62 +527,149 @@ Service Info: Host: walla; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 ```
 
 ### Sorcerer
+```shell
+
+```
 
 ### Sybaris
+```shell
+
+```
 
 ### Peppo
+```shell
+
+```
 
 ### Hunit
+```shell
+
+```
 
 ### Readys
+```shell
+
+```
 
 ### Astronaut
+```shell
+
+```
 
 ### Bullybox
+```shell
+
+```
 
 ### Marketing
+```shell
+
+```
 
 ### Exfiltrated
+```shell
+
+```
 
 ### Fanatastic
+```shell
+
+```
 
 ### QuackerJack
+```shell
+
+```
 
 ### Wombo
+```shell
+
+```
 
 ### Flu
+```shell
+
+```
 
 ### Roquefort
+```shell
+
+```
 
 ### Levram
+```shell
+
+```
 
 ### Mzeeav
+```shell
+
+```
 
 ### LaVita
+```shell
+
+```
 
 ### Xposedapi
+```shell
+
+```
 
 ### Zipper
+```shell
+
+```
 
 ### Workaholic
+```shell
+
+```
 
 ### Fired
+```shell
+
+```
 
 ### Scrutiny
+```shell
+
+```
 
 ### SPX
+```shell
+
+```
 
 ### Vmdak
+```shell
+
+```
 
 ### Mantis
+```shell
+
+```
 
 ### BitForge
+```shell
+
+```
 
 ### WallpaperHub
+```shell
+
+```
 
 ### Zab
+```shell
+
+```
 
 ### SpiderSociety
+```shell
+
+```
 
 
 ## Windows
