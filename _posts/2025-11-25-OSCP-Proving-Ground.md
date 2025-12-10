@@ -717,7 +717,7 @@ PORT STATE SERVICE VERSION
 |_Requested resource was /graph
 ```
 
-### QuackerJack 
+### QuackerJack - rConfig
 ```shell
 └─$ sudo nmap -Pn -n $IP -sC -sV -p- --open  
 [sudo] password for kali:  
