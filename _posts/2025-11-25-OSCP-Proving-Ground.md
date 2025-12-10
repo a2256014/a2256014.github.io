@@ -842,7 +842,7 @@ Port 22 and 80 opened.
 WAF bypass
 ```
 
-### Zipper
+### Zipper - zip://, rar:// - 7zip wildcard
 ```shell
 $ nmap -sC -sV -A 192.168.226.229 -p22,80  
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-05-04 20:36 EDT  
