@@ -800,8 +800,10 @@ nmap -p22,80,8080,6379,27017 -sV -A 192.168.153.69
 22, 8090 and 8091
 ```
 
-### Roquefort - gitea
+### Roquefort - gitea - envPATHAbuse
 ```shell
+# nc / curl 없음
+ssh-keygen으로 해결
 
 ```
 
