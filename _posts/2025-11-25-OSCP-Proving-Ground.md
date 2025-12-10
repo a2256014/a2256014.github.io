@@ -884,10 +884,7 @@ rot13 디코더
 22, 80, 3306, 9000
 ```
 
-### WallpaperHub - bashhistory
-```shell
-
-```
+### WallpaperHub - bash_history - happy-dom
 
 ### Zab
 ```shell
