@@ -446,7 +446,7 @@ explorer (root)
 
 ```
 
-### Postfish - SMTP/POP3
+### Postfish - SMTP/POP3 - Email 
 ```shell
 sudo nmap 192.168.211.137 -p- -sS -sV -Pn
 25/tcp open smtp Postfix smtpd  
