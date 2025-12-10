@@ -521,7 +521,7 @@ Service Info: Host: walla; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 8000
 ```
 
-### Apex - OpenEMR
+### Apex - OpenEMR/Filemanager
 ```shell
 # Nmap  
 PORT STATE SERVICE VERSION  
