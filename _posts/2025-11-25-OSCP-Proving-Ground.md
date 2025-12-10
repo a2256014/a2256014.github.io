@@ -521,9 +521,27 @@ Service Info: Host: walla; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 8000
 ```
 
-### Apex
+### Apex - OpenEMR
 ```shell
-
+# Nmap  
+PORT STATE SERVICE VERSION  
+80/tcp open http Apache httpd 2.4.29 ((Ubuntu))  
+|_http-title: APEX Hospital  
+|_http-favicon: Unknown favicon MD5: FED84E16B6CCFE88EE7FFAAE5DFEFD34  
+|_http-server-header: Apache/2.4.29 (Ubuntu)  
+| http-methods:  
+|_ Supported Methods: HEAD GET POST OPTIONS  
+445/tcp open netbios-ssn Samba smbd 4.7.6-Ubuntu (workgroup: WORKGROUP)  
+3306/tcp open mysql MySQL 5.5.5-10.1.48-MariaDB-0ubuntu0.18.04.1  
+| mysql-info:  
+| Protocol: 10  
+| Version: 5.5.5-10.1.48-MariaDB-0ubuntu0.18.04.1  
+| Thread ID: 33  
+| Capabilities flags: 63487  
+| Some Capabilities: SupportsTransactions, Speaks41ProtocolOld, Support41Auth, InteractiveClient, LongPassword, LongColumnFlag, IgnoreSigpipes, Speaks41ProtocolNew, FoundRows, IgnoreSpaceBeforeParenthesis, ODBCClient, SupportsCompression, ConnectWithDatabase, DontAllowDatabaseTableColumn, SupportsLoadDataLocal, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults  
+| Status: Autocommit  
+| Salt: D+HgO4W;]CvJN)~cVdr0  
+|_ Auth Plugin Name: mysql_native_password
 ```
 
 ### Sorcerer
