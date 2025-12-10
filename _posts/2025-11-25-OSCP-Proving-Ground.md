@@ -835,9 +835,11 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 Port 22 and 80 opened.
 ```
 
-### Xposedapi - 
+### Xposedapi - WAFBypass - LFI
 ```shell
 22, 13337
+
+WAF bypass
 ```
 
 ### Zipper
