@@ -515,13 +515,16 @@ Service Info: Host: walla; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ```
 
-### PC
+### PC - rpc.py
 ```shell
 22
 8000
 ```
 
 ### Apex
+```shell
+
+```
 
 ### Sorcerer
 
