@@ -446,7 +446,7 @@ explorer (root)
 
 ```
 
-### Postfish - SMTP/POP3 - Email 
+### Postfish - SMTP/POP3 - Email Phshing
 ```shell
 sudo nmap 192.168.211.137 -p- -sS -sV -Pn
 25/tcp open smtp Postfix smtpd  
@@ -459,11 +459,12 @@ cewl http://postfish.off/team.html -m 5 -w team.txt
 smtp-user-enum -U team.txt -t postfish.off                                    
 postfish.off: Legal exists
 postfish.off: Sales exists
-
-
 ```
 
 ### Hawat
+```shell
+
+```
 
 ### Walla
 
