@@ -873,9 +873,6 @@ rot13 디코더
 ### Scrutiny - TeamCity - sshcrack - smtp
 
 ### SPX - H3K
-```shell
-
-```
 
 ### Vmdak
 ```shell
