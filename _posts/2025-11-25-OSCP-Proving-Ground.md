@@ -642,7 +642,7 @@ PORT STATE SERVICE VERSION
 6379
 ```
 
-### Astronaut
+### Astronaut - G
 ```shell
 
 ```
