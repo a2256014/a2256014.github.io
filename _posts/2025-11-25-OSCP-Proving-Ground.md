@@ -642,12 +642,9 @@ PORT STATE SERVICE VERSION
 6379
 ```
 
-### Astronaut - G
-```shell
+### Astronaut - Grav
 
-```
-
-### Bullybox
+### Bullybox - Boxbilling
 ```shell
 
 ```
