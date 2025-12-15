@@ -977,7 +977,8 @@ download ./kerberoast.hashes
 john kerberoast.hashes --wordlist=/usr/share/wordlists/rockyou.txt
 hashcat -m 13100 kerberoast.hashes /usr/share/wordlists/rockyou.txt
 
-# 
+# Invoke RunasCs.ps1
+
 ```
 
 ### Resourced
