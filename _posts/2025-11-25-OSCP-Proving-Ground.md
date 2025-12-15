@@ -950,6 +950,8 @@ echo "AddType application/x-httpd-php .dork" > .htaccess
 # https://www.revshells.com/
 php Ivan Sincek
 
+# 
+
 ```
 
 ### Resourced
