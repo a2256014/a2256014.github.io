@@ -936,6 +936,9 @@ rot13 디코더
 ## AD
 ### Access
 ```shell
+sudo nmap -sC -sV -Pn -p- 192.168.124.187 -oN 124.187_allport
+
+
 
 ```
 
