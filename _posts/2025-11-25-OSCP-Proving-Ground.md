@@ -938,6 +938,8 @@ rot13 디코더
 ```shell
 sudo nmap -sC -sV -Pn -p- 192.168.124.187 -oN 124.187_allport
 
+whatweb http://192.168.124.187    
+http://192.168.124.187 [200 OK] Apache[2.4.48], Bootstrap, Country[RESERVED][ZZ], Email[info@example.com], Frame, HTML5, HTTPServer[Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7], IP[192.168.124.187], Lightbox, OpenSSL[1.1.1k], PHP[8.0.7], Script, Title[Access The Event]
 
 
 ```
