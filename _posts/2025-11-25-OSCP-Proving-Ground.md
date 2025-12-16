@@ -1065,7 +1065,8 @@ impacket-addcomputer resourced.local/l.livingstone -dc-ip 192.168.124.175 -hashe
 
 ### Nagoya
 ```shell
-user명 얻기 -> as-rep roa
+user명 얻기 -> as-rep roasting
+
 
 ```
 
