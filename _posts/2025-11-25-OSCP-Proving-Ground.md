@@ -988,6 +988,8 @@ Invoke-RunasCs -Username svc_mssql -Password trustno1 -Command "cmd.exe" -Remote
 
 ### Resourced
 ```shell
+sudo nmap -sC -sV -Pn -p- 192.168.124.175 -oN 124.175_allport
+
 
 ```
 
