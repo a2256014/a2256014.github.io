@@ -1042,6 +1042,8 @@ SMB         192.168.124.175 445    RESOURCEDC       resourced.local\V.Ventz     
 # resourced.local\V.Ventz : HotelCalifornia194!
 crackmapexec smb 192.168.124.175 -u 'V.Ventz' -p 'HotelCalifornia194!' --shares
 crackmapexec smb 192.168.124.175 -u 'V.Ventz' -p 'HotelCalifornia194!' --spider 'Password Audit' --regex .
+smbclient //192.168.124.175/Password\ Audit -U 'resourced.local\V.Ventz'
+cd registry
 
 ```
 
