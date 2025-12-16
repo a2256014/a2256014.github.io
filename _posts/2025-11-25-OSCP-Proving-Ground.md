@@ -1063,7 +1063,7 @@ impacket-addcomputer resourced.local/l.livingstone -dc-ip 192.168.124.175 -hashe
 
 ```
 
-### Nagoya - password guess - smb - exe reversing
+### Nagoya - password guess - smb - exe reversing - GetUserSPNs : gethash - crack - 
 ```shell
 user명 얻기 -> as-rep roasting
 
