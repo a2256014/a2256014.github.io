@@ -1035,21 +1035,11 @@ Host script results:
 |   3:1:1: 
 |_    Message signing enabled and required
 
-
+# smb
 crackmapexec smb 192.168.124.175 -u '' -p '' --users
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\Administrator                  Built-in account for administering the computer/domain
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\Guest                          Built-in account for guest access to the computer/domain
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\krbtgt                         Key Distribution Center Service Account
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\M.Mason                        Ex IT admin
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\K.Keen                         Frontend Developer
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\L.Livingstone                  SysAdmin
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\J.Johnson                      Networking specialist
 SMB         192.168.124.175 445    RESOURCEDC       resourced.local\V.Ventz                        New-hired, reminder: HotelCalifornia194!
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\S.Swanson                      Military Vet now cybersecurity specialist
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\P.Parker                       Backend Developer
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\R.Robinson                     Database Admin
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\D.Durant                       Linear Algebra and crypto god
-SMB         192.168.124.175 445    RESOURCEDC       resourced.local\G.Goldberg                     Blockchain expert
+
+# resourced.local\V.Ventz : HotelCalifornia194!
 
 
 ```
