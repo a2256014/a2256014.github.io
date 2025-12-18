@@ -920,7 +920,7 @@ rot13 디코더
 
 ### AuthBy - FTP[admin:admin] - Web Basic Auth - FTP Upload - God 
 
-### Slort
+### Slort - LFI - cron .exe Abuse - 
 
 ### Hepet
 
