@@ -898,9 +898,9 @@ rot13 디코더
 
 
 ## Windows
-### Kevin
+### Kevin - HP Power Manger
 
-### Internal
+### Internal - 
 
 ### Algernon
 
