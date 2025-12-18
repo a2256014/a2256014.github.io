@@ -1075,7 +1075,7 @@ strings -e l ~.exe
 
 ### Hutch
 
-### Vault - SMB upload - responder - SeRestorePrivilege
+### Vault - SMB upload - responder - SeRestorePrivilege/Powerview
 ```shell
 
 
