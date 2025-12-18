@@ -918,7 +918,7 @@ rot13 디코더
 
 ### Shenzi - SMB Credential - wordpress - .msi file
 
-### AuthBy - FTP[admin:admin] - Web Basic Auth -  
+### AuthBy - FTP[admin:admin] - Web Basic Auth - FTP Upload - God 
 
 ### Slort
 
