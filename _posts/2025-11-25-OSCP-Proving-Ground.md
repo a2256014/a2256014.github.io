@@ -908,7 +908,7 @@ rot13 디코더
 
 ### Craft - ODT File Upload - Apache php - GodPotato
 
-### Squid - Squid Proxy 4.14
+### Squid - Squid Proxy 4.14 - phpmyadmin[root:root]
 
 ### Nickel
 
