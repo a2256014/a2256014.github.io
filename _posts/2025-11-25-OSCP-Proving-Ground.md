@@ -914,7 +914,7 @@ rot13 디코더
 
 ### MedJed - BarracudaDrive 6.5 - exe Abuse
 
-### Billyboss - Nexus Repository Manager - cewl
+### Billyboss - Nexus Repository Manager - cewl - SeImpersonatePrivilege
 
 ### Shenzi
 
