@@ -910,7 +910,7 @@ rot13 디코더
 
 ### Squid - Squid Proxy 4.14 - phpmyadmin[root:root] - upload
 
-### Nickel - 
+### Nickel - Powershell Webserver/1.2 - RCE 
 
 ### MedJed
 
