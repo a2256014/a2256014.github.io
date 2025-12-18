@@ -922,7 +922,7 @@ rot13 디코더
 
 ### Slort - LFI - cron .exe Abuse - 
 
-### Hepet - email phising
+### Hepet - email phishing - .exe abuse
 
 ### DVR4
 
