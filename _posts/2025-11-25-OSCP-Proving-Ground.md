@@ -900,11 +900,11 @@ rot13 디코더
 ## Windows
 ### Kevin - HP Power Manger
 
-### Internal - 
+### Internal - SMBv2 exploit
 
-### Algernon
+### Algernon - SmarterMail
 
-### Jacko
+### Jacko-
 
 ### Craft
 
