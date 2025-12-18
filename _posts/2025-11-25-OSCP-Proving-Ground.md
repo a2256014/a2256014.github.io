@@ -916,7 +916,7 @@ rot13 디코더
 
 ### Billyboss - Nexus Repository Manager - cewl - SeImpersonatePrivilege
 
-### Shenzi - SMB Credential - 
+### Shenzi - SMB Credential - wordpress
 
 ### AuthBy
 
