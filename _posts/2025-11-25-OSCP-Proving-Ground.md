@@ -912,9 +912,9 @@ rot13 디코더
 
 ### Nickel - Powershell Webserver/1.2 - RCE 
 
-### MedJed - BarracudaDrive 6.5 - 
+### MedJed - BarracudaDrive 6.5 - exe Abuse
 
-### Billyboss
+### Billyboss - 
 
 ### Shenzi
 
