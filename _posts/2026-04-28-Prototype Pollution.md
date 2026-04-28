@@ -3,7 +3,7 @@ layout: post
 title: Prototype Pollution
 subtitle: Prototype Pollution 정리
 author: g3rm
-categories:
+categories: Web
 banner:
   image: /assets/images/banners/home.gif
   opacity: 0.618
@@ -11,20 +11,9 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold;"
   subheading_style: "color: gold"
 tags:
-sidebar: Prototype
+  - PrototypePollution
+sidebar:
 ---
-
- # Prototype Pollution
-
-## JavaScript의 상속 구조를 공격하는 인젝션
-
-Apr 28, 2026
- About 11 mins
-
-#PrototypePollution #JavaScript #NodeJS #DOMClobbering #RCE #ClientSide
-
----
-
 ## Intro
 
 Prototype Pollution은 처음 공부할 때 개념이 헷갈렸던 취약점입니다. SQL Injection처럼 명확한 페이로드가 있는 게 아니라, **JavaScript의 상속 메커니즘 자체를 깨버리는** 거라 발현 지점도 다양하고 임팩트도 케이스마다 천차만별입니다.
