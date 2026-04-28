@@ -11,19 +11,11 @@ banner:
   heading_style: "font-size: 4.25em; font-weight: bold;"
   subheading_style: "color: gold"
 tags:
+  - XSS
+  - DOM_Clobbering
+  - Sanitizer
 sidebar:
 ---
-# DOM Clobbering
-
-## HTML 태그 하나로 JavaScript를 흔드는 기법
-
-Apr 28, 2026
- About 9 mins
-
-#XSS #DOM_Clobbering #Sanitizer #Bypass #HTML
-
----
-
 ## Intro
 
 DOM Clobbering은 처음 봤을 때 "이게 왜 되지?" 싶었던 기법입니다. JS도 안 들어가고 그냥 평범한 HTML 태그만 넣었는데, JavaScript 변수가 그 태그로 덮어씌워지면서 로직이 깨지는 현상입니다.
